@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LZNSD</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// NSDictionary *dict1 = [[NSDictionary alloc]init];
+       // NSDictionary *dict2 = [[NSDictionary alloc]initWithObjectsAndKeys:@"张三",@1002,@"李四",@105, nil];
+        NSDictionary *dict3 = @{@1002:@"张三",@105:@"李四",@11:@"王五"};
+        NSLog(@"1002是谁？%@",dict3[@1002]);
+        //格式
+        //{key1:value1,ke2:value2}
+        //2 通过key设置访问值
+        //3 如果没有对应的key,就返回空
+        NSLog(@"1002-&gt; %@ 105-&gt;%@ 110-&gt;%@",dict3[@1002],dict3[@105],dict3[@110]);
+        //遍历字典
+        NSArray *keys = dict3.allKeys;//得到字典中所有的key
+        NSArray *values = dict3.allValues;//得到所有对应的value
+        NSLog(@"keys = %@",keys);
+        NSLog(@"values = %@",values);
+        //遍历字典
+        for (NSNumber *tmpKey in dict3.allKeys) {
+            NSLog(@"%@ -&gt; %@",tmpKey,dict3[tmpKey]);
+        }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>ACE3B0CA-22AE-4473-8CA8-3D888D6FAFF2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NSDictionary例子</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

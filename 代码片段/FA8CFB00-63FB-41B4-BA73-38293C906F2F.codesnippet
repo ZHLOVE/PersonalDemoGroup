@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LZNSA</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        //增加、删除
+        [weak2 addObject:@"星期一"];
+        [weak2 addObject:@"星期二"];
+        [weak2 removeObjectAtIndex:0];//移除索引0号的对象
+        [weak2 removeAllObjects];//清空所有对象
+        [weak2 removeLastObject];//移除最后一个对象
+        [weak2 removeObject:@"星期一"];//移除某个对象
+        
+        NSArray *str = @[@"2016",@"01",@"05"];
+                //NSArray -&gt; NSString 字符数组拼接成字符串
+        NSString *strings2 = [str componentsJoinedByString:@"-"];
+        NSLog(@"%@",strings2);
+        
+        //分割
+        //NSString -&gt;NSArray 字符串分割成字符数组
+        NSArray *strArr2 = [@"0510-8080123456-325" componentsSeparatedByString:@"-"];
+        NSLog(@"%@",strArr2);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FA8CFB00-63FB-41B4-BA73-38293C906F2F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NSArray常用例子</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>requestURL</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/**
+ *  请求数据
+ *
+ *  @param urlStr       请求网址
+ *  @param successBlock 请求成功时执行的block
+ *  @param failBlock    获取失败时执行的block
+ */
+- (void)requestInfoWithURLStr:(NSString *)urlStr successBlock:(void(^)(NSData *data))successBlock failBlock:(void(^)(NSError *error))failBlock
+{
+    // 请求网址
+    NSURL *url = [NSURL URLWithString:urlStr];
+    // 请求
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
+    // 发送异步请求
+    [NSURLConnection sendAsynchronousRequest:urlRequest queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse * _Nullable response, NSData * _Nullable data, NSError * _Nullable connectionError) {
+        if(connectionError == nil)
+        {
+            // 请求成功
+            successBlock(data);
+        }
+        else
+        {
+            // 请求失败
+            failBlock(connectionError);
+        }
+    }];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A121C76A-2B9A-4635-A1F4-22E13A3FA364</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>requestURL异步请求</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ntc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>void numToChinese(int a)
+{
+
+    NSNumber *s = @(a); //转换成数字对象
+    NSString *str = [NSString stringWithFormat:@"%@",s]; //转字符串
+    NSArray *c[str.length];
+    NSMutableString *str2 = @"";  //对象空
+    NSArray *arrayCN=@[@"零",@"一",@"二",@"三",@"四",@"五",@"六",@"七",@"八",@"九"]; //字符数组
+    
+    for (int i=0 ; i&lt;str.length; i++) {
+        NSRange range = {i,1};
+        int b  = [[str substringWithRange:range] intValue]; //截取后转成int
+        c[i]=arrayCN[b];
+    }
+    for (int i=0 ; i&lt;str.length; i++) {
+        str2 = [str2 stringByAppendingString:c[i]];  //拼接字符串，str2是可变字符串
+    }
+    NSLog(@"%@",str2);
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F91BCB27-43E5-4DEC-8ED1-891B6361D210</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>数字转汉子</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LZNSN</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark NSNumber
+        //NSNumber 数字类
+        NSNumber *a = [NSNumber numberWithInt:61];//61 -&gt;NSNumber
+        NSNumber *b = [[NSNumber alloc]initWithInt:62];//int
+        NSNumber *c = @63;//int
+        NSNumber *d = @123456ul; //代表无符号long int
+        NSNumber *e = @YES;
+        NSNumber *f = [NSNumber numberWithBool:YES];//BOOL
+        NSNumber *g = @123.456f; //f代表float 不加f 默认double
+        NSNumber *h = @'a'; //char类型
+        int x = 18;
+        NSNumber *n = @(x); //由基本类型创建，转换成对象
+        NSLog(@"用对象方法打印%@ %@ %@ %@ %@",a,b,c,d,e,f,g);
+        
+        //[a intValue] 调用转换方法,用数字方法打印
+        NSLog(@"a = %i,b = %i,c = %i,d = %i",[a intValue],[b intValue]);
+        
+     
+        //1判断两个对象值是否相等，不是isEqualTo
+        NSNumber *num1 = @80;
+        NSNumber *num2 = @80.1;
+        if ([num1 isEqualToNumber:num2]) {
+            NSLog(@"相等");
+        }
+        else{
+            NSLog(@"不相等");
+        }
+        //判断大小- (NSComparisonResult)compare:(NSNumber *)otherNumber;
+        //返回 -1 升序 0 相等 1递减
+         NSComparisonResult result = [num1 compare:num2];
+        if (result == NSOrderedSame) {
+            NSLog(@"相等");
+        }
+        else if (result == NSOrderedAscending)
+        {
+            NSLog(@"num1 &lt; num2");
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8050723A-FF4B-4980-8459-71D11B52F61C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NSNumber例子</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

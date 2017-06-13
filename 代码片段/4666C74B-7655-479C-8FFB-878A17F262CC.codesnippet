@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LZNSString</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark NSString
+        NSString *str1 = @"test1234567";
+        NSString *str2 = [[NSString alloc]init];
+        NSString *str3 = [[NSString alloc]initWithString:str1];
+        NSString *str4 = [[NSString alloc]initWithFormat:@"一个整数:%i",x];        //int x = 18;
+        NSString *str5 = [NSString stringWithFormat:@"一个浮点数%f",80.1f];
+        NSLog(@"%@",str5);
+        
+        NSLog(@"字符串长度:%li",str1.length);
+        //字符串连接
+        NSString *str6 = [str4 stringByAppendingString:str5];
+        //大小写转换
+        NSString *str7 = @"aBCdeF";
+        NSLog(@"%@",[str7 lowercaseString]); //全部小写
+        //字符串比较
+        if ([str1 isEqualToString:@"test1234567"]) {
+            NSLog(@"字符串相等");
+        }
+        else {
+            NSLog(@"字符串不相等");
+        }
+        
+        //从第一个字母逐个比较，如果第一个相等，再比较第二个
+        NSComparisonResult result2 = [str1 compare:@"uest1234567"];
+        if (result2 == NSOrderedSame) {
+            NSLog(@"字符串相等");
+        }
+        else if (result2 == NSOrderedAscending)
+        {
+            NSLog(@"升序");
+        }
+        
+        //字符串的截取（非常重要！）
+        NSString *str9 = @"aBcDeFg";
+        NSString *r = [str9 substringFromIndex:3];//从哪里截取到结尾
+        NSLog(@"%@",r);//Defg
+        r = [str9 substringToIndex:3];//从开始截取到哪里
+        NSLog(@"%@",r);//aBc
+        //想截取cDe
+        r = [[str9 substringFromIndex:2] substringToIndex:3];
+        NSLog(@"%@",r);//cDe
+        
+        //字符串的查找
+        NSRange range = [str9 rangeOfString:@"aB"];
+        NSLog(@"%li,%li",range.location,range.length); //位置从3开始，长度是2
+        
+        //NSNotFound是否查找到,最大的NSUInteger
+        if (range.location == NSNotFound) {
+            NSLog(@"没找到");
+        }
+        else
+        {
+            NSLog(@"位置%li,长度%li",range.location,range.length);
+        }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4666C74B-7655-479C-8FFB-878A17F262CC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NSString例子</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LZNSMU</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark NSMutableString 可变字符串
+        // 6 字符串的查找(在字符串中查找子字符串的位置及长度)
+        // - (NSRange)rangeOfString:(NSString *)searchString; // 查找字符串
+        //        NSrange r = [a rangeOfString:b]; 就是在a字符串中找b的位置
+
+        NSString *s = @"Objective-C";
+        NSMutableString *mStr = [s mutableCopy];
+        
+        NSLog(@"%@",mStr);
+        
+        //1插入
+        [mStr insertString:@"Java" atIndex:9];
+        NSLog(@"%@",mStr);
+        [mStr insertString:@" and C++" atIndex:mStr.length];
+        NSLog(@"插入之后:%@",mStr);
+        
+        //2连接
+        [mStr appendString:@" and C"];
+        NSLog(@"连接之后:%@",mStr);
+        
+        //3删除
+        NSRange range1 = NSMakeRange(16,13);
+        [mStr deleteCharactersInRange:range1];//删除指定范围内容
+        NSLog(@"删除之后:%@",mStr);
+        
+        //4设置
+        [mStr setString:@"This is a string A"];
+        NSLog(@"重新设置之后:%@",mStr);
+        
+        //5替换
+        [mStr replaceCharactersInRange:NSMakeRange(8, 8) withString:@"a mutableString"];
+        NSLog(@"替换之后:%@",mStr);
+        
+        //查找替换组合
+        range = [mStr rangeOfString:@"This is"];
+        if (range.location !=NSNotFound) {
+            [mStr replaceCharactersInRange:range withString:@"An Example of"];
+            NSLog(@"查找替换之后:%@",mStr);
+        }
+        
+        //所有a替换成X
+        NSString *searchStr = @"a";
+        NSString *replaceStr = @"X";
+        range = [mStr rangeOfString:searchStr];
+        while (range.location !=NSNotFound) {
+            [mStr replaceCharactersInRange:range withString:replaceStr];
+            range = [mStr rangeOfString:searchStr];
+        }
+        NSLog(@"批量替换之后:%@",mStr);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1D381004-8555-44BF-9EE9-91C2F484CBC9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NSMutableString例子</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

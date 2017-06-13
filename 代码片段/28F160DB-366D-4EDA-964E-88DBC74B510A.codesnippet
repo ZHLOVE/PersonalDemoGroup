@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cls</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//-1动态获取命名空间
+        let ns = NSBundle.mainBundle().infoDictionary!["CFBundleExecutable"] as! String
+        //0 将字符串转换为类
+        //0.1命名空间默认情况下就是项目的名字,但是命名空间是可以修改的
+        let cls : AnyClass? =  NSClassFromString(ns + "." + childControllerName)
+        //0.2通过类创建对象
+        //0.2.1将anyClass转换为指定的类型
+        let vcClS = cls as! UIViewController.Type
+        //0.2.2通过class创建对象
+        let vc = vcClS.init()
+        print(vc)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>28F160DB-366D-4EDA-964E-88DBC74B510A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>通过命名空间创建类</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
