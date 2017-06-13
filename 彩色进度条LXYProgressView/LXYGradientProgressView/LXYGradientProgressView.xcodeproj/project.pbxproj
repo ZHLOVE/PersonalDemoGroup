@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82867A6F1B8449E900977E8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82867A6E1B8449E900977E8C /* main.m */; };
+		82867A721B8449E900977E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82867A711B8449E900977E8C /* AppDelegate.m */; };
+		82867A751B8449E900977E8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82867A741B8449E900977E8C /* ViewController.m */; };
+		82867A781B8449E900977E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82867A761B8449E900977E8C /* Main.storyboard */; };
+		82867A7A1B8449E900977E8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82867A791B8449E900977E8C /* Images.xcassets */; };
+		82867A7D1B8449E900977E8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82867A7B1B8449E900977E8C /* LaunchScreen.xib */; };
+		82867A891B8449E900977E8C /* LXYGradientProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82867A881B8449E900977E8C /* LXYGradientProgressViewTests.m */; };
+		82867A941B844C2700977E8C /* LXYGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82867A931B844C2700977E8C /* LXYGradientProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82867A831B8449E900977E8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82867A611B8449E900977E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82867A681B8449E900977E8C;
+			remoteInfo = LXYGradientProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82867A691B8449E900977E8C /* LXYGradientProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXYGradientProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82867A6D1B8449E900977E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82867A6E1B8449E900977E8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82867A701B8449E900977E8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82867A711B8449E900977E8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82867A731B8449E900977E8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82867A741B8449E900977E8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82867A771B8449E900977E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82867A791B8449E900977E8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82867A7C1B8449E900977E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		82867A821B8449E900977E8C /* LXYGradientProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXYGradientProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82867A871B8449E900977E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82867A881B8449E900977E8C /* LXYGradientProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXYGradientProgressViewTests.m; sourceTree = "<group>"; };
+		82867A921B844C2700977E8C /* LXYGradientProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXYGradientProgressView.h; sourceTree = "<group>"; };
+		82867A931B844C2700977E8C /* LXYGradientProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXYGradientProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82867A661B8449E900977E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82867A7F1B8449E900977E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82867A601B8449E900977E8C = {
+			isa = PBXGroup;
+			children = (
+				82867A6B1B8449E900977E8C /* LXYGradientProgressView */,
+				82867A851B8449E900977E8C /* LXYGradientProgressViewTests */,
+				82867A6A1B8449E900977E8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82867A6A1B8449E900977E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82867A691B8449E900977E8C /* LXYGradientProgressView.app */,
+				82867A821B8449E900977E8C /* LXYGradientProgressViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82867A6B1B8449E900977E8C /* LXYGradientProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				82867A701B8449E900977E8C /* AppDelegate.h */,
+				82867A711B8449E900977E8C /* AppDelegate.m */,
+				82867A731B8449E900977E8C /* ViewController.h */,
+				82867A741B8449E900977E8C /* ViewController.m */,
+				82867A761B8449E900977E8C /* Main.storyboard */,
+				82867A791B8449E900977E8C /* Images.xcassets */,
+				82867A7B1B8449E900977E8C /* LaunchScreen.xib */,
+				82867A6C1B8449E900977E8C /* Supporting Files */,
+				82867A921B844C2700977E8C /* LXYGradientProgressView.h */,
+				82867A931B844C2700977E8C /* LXYGradientProgressView.m */,
+			);
+			path = LXYGradientProgressView;
+			sourceTree = "<group>";
+		};
+		82867A6C1B8449E900977E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82867A6D1B8449E900977E8C /* Info.plist */,
+				82867A6E1B8449E900977E8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82867A851B8449E900977E8C /* LXYGradientProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				82867A881B8449E900977E8C /* LXYGradientProgressViewTests.m */,
+				82867A861B8449E900977E8C /* Supporting Files */,
+			);
+			path = LXYGradientProgressViewTests;
+			sourceTree = "<group>";
+		};
+		82867A861B8449E900977E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82867A871B8449E900977E8C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82867A681B8449E900977E8C /* LXYGradientProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82867A8C1B8449E900977E8C /* Build configuration list for PBXNativeTarget "LXYGradientProgressView" */;
+			buildPhases = (
+				82867A651B8449E900977E8C /* Sources */,
+				82867A661B8449E900977E8C /* Frameworks */,
+				82867A671B8449E900977E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXYGradientProgressView;
+			productName = LXYGradientProgressView;
+			productReference = 82867A691B8449E900977E8C /* LXYGradientProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82867A811B8449E900977E8C /* LXYGradientProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82867A8F1B8449E900977E8C /* Build configuration list for PBXNativeTarget "LXYGradientProgressViewTests" */;
+			buildPhases = (
+				82867A7E1B8449E900977E8C /* Sources */,
+				82867A7F1B8449E900977E8C /* Frameworks */,
+				82867A801B8449E900977E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82867A841B8449E900977E8C /* PBXTargetDependency */,
+			);
+			name = LXYGradientProgressViewTests;
+			productName = LXYGradientProgressViewTests;
+			productReference = 82867A821B8449E900977E8C /* LXYGradientProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82867A611B8449E900977E8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Liuxuanyi;
+				TargetAttributes = {
+					82867A681B8449E900977E8C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					82867A811B8449E900977E8C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 82867A681B8449E900977E8C;
+					};
+				};
+			};
+			buildConfigurationList = 82867A641B8449E900977E8C /* Build configuration list for PBXProject "LXYGradientProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82867A601B8449E900977E8C;
+			productRefGroup = 82867A6A1B8449E900977E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82867A681B8449E900977E8C /* LXYGradientProgressView */,
+				82867A811B8449E900977E8C /* LXYGradientProgressViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82867A671B8449E900977E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82867A781B8449E900977E8C /* Main.storyboard in Resources */,
+				82867A7D1B8449E900977E8C /* LaunchScreen.xib in Resources */,
+				82867A7A1B8449E900977E8C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82867A801B8449E900977E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82867A651B8449E900977E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82867A751B8449E900977E8C /* ViewController.m in Sources */,
+				82867A721B8449E900977E8C /* AppDelegate.m in Sources */,
+				82867A6F1B8449E900977E8C /* main.m in Sources */,
+				82867A941B844C2700977E8C /* LXYGradientProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82867A7E1B8449E900977E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82867A891B8449E900977E8C /* LXYGradientProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82867A841B8449E900977E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82867A681B8449E900977E8C /* LXYGradientProgressView */;
+			targetProxy = 82867A831B8449E900977E8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82867A761B8449E900977E8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82867A771B8449E900977E8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82867A7B1B8449E900977E8C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82867A7C1B8449E900977E8C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82867A8A1B8449E900977E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82867A8B1B8449E900977E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82867A8D1B8449E900977E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LXYGradientProgressView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82867A8E1B8449E900977E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LXYGradientProgressView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82867A901B8449E900977E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LXYGradientProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXYGradientProgressView.app/LXYGradientProgressView";
+			};
+			name = Debug;
+		};
+		82867A911B8449E900977E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LXYGradientProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXYGradientProgressView.app/LXYGradientProgressView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82867A641B8449E900977E8C /* Build configuration list for PBXProject "LXYGradientProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82867A8A1B8449E900977E8C /* Debug */,
+				82867A8B1B8449E900977E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82867A8C1B8449E900977E8C /* Build configuration list for PBXNativeTarget "LXYGradientProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82867A8D1B8449E900977E8C /* Debug */,
+				82867A8E1B8449E900977E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82867A8F1B8449E900977E8C /* Build configuration list for PBXNativeTarget "LXYGradientProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82867A901B8449E900977E8C /* Debug */,
+				82867A911B8449E900977E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82867A611B8449E900977E8C /* Project object */;
+}
