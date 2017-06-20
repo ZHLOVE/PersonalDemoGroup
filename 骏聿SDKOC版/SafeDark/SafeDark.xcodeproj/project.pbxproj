@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1009E0B41D1A182100F2B813 /* libmugshot3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1009E0B31D1A182100F2B813 /* libmugshot3.a */; };
+		105CC82F1D19171400BF9395 /* SafeDark.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 105CC82E1D19171400BF9395 /* SafeDark.h */; };
+		105CC8661D1919C400BF9395 /* SafeDark.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CC82E1D19171400BF9395 /* SafeDark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		105CC9161D192B8300BF9395 /* JYGrade.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CC8F71D192B8300BF9395 /* JYGrade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		105CC9171D192B8300BF9395 /* JYGrade.m in Sources */ = {isa = PBXBuildFile; fileRef = 105CC8F81D192B8300BF9395 /* JYGrade.m */; };
+		105CC9181D192B8300BF9395 /* JYManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CC8FA1D192B8300BF9395 /* JYManager.h */; };
+		105CC9191D192B8300BF9395 /* JYManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 105CC8FB1D192B8300BF9395 /* JYManager.mm */; };
+		105CC91A1D192B8300BF9395 /* JY_IDPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CC8FE1D192B8300BF9395 /* JY_IDPhoto.h */; };
+		105CC91C1D192B8300BF9395 /* Sign.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CC9011D192B8300BF9395 /* Sign.h */; };
+		105CC91D1D192B8300BF9395 /* Sign.m in Sources */ = {isa = PBXBuildFile; fileRef = 105CC9021D192B8300BF9395 /* Sign.m */; };
+		105CC91E1D192B8300BF9395 /* TaskRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CC9031D192B8300BF9395 /* TaskRequest.h */; };
+		105CC91F1D192B8300BF9395 /* TaskRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 105CC9041D192B8300BF9395 /* TaskRequest.m */; };
+		105CC9201D192B8300BF9395 /* JYNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CC9061D192B8300BF9395 /* JYNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		105CC9211D192B8300BF9395 /* JYNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 105CC9071D192B8300BF9395 /* JYNetwork.m */; };
+		105CC9221D192B8300BF9395 /* CAMBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CC9091D192B8300BF9395 /* CAMBuffer.h */; };
+		105CC9231D192B8300BF9395 /* CAMBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 105CC90A1D192B8300BF9395 /* CAMBuffer.m */; };
+		105CC9241D192B8300BF9395 /* CAMPicContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CC90B1D192B8300BF9395 /* CAMPicContext.h */; };
+		105CC9251D192B8300BF9395 /* CAMPicContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 105CC90C1D192B8300BF9395 /* CAMPicContext.m */; };
+		105CC9261D192B8300BF9395 /* define.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CC90D1D192B8300BF9395 /* define.h */; };
+		105CC9271D192B8300BF9395 /* MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CC90E1D192B8300BF9395 /* MD5.h */; };
+		105CC9281D192B8300BF9395 /* MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 105CC90F1D192B8300BF9395 /* MD5.m */; };
+		105CC9291D192B8300BF9395 /* NSDictionary+Get.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CC9101D192B8300BF9395 /* NSDictionary+Get.h */; };
+		105CC92A1D192B8300BF9395 /* NSDictionary+Get.m in Sources */ = {isa = PBXBuildFile; fileRef = 105CC9111D192B8300BF9395 /* NSDictionary+Get.m */; };
+		105CC92B1D192B8300BF9395 /* NSMutableDictionary+Set.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CC9121D192B8300BF9395 /* NSMutableDictionary+Set.h */; };
+		105CC92C1D192B8300BF9395 /* NSMutableDictionary+Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 105CC9131D192B8300BF9395 /* NSMutableDictionary+Set.m */; };
+		105CC92D1D192B8300BF9395 /* UIImage+RGBAConv.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CC9141D192B8300BF9395 /* UIImage+RGBAConv.h */; };
+		105CC92E1D192B8300BF9395 /* UIImage+RGBAConv.m in Sources */ = {isa = PBXBuildFile; fileRef = 105CC9151D192B8300BF9395 /* UIImage+RGBAConv.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		105CC8291D19171400BF9395 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				105CC82F1D19171400BF9395 /* SafeDark.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1009E0B31D1A182100F2B813 /* libmugshot3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmugshot3.a; sourceTree = "<group>"; };
+		105CC82B1D19171400BF9395 /* libSafeDark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSafeDark.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		105CC82E1D19171400BF9395 /* SafeDark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeDark.h; sourceTree = "<group>"; };
+		105CC8F71D192B8300BF9395 /* JYGrade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYGrade.h; sourceTree = "<group>"; };
+		105CC8F81D192B8300BF9395 /* JYGrade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYGrade.m; sourceTree = "<group>"; };
+		105CC8FA1D192B8300BF9395 /* JYManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYManager.h; sourceTree = "<group>"; };
+		105CC8FB1D192B8300BF9395 /* JYManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JYManager.mm; sourceTree = "<group>"; };
+		105CC8FE1D192B8300BF9395 /* JY_IDPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JY_IDPhoto.h; sourceTree = "<group>"; };
+		105CC9011D192B8300BF9395 /* Sign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sign.h; sourceTree = "<group>"; };
+		105CC9021D192B8300BF9395 /* Sign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sign.m; sourceTree = "<group>"; };
+		105CC9031D192B8300BF9395 /* TaskRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskRequest.h; sourceTree = "<group>"; };
+		105CC9041D192B8300BF9395 /* TaskRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskRequest.m; sourceTree = "<group>"; };
+		105CC9061D192B8300BF9395 /* JYNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYNetwork.h; sourceTree = "<group>"; };
+		105CC9071D192B8300BF9395 /* JYNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYNetwork.m; sourceTree = "<group>"; };
+		105CC9091D192B8300BF9395 /* CAMBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMBuffer.h; sourceTree = "<group>"; };
+		105CC90A1D192B8300BF9395 /* CAMBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMBuffer.m; sourceTree = "<group>"; };
+		105CC90B1D192B8300BF9395 /* CAMPicContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMPicContext.h; sourceTree = "<group>"; };
+		105CC90C1D192B8300BF9395 /* CAMPicContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMPicContext.m; sourceTree = "<group>"; };
+		105CC90D1D192B8300BF9395 /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		105CC90E1D192B8300BF9395 /* MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5.h; sourceTree = "<group>"; };
+		105CC90F1D192B8300BF9395 /* MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5.m; sourceTree = "<group>"; };
+		105CC9101D192B8300BF9395 /* NSDictionary+Get.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Get.h"; sourceTree = "<group>"; };
+		105CC9111D192B8300BF9395 /* NSDictionary+Get.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Get.m"; sourceTree = "<group>"; };
+		105CC9121D192B8300BF9395 /* NSMutableDictionary+Set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Set.h"; sourceTree = "<group>"; };
+		105CC9131D192B8300BF9395 /* NSMutableDictionary+Set.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Set.m"; sourceTree = "<group>"; };
+		105CC9141D192B8300BF9395 /* UIImage+RGBAConv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RGBAConv.h"; sourceTree = "<group>"; };
+		105CC9151D192B8300BF9395 /* UIImage+RGBAConv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RGBAConv.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		105CC8281D19171400BF9395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1009E0B41D1A182100F2B813 /* libmugshot3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		105CC8221D19171400BF9395 = {
+			isa = PBXGroup;
+			children = (
+				105CC82D1D19171400BF9395 /* SafeDark */,
+				105CC82C1D19171400BF9395 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		105CC82C1D19171400BF9395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				105CC82B1D19171400BF9395 /* libSafeDark.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		105CC82D1D19171400BF9395 /* SafeDark */ = {
+			isa = PBXGroup;
+			children = (
+				105CC82E1D19171400BF9395 /* SafeDark.h */,
+				105CC8F51D192B8300BF9395 /* Class */,
+			);
+			path = SafeDark;
+			sourceTree = "<group>";
+		};
+		105CC8F51D192B8300BF9395 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				105CC8F61D192B8300BF9395 /* Grade */,
+				105CC8F91D192B8300BF9395 /* JYManager */,
+				105CC9001D192B8300BF9395 /* Model */,
+				105CC9051D192B8300BF9395 /* NetWork */,
+				105CC9081D192B8300BF9395 /* Tools */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		105CC8F61D192B8300BF9395 /* Grade */ = {
+			isa = PBXGroup;
+			children = (
+				105CC8F71D192B8300BF9395 /* JYGrade.h */,
+				105CC8F81D192B8300BF9395 /* JYGrade.m */,
+			);
+			path = Grade;
+			sourceTree = "<group>";
+		};
+		105CC8F91D192B8300BF9395 /* JYManager */ = {
+			isa = PBXGroup;
+			children = (
+				105CC8FA1D192B8300BF9395 /* JYManager.h */,
+				105CC8FB1D192B8300BF9395 /* JYManager.mm */,
+				105CC8FC1D192B8300BF9395 /* SuanFa */,
+			);
+			path = JYManager;
+			sourceTree = "<group>";
+		};
+		105CC8FC1D192B8300BF9395 /* SuanFa */ = {
+			isa = PBXGroup;
+			children = (
+				105CC8FE1D192B8300BF9395 /* JY_IDPhoto.h */,
+				1009E0B31D1A182100F2B813 /* libmugshot3.a */,
+			);
+			path = SuanFa;
+			sourceTree = "<group>";
+		};
+		105CC9001D192B8300BF9395 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				105CC9011D192B8300BF9395 /* Sign.h */,
+				105CC9021D192B8300BF9395 /* Sign.m */,
+				105CC9031D192B8300BF9395 /* TaskRequest.h */,
+				105CC9041D192B8300BF9395 /* TaskRequest.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		105CC9051D192B8300BF9395 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				105CC9061D192B8300BF9395 /* JYNetwork.h */,
+				105CC9071D192B8300BF9395 /* JYNetwork.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		105CC9081D192B8300BF9395 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				105CC9091D192B8300BF9395 /* CAMBuffer.h */,
+				105CC90A1D192B8300BF9395 /* CAMBuffer.m */,
+				105CC90B1D192B8300BF9395 /* CAMPicContext.h */,
+				105CC90C1D192B8300BF9395 /* CAMPicContext.m */,
+				105CC90D1D192B8300BF9395 /* define.h */,
+				105CC90E1D192B8300BF9395 /* MD5.h */,
+				105CC90F1D192B8300BF9395 /* MD5.m */,
+				105CC9101D192B8300BF9395 /* NSDictionary+Get.h */,
+				105CC9111D192B8300BF9395 /* NSDictionary+Get.m */,
+				105CC9121D192B8300BF9395 /* NSMutableDictionary+Set.h */,
+				105CC9131D192B8300BF9395 /* NSMutableDictionary+Set.m */,
+				105CC9141D192B8300BF9395 /* UIImage+RGBAConv.h */,
+				105CC9151D192B8300BF9395 /* UIImage+RGBAConv.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		105CC8651D19198D00BF9395 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105CC8661D1919C400BF9395 /* SafeDark.h in Headers */,
+				105CC9201D192B8300BF9395 /* JYNetwork.h in Headers */,
+				105CC9161D192B8300BF9395 /* JYGrade.h in Headers */,
+				105CC92D1D192B8300BF9395 /* UIImage+RGBAConv.h in Headers */,
+				105CC92B1D192B8300BF9395 /* NSMutableDictionary+Set.h in Headers */,
+				105CC9291D192B8300BF9395 /* NSDictionary+Get.h in Headers */,
+				105CC91A1D192B8300BF9395 /* JY_IDPhoto.h in Headers */,
+				105CC9241D192B8300BF9395 /* CAMPicContext.h in Headers */,
+				105CC9221D192B8300BF9395 /* CAMBuffer.h in Headers */,
+				105CC9181D192B8300BF9395 /* JYManager.h in Headers */,
+				105CC91E1D192B8300BF9395 /* TaskRequest.h in Headers */,
+				105CC91C1D192B8300BF9395 /* Sign.h in Headers */,
+				105CC9271D192B8300BF9395 /* MD5.h in Headers */,
+				105CC9261D192B8300BF9395 /* define.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		105CC82A1D19171400BF9395 /* SafeDark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105CC8341D19171400BF9395 /* Build configuration list for PBXNativeTarget "SafeDark" */;
+			buildPhases = (
+				105CC8271D19171400BF9395 /* Sources */,
+				105CC8281D19171400BF9395 /* Frameworks */,
+				105CC8291D19171400BF9395 /* CopyFiles */,
+				105CC8651D19198D00BF9395 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafeDark;
+			productName = SafeDark;
+			productReference = 105CC82B1D19171400BF9395 /* libSafeDark.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		105CC8231D19171400BF9395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = leqi;
+				TargetAttributes = {
+					105CC82A1D19171400BF9395 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 105CC8261D19171400BF9395 /* Build configuration list for PBXProject "SafeDark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 105CC8221D19171400BF9395;
+			productRefGroup = 105CC82C1D19171400BF9395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				105CC82A1D19171400BF9395 /* SafeDark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		105CC8271D19171400BF9395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105CC92E1D192B8300BF9395 /* UIImage+RGBAConv.m in Sources */,
+				105CC9211D192B8300BF9395 /* JYNetwork.m in Sources */,
+				105CC9231D192B8300BF9395 /* CAMBuffer.m in Sources */,
+				105CC91F1D192B8300BF9395 /* TaskRequest.m in Sources */,
+				105CC9191D192B8300BF9395 /* JYManager.mm in Sources */,
+				105CC92C1D192B8300BF9395 /* NSMutableDictionary+Set.m in Sources */,
+				105CC92A1D192B8300BF9395 /* NSDictionary+Get.m in Sources */,
+				105CC91D1D192B8300BF9395 /* Sign.m in Sources */,
+				105CC9251D192B8300BF9395 /* CAMPicContext.m in Sources */,
+				105CC9281D192B8300BF9395 /* MD5.m in Sources */,
+				105CC9171D192B8300BF9395 /* JYGrade.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		105CC8321D19171400BF9395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		105CC8331D19171400BF9395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		105CC8351D19171400BF9395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SafeDark/Class/JYManager/SuanFa",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		105CC8361D19171400BF9395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SafeDark/Class/JYManager/SuanFa",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		105CC8261D19171400BF9395 /* Build configuration list for PBXProject "SafeDark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105CC8321D19171400BF9395 /* Debug */,
+				105CC8331D19171400BF9395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		105CC8341D19171400BF9395 /* Build configuration list for PBXNativeTarget "SafeDark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105CC8351D19171400BF9395 /* Debug */,
+				105CC8361D19171400BF9395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 105CC8231D19171400BF9395 /* Project object */;
+}
