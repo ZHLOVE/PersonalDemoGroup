@@ -1,0 +1,12 @@
+[
+ {
+    "vcName": "CookTableViewController",
+    "title": "烘焙",
+    "imageName": "tabbar_home"
+ },
+ {
+     "vcName": "OtherViewController",
+     "title": "下厨房",
+     "imageName": "tabbar_profile"
+ }
+ ]

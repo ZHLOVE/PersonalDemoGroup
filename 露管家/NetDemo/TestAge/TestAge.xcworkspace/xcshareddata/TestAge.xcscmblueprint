@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6D9AF70982D8D3336E6CFE87302800A94D486C18",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "57E837F44DCB91F7DDED01C3DF07977FD081A9A7" : 0,
+    "6D9AF70982D8D3336E6CFE87302800A94D486C18" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6089E2C8-8A40-4770-84B1-1E95006BF500",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "57E837F44DCB91F7DDED01C3DF07977FD081A9A7" : "",
+    "6D9AF70982D8D3336E6CFE87302800A94D486C18" : "%E6%B5%8B%E9%BE%84%E7%A5%9E%E5%99%A8\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestAge",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TestAge\/TestAge.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/mql\/homeWork.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57E837F44DCB91F7DDED01C3DF07977FD081A9A7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/ruik2080\/TestAge2016.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6D9AF70982D8D3336E6CFE87302800A94D486C18"
+    }
+  ]
+}
