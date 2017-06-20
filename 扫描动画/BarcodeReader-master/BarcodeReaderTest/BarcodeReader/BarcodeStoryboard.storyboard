@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Barcode Reader View Controller-->
+        <scene sceneID="ILU-2P-iif">
+            <objects>
+                <viewController storyboardIdentifier="BarcodeReaderViewController" id="mrv-m5-VPf" customClass="BarcodeReaderViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ovg-Fk-K9y"/>
+                        <viewControllerLayoutGuide type="bottom" id="Beq-eq-dMZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lIR-M3-bon">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rgh-qC-ywf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ivc-vk-Ka3">
+                                <rect key="frame" x="175" y="175" width="250" height="250"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="cyv-p9-qNG"/>
+                                    <constraint firstAttribute="width" constant="250" id="yoE-p2-r7F"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="将二维码/条形码放到框内" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5k-bv-svj">
+                                <rect key="frame" x="209" y="441" width="182" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7F-Q2-cZ9">
+                                <rect key="frame" x="500" y="100" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="IJG-6r-aWC"/>
+                                    <constraint firstAttribute="width" constant="40" id="Nzh-Ck-Idq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelButtonClick:" destination="mrv-m5-VPf" eventType="touchUpInside" id="yJR-ZR-aJv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="h7F-Q2-cZ9" firstAttribute="top" secondItem="Ovg-Fk-K9y" secondAttribute="bottom" constant="80" id="4fp-Px-XWQ"/>
+                            <constraint firstAttribute="centerY" secondItem="ivc-vk-Ka3" secondAttribute="centerY" id="CJ8-h6-7Mh"/>
+                            <constraint firstItem="S5k-bv-svj" firstAttribute="top" secondItem="ivc-vk-Ka3" secondAttribute="bottom" constant="16" id="OTq-km-dSR"/>
+                            <constraint firstAttribute="centerX" secondItem="S5k-bv-svj" secondAttribute="centerX" id="SZo-ci-g1Y"/>
+                            <constraint firstItem="Rgh-qC-ywf" firstAttribute="top" secondItem="lIR-M3-bon" secondAttribute="top" id="VSt-t2-55f"/>
+                            <constraint firstAttribute="trailing" secondItem="h7F-Q2-cZ9" secondAttribute="trailing" constant="60" id="YHw-yo-5oD"/>
+                            <constraint firstAttribute="centerX" secondItem="ivc-vk-Ka3" secondAttribute="centerX" id="eUV-6b-tMx"/>
+                            <constraint firstItem="Beq-eq-dMZ" firstAttribute="top" secondItem="Rgh-qC-ywf" secondAttribute="bottom" id="tpC-Vh-AgN"/>
+                            <constraint firstAttribute="trailing" secondItem="Rgh-qC-ywf" secondAttribute="trailing" id="ue9-sD-n8G"/>
+                            <constraint firstItem="Rgh-qC-ywf" firstAttribute="leading" secondItem="lIR-M3-bon" secondAttribute="leading" id="yM1-eb-siW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cancelButton" destination="h7F-Q2-cZ9" id="JKB-JP-ykr"/>
+                        <outlet property="interestView" destination="ivc-vk-Ka3" id="BPP-5F-aPx"/>
+                        <outlet property="tipLabel" destination="S5k-bv-svj" id="ooj-8V-4K2"/>
+                        <outlet property="videoRenderView" destination="Rgh-qC-ywf" id="atz-hI-1Jf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="utA-AX-6JM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="487" y="440"/>
+        </scene>
+    </scenes>
+</document>

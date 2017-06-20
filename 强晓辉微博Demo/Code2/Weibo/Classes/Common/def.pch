@@ -1,0 +1,22 @@
+//
+//  def.pch
+//  Weibo
+//
+//  Created by qiang on 4/26/16.
+//  Copyright © 2016 QiangTech. All rights reserved.
+//
+
+#ifndef def_pch
+#define def_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// 弹出菜单显示和关闭时的通知名称
+#define kNontificationPopoverWillShow @"NontificationPopoverWillShow"
+#define kNontificationPopoverWillDismiss @"NontificationPopoverWillDismiss"
+
+// 新特性进入首页的通知
+#define kNotifiactionRootSwitchViewController @"NotifiactionRootSwitchViewController"
+
+#endif /* def_pch */
