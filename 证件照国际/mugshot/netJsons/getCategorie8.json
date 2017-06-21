@@ -1,0 +1,63 @@
+{
+    "specs" : [
+               {
+               "id" : 7,
+               "width_mm" : 40,
+               "min_bytes" : null,
+               "max_bytes" : null,
+               "width_px" : 441,
+               "paper" : {
+               "width_px" : 1795,
+               "height_mm" : 102,
+               "slots" : [
+                          {
+                          "x" : 292,
+                          "rotation_ccw" : 0,
+                          "y" : 62
+                          },
+                          {
+                          "x" : 1013,
+                          "rotation_ccw" : 0,
+                          "y" : 62
+                          },
+                          {
+                          "x" : 292,
+                          "rotation_ccw" : 0,
+                          "y" : 582
+                          },
+                          {
+                          "x" : 1013,
+                          "rotation_ccw" : 0,
+                          "y" : 582
+                          }
+                          ],
+               "width_mm" : 152,
+               "height_px" : 1205
+               },
+               "backdrop_ids" : [
+                                 1,
+                                 2,
+                                 3,
+                                 4
+                                 ],
+               "other_requirement" : "",
+               "size_requirement" : "1.5x1.5inch",
+               "height_mm" : 40,
+               "height_px" : 441,
+               "name" : "1.5x1.5inch",
+               "ratios" : [
+                           2.4,
+                           2.2,
+                           2.0,
+                           2.2,
+                           0.5,
+                           0.7,
+                           0.57,
+                           0.69,
+                           0.05,
+                           0.25
+                           ]
+               }
+               ],
+    "category_id" : 8
+}

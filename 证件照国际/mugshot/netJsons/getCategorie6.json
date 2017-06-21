@@ -1,0 +1,73 @@
+{
+    "specs" : [
+               {
+               "id" : 5,
+               "width_mm" : 35,
+               "min_bytes" : null,
+               "max_bytes" : null,
+               "width_px" : 413,
+               "paper" : {
+               "width_px" : 1795,
+               "height_mm" : 102,
+               "slots" : [
+                          {
+                          "x" : 155,
+                          "rotation_ccw" : 0,
+                          "y" : 85
+                          },
+                          {
+                          "x" : 703,
+                          "rotation_ccw" : 0,
+                          "y" : 85
+                          },
+                          {
+                          "x" : 1247,
+                          "rotation_ccw" : 0,
+                          "y" : 85
+                          },
+                          {
+                          "x" : 155,
+                          "rotation_ccw" : 0,
+                          "y" : 611
+                          },
+                          {
+                          "x" : 703,
+                          "rotation_ccw" : 0,
+                          "y" : 611
+                          },
+                          {
+                          "x" : 1247,
+                          "rotation_ccw" : 0,
+                          "y" : 611
+                          }
+                          ],
+               "width_mm" : 152,
+               "height_px" : 1205
+               },
+               "backdrop_ids" : [
+                                 1,
+                                 2,
+                                 3,
+                                 4
+                                 ],
+               "other_requirement" : "",
+               "size_requirement" : "35×40mm",
+               "height_mm" : 40,
+               "height_px" : 472,
+               "name" : "35×40mm",
+               "ratios" : [
+                           1.98,
+                           1.66,
+                           1.82,
+                           1.67,
+                           0.5,
+                           0.7,
+                           0.5,
+                           0.72,
+                           0.05,
+                           0.25
+                           ]
+               }
+               ],
+    "category_id" : 6
+}

@@ -1,0 +1,64 @@
+{
+    "categories" : [
+                    {
+                    "icon_url" : "http://api-global.camcap.us/static/category/c61e05732e2bdd881ec0748225422e4e.png",
+                    "id" : 1,
+                    "name" : "35x45 mm"
+                    },
+                    {
+                    "icon_url" : "http://api-global.camcap.us/static/category/c61e05732e2bdd881ec0748225422e4e.png",
+                    "id" : 11,
+                    "name" : "50x50 mm"
+                    },
+                    {
+                    "icon_url" : "http://api-global.camcap.us/static/category/c61e05732e2bdd881ec0748225422e4e.png",
+                    "id" : 8,
+                    "name" : "1.5x1.5 inch"
+                    },
+                    {
+                    "icon_url" : "http://api-global.camcap.us/static/category/c61e05732e2bdd881ec0748225422e4e.png",
+                    "id" : 7,
+                    "name" : "36x47 mm"
+                    },
+                    {
+                    "icon_url" : "http://api-global.camcap.us/static/category/c61e05732e2bdd881ec0748225422e4e.png",
+                    "id" : 2,
+                    "name" : "2x2 inches"
+                    },
+                    {
+                    "icon_url" : "http://api-global.camcap.us/static/category/c61e05732e2bdd881ec0748225422e4e.png",
+                    "id" : 5,
+                    "name" : "30x40 mm"
+                    },
+                    {
+                    "icon_url" : "http://api-global.camcap.us/static/category/c61e05732e2bdd881ec0748225422e4e.png",
+                    "id" : 6,
+                    "name" : "35x40 mm"
+                    },
+                    {
+                    "icon_url" : "http://api-global.camcap.us/static/category/c61e05732e2bdd881ec0748225422e4e.png",
+                    "id" : 4,
+                    "name" : "35x35 mm"
+                    },
+                    {
+                    "icon_url" : "http://api-global.camcap.us/static/category/c61e05732e2bdd881ec0748225422e4e.png",
+                    "id" : 9,
+                    "name" : "40x60 mm"
+                    },
+                    {
+                    "icon_url" : "http://api-global.camcap.us/static/category/c61e05732e2bdd881ec0748225422e4e.png",
+                    "id" : 10,
+                    "name" : "45x45 mm"
+                    },
+                    {
+                    "icon_url" : "http://api-global.camcap.us/static/category/c61e05732e2bdd881ec0748225422e4e.png",
+                    "id" : 13,
+                    "name" : "33x48 mm"
+                    },
+                    {
+                    "icon_url" : "http://api-global.camcap.us/static/category/c61e05732e2bdd881ec0748225422e4e.png",
+                    "id" : 12,
+                    "name" : "50x70 mm"
+                    },
+                    ]
+}

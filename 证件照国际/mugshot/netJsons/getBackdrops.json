@@ -1,0 +1,28 @@
+{
+    "backdrops" : [
+                   {
+                   "begin_color" : 4427483,
+                   "id" : 4,
+                   "end_color" : 4427483,
+                   "name" : "Blue"
+                   },
+                   {
+                   "begin_color" : 16777215,
+                   "id" : 1,
+                   "end_color" : 16777215,
+                   "name" : "White"
+                   },
+                   {
+                   "begin_color" : 6731250,
+                   "id" : 3,
+                   "end_color" : 13429244,
+                   "name" : "Wathet"
+                   },
+                   {
+                   "begin_color" : 14935525,
+                   "id" : 2,
+                   "end_color" : 16316664,
+                   "name" : "Grey"
+                   }
+                   ]
+}

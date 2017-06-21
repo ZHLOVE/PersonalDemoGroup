@@ -1,0 +1,16 @@
+{
+	"pages":[{"image":"welcome_1"},{"image":"welcome_2"},
+             {"image":"welcome_3"},{"image":"welcome_4"}],
+    "pages_jap":[{"image":"w01"},{"image":"w02"},
+             {"image":"w03"},{"image":"w04"}],
+	"pagecolor":[[255,255,255,1],[255,255,255,0.25]],
+	
+	"button":{
+	 "title":"",
+	 "color":[254,254,254,1],
+	 "size":[200,50],
+	 "yoff":-66,
+	 "round":20,
+	 "frame":[254,254,254,0]
+	}
+}

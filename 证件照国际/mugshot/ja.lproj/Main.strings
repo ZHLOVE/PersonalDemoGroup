@@ -1,0 +1,219 @@
+
+/* Class = "UILabel"; text = "Pixel Size"; ObjectID = "3hJ-XW-FfY"; */
+"3hJ-XW-FfY.text" = "画素数";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "56R-po-0O3"; */
+"56R-po-0O3.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5mv-8x-O5i"; */
+"5mv-8x-O5i.text" = "Label";
+
+/* Class = "UILabel"; text = "街道地址"; ObjectID = "6c2-m7-Tbn"; */
+"6c2-m7-Tbn.text" = "街道地址";
+
+/* Class = "UINavigationItem"; title = "Preview"; ObjectID = "6f8-hs-MiQ"; */
+"6f8-hs-MiQ.title" = "プレビュー";
+
+/* Class = "UITableViewSection"; headerTitle = "订单信息"; ObjectID = "6m8-6X-ueN"; */
+"6m8-6X-ueN.headerTitle" = "订单信息";
+
+/* Class = "UILabel"; text = "Print Preview"; ObjectID = "6tu-mR-mGe"; */
+"6tu-mR-mGe.text" = "プリントアウト形式のプレビュー";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "8Yv-Wf-SDb"; */
+"8Yv-Wf-SDb.title" = "次へ";
+
+/* Class = "UITextField"; placeholder = "点击输入街道地址"; ObjectID = "A2l-JM-poL"; */
+"A2l-JM-poL.placeholder" = "点击输入街道地址";
+
+/* Class = "UILabel"; text = "Head-shoulder being vertical"; ObjectID = "AVl-D1-qCL"; */
+"AVl-D1-qCL.text" = "頭を真っ直ぐにしてください";
+
+/* Class = "UILabel"; text = "Not qualified,please try again"; ObjectID = "BLy-Yf-jo6"; */
+"BLy-Yf-jo6.text" = "不合格、写真を撮り直してください";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "DWD-4j-v2Z"; */
+"DWD-4j-v2Z.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Light"; ObjectID = "Din-8L-MIH"; */
+"Din-8L-MIH.normalTitle" = "明るくする";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "E0k-Dp-DD9"; */
+"E0k-Dp-DD9.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "OK"; ObjectID = "EKt-Vc-3sl"; */
+"EKt-Vc-3sl.title" = "完成";
+
+/* Class = "UILabel"; text = " "; ObjectID = "Flc-um-aA1"; */
+"Flc-um-aA1.text" = " ";
+
+/* Class = "UIButton"; normalTitle = "Mouth"; ObjectID = "G5l-Ar-jBi"; */
+"G5l-Ar-jBi.normalTitle" = "口";
+
+/* Class = "UIButton"; normalTitle = "Right Eye"; ObjectID = "G8y-EP-gHb"; */
+"G8y-EP-gHb.normalTitle" = "右目";
+
+/* Class = "UINavigationItem"; title = "Smart beautification"; ObjectID = "GNI-VJ-nO6"; */
+"GNI-VJ-nO6.title" = "スマート美顔";
+
+/* Class = "UILabel"; text = "Other"; ObjectID = "H9F-nD-bpu"; */
+"H9F-nD-bpu.text" = "その他";
+
+/* Class = "UIButton"; normalTitle = "取消订单"; ObjectID = "Htf-vM-udR"; */
+"Htf-vM-udR.normalTitle" = "取消订单";
+
+/* Class = "UINavigationItem"; title = "Replace background"; ObjectID = "I1U-Bf-9MY"; */
+"I1U-Bf-9MY.title" = "背景の切り替え";
+
+/* Class = "UILabel"; text = " "; ObjectID = "Isb-Bc-y40"; */
+"Isb-Bc-y40.text" = " ";
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "Lgr-V2-Ojh"; */
+"Lgr-V2-Ojh.title" = "保存";
+
+/* Class = "UILabel"; text = "省市区"; ObjectID = "MsU-qV-jMa"; */
+"MsU-qV-jMa.text" = "省市区";
+
+/* Class = "UILabel"; text = "Size & Format"; ObjectID = "NHN-Ba-YXs"; */
+"NHN-Ba-YXs.text" = "フレーム要求";
+
+/* Class = "UILabel"; text = "Incorrect? Tell me"; ObjectID = "NQO-jH-sE0"; */
+"NQO-jH-sE0.text" = "情報が間違っているか？ご連絡ください";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "NiW-vp-EHc"; */
+"NiW-vp-EHc.text" = "0";
+
+/* Class = "UIBarButtonItem"; title = "OK"; ObjectID = "P2b-rh-CYT"; */
+"P2b-rh-CYT.title" = "確定";
+
+/* Class = "UILabel"; text = " "; ObjectID = "RVq-jE-JGK"; */
+"RVq-jE-JGK.text" = " ";
+
+/* Class = "UILabel"; text = "Background Color"; ObjectID = "Rmr-xB-JbZ"; */
+"Rmr-xB-JbZ.text" = "背景色";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "TeD-c2-C6y"; */
+"TeD-c2-C6y.text" = "0";
+
+/* Class = "UINavigationItem"; title = "收货地址"; ObjectID = "U6b-Ij-89j"; */
+"U6b-Ij-89j.title" = "收货地址";
+
+/* Class = "UILabel"; text = "Create"; ObjectID = "U9i-X9-j2S"; */
+"U9i-X9-j2S.text" = "すぐ制作";
+
+/* Class = "UILabel"; text = "Select background color"; ObjectID = "UsJ-4m-5gh"; */
+"UsJ-4m-5gh.text" = "背景色の変更";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VEx-Lh-UIX"; */
+"VEx-Lh-UIX.text" = "Label";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "WQU-0l-I06"; */
+"WQU-0l-I06.text" = "0";
+
+/* Class = "UITableViewSection"; headerTitle = "订单状态"; ObjectID = "XGJ-So-gaJ"; */
+"XGJ-So-gaJ.headerTitle" = "订单状态";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Yj9-cT-4da"; */
+"Yj9-cT-4da.text" = "Label";
+
+/* Class = "UILabel"; text = "Share"; ObjectID = "ZJI-Md-OiG"; */
+"ZJI-Md-OiG.text" = "シェア";
+
+/* Class = "UILabel"; text = "Print Size"; ObjectID = "Zhm-Od-6ZY"; */
+"Zhm-Od-6ZY.text" = "プリントアウトサイズ";
+
+/* Class = "UITableViewSection"; headerTitle = "订单价格"; ObjectID = "avw-1z-nwm"; */
+"avw-1z-nwm.headerTitle" = "订单价格";
+
+/* Class = "UIButton"; normalTitle = "立即支付"; ObjectID = "bAh-uX-vgb"; */
+"bAh-uX-vgb.normalTitle" = "立即支付";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bH5-2e-OQl"; */
+"bH5-2e-OQl.text" = "Label";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "bUe-fj-PmE"; */
+"bUe-fj-PmE.text" = "Title";
+
+/* Class = "UILabel"; text = "File Size"; ObjectID = "cBa-GV-0D5"; */
+"cBa-GV-0D5.text" = "ファイルサイズ";
+
+/* Class = "UINavigationItem"; title = "关于"; ObjectID = "cKb-g4-L9r"; */
+"cKb-g4-L9r.title" = "このアプリについて";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dHn-TW-kQR"; */
+"dHn-TW-kQR.text" = "Label";
+
+/* Class = "UILabel"; text = "Sufficient Lighting"; ObjectID = "dzH-dI-bh3"; */
+"dzH-dI-bh3.text" = "照度十分";
+
+/* Class = "UINavigationItem"; title = "订单详情"; ObjectID = "ein-3R-JCb"; */
+"ein-3R-JCb.title" = "订单详情";
+
+/* Class = "UILabel"; text = "Tune background"; ObjectID = "evE-d2-CMQ"; */
+"evE-d2-CMQ.text" = "背景微調整";
+
+/* Class = "UILabel"; text = "+100"; ObjectID = "gGx-Km-EBJ"; */
+"gGx-Km-EBJ.text" = "+100";
+
+/* Class = "UILabel"; text = "Balanced Lighting"; ObjectID = "ghk-4M-lsI"; */
+"ghk-4M-lsI.text" = "照度均一";
+
+/* Class = "UIBarButtonItem"; title = "Retake"; ObjectID = "gzb-IE-pyg"; */
+"gzb-IE-pyg.title" = "撮影撮り直す";
+
+/* Class = "UILabel"; text = "Common"; ObjectID = "hOG-K1-eXU"; */
+"hOG-K1-eXU.text" = "Common";
+
+/* Class = "UILabel"; text = "订单状态："; ObjectID = "iUP-7k-cZc"; */
+"iUP-7k-cZc.text" = "订单状态：";
+
+/* Class = "UINavigationItem"; title = "Shooting score"; ObjectID = "ibM-Ta-anC"; */
+"ibM-Ta-anC.title" = "シューティング・スコア";
+
+/* Class = "UILabel"; text = "点击选择省市区"; ObjectID = "irg-pn-Uzg"; */
+"irg-pn-Uzg.text" = "点击选择省市区";
+
+/* Class = "UISegmentedControl"; jnH-tr-LDZ.segmentTitles[0] = "未完成"; ObjectID = "jnH-tr-LDZ"; */
+"jnH-tr-LDZ.segmentTitles[0]" = "未完成";
+
+/* Class = "UISegmentedControl"; jnH-tr-LDZ.segmentTitles[1] = "已完成"; ObjectID = "jnH-tr-LDZ"; */
+"jnH-tr-LDZ.segmentTitles[1]" = "已完成";
+
+/* Class = "UILabel"; text = "Tips to take good ID photos"; ObjectID = "k7h-Lu-vpC"; */
+"k7h-Lu-vpC.text" = "証明写真撮影攻略";
+
+/* Class = "UIViewController"; title = "选择"; ObjectID = "mdZ-ti-fTP"; */
+"mdZ-ti-fTP.title" = "选择";
+
+/* Class = "UILabel"; text = "Save to album"; ObjectID = "oI2-wT-kld"; */
+"oI2-wT-kld.text" = "アルバムに保存";
+
+/* Class = "UIButton"; normalTitle = "Left Eye"; ObjectID = "p8l-GW-Rey"; */
+"p8l-GW-Rey.normalTitle" = "左目";
+
+/* Class = "UILabel"; text = " "; ObjectID = "pPt-iC-o0b"; */
+"pPt-iC-o0b.text" = " ";
+
+/* Class = "UILabel"; text = "Prominent Clothing"; ObjectID = "qCA-Wz-T35"; */
+"qCA-Wz-T35.text" = "服装強調";
+
+/* Class = "UILabel"; text = "智能证件照"; ObjectID = "sbi-ga-Ix3"; */
+"sbi-ga-Ix3.text" = "智能证件照";
+
+/* Class = "UILabel"; text = "-100"; ObjectID = "ssd-zV-mZW"; */
+"ssd-zV-mZW.text" = "-100";
+
+/* Class = "UILabel"; text = " "; ObjectID = "tSE-rG-S3U"; */
+"tSE-rG-S3U.text" = " ";
+
+/* Class = "UILabel"; text = " "; ObjectID = "u7v-nn-SnB"; */
+"u7v-nn-SnB.text" = " ";
+
+/* Class = "UIButton"; normalTitle = "Smart Skin"; ObjectID = "vro-57-LWP"; */
+"vro-57-LWP.normalTitle" = "美肌";
+
+/* Class = "UILabel"; text = "Please select"; ObjectID = "xtW-aP-6tC"; */
+"xtW-aP-6tC.text" = "選択してください";
+
+/* Class = "UIButton"; normalTitle = "智能证件照 只拍好看的证件照\ncamcap.us"; ObjectID = "yzW-Pt-dMr"; */
+"yzW-Pt-dMr.normalTitle" = "Instant ID Photo\ncamcap.us/en";

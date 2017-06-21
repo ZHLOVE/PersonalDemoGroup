@@ -1,0 +1,15 @@
+
+platform :ios, '8.0'
+use_frameworks!
+
+target 'Punchy' do
+    pod 'SDWebImage', '~> 3.7'
+    pod 'DAAlertController', '~> 0.1.4'
+    pod 'JGProgressHUD', '~> 1.2'
+    pod 'DAAlertController', '~> 0.1.4'
+    pod 'SnapKit', '~> 0.18.0'
+    pod 'JPSVolumeButtonHandler', '~> 1.0.0'
+    pod 'Alamofire'
+    pod 'Moya'
+    pod 'Qiniu', '~> 7.0'
+end

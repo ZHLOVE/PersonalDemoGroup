@@ -1,0 +1,174 @@
+{
+    "specs" : [
+               {
+               "id" : 5,
+               "width_mm" : 33,
+               "min_bytes" : null,
+               "max_bytes" : null,
+               "width_px" : 390,
+               "paper" : {
+               "width_px" : 1795,
+               "height_mm" : 102,
+               "slots" : [
+                          {
+                          "x" : 211,
+                          "rotation_ccw" : 90,
+                          "y" : 110
+                          },
+                          {
+                          "x" : 976,
+                          "rotation_ccw" : 90,
+                          "y" : 110
+                          },
+                          {
+                          "x" : 211,
+                          "rotation_ccw" : 90,
+                          "y" : 644
+                          },
+                          {
+                          "x" : 976,
+                          "rotation_ccw" : 90,
+                          "y" : 644
+                          }
+                          ],
+               "width_mm" : 152,
+               "height_px" : 1205
+               },
+               "backdrop_ids" : [
+                                 2
+                                 ],
+               "other_requirement" : "两耳之间21~24mm\r\n头部长度28~33mm\r\n不应佩戴饰物或有色眼镜（盲人除外）\r\n国家公职人员不着制式衣服\r\n儿童不系红领巾",
+               "size_requirement" : "33×48mm",
+               "height_mm" : 48,
+               "height_px" : 567,
+               "name" : "港澳通行长度28~33mm\r\n不应佩戴饰物或有色眼镜（盲人除外）\r\n国家公职人员不着制式衣服\r\n儿童不系红领巾",
+               "size_requirement" : "33×48mm",
+               "height_mm" : 48,
+               "height_px" : 567,
+               "name" : "港澳通行\350证",
+               "ratios" : [
+                           2.18,
+                           1.59,
+                           2.36,
+                           1.53,
+                           0.5,
+                           0.7,
+                           0.5,
+                           0.72,
+                           0.05,
+                           0.25
+                           ]
+               },
+               {
+               "id" : 6,
+               "width_mm" : 33,
+               "min_bytes" : null,
+               "max_bytes" : null,
+               "width_px" : 390,
+               "paper" : {
+               "width_px" : 1795,
+               "height_mm" : 102,
+               "slots" : [
+                          {
+                          "x" : 211,
+                          "rotation_ccw" : 90,
+                          "y" : 110
+                          },
+                          {
+                          "x" : 976,
+                          "rotation_ccw" : 90,
+                          "y" : 110
+                          },
+                          {
+                          "x" : 211,
+                          "rotation_ccw" : 90,
+                          "y" : 644
+                          },
+                          {
+                          "x" : 976,
+                          "rotation_ccw" : 90,
+                          "y" : 644
+                          }
+                          ],
+               "width_mm" : 152,
+               "height_px" : 1205
+               },
+               "backdrop_ids" : [
+                                 2
+                                 ],
+               "other_requirement" : "两耳之间21~24mm\r\n头部长度28~33mm\r\n不应佩戴饰物或有色眼镜（盲人除外）\r\n国家公职人员不着制式衣服\r\n儿童不系红领巾",
+               "size_requirement" : "33x48mm",
+               "height_mm" : 48,
+               "height_px" : 567,
+               "name" : "台湾通行证",
+               "ratios" : [
+                           2.18,
+                           1.59,
+                           2.36,
+                           1.53,
+                           0.5,
+                           0.7,
+                           0.5,
+                           0.72,
+                           0.05,
+                           0.25
+                           ]
+               },
+               {
+               "id" : 7,
+               "width_mm" : 33,
+               "min_bytes" : null,
+               "max_bytes" : null,
+               "width_px" : 390,
+               "paper" : {
+               "width_px" : 1795,
+               "height_mm" : 102,
+               "slots" : [
+                          {
+                          "x" : 211,
+                          "rotation_ccw" : 90,
+                          "y" : 110
+                          },
+                          {
+                          "x" : 976,
+                          "rotation_ccw" : 90,
+                          "y" : 110
+                          },
+                          {
+                          "x" : 211,
+                          "rotation_ccw" : 90,
+                          "y" : 644
+                          },
+                          {
+                          "x" : 976,
+                          "rotation_ccw" : 90,
+                          "y" : 644
+                          }
+                          ],
+               "width_mm" : 152,
+               "height_px" : 1205
+               },
+               "backdrop_ids" : [
+                                 2
+                                 ],
+               "other_requirement" : "必须是正面（头像居中）\r\n免冠照片（可见双耳、双眉）\r\n不佩戴头饰，不化浓妆\r\n佩戴眼镜者，眼镜不能反光\r\n请穿着有衣领的服装照相\r\n避免穿吊带或领口较大的衣服\r\n头部宽度为21-24mm\r\n头部长度为28-33mm\r\n整体效果不能太暗或太亮",
+               "size_requirement" : "33x48mm",
+               "height_mm" : 48,
+               "height_px" : 567,
+               "name" : "中国护照",
+               "ratios" : [
+                           2.18,
+                           1.59,
+                           2.36,
+                           1.53,
+                           0.5,
+                           0.7,
+                           0.5,
+                           0.72,
+                           0.05,
+                           0.25
+                           ]
+               }
+               ],
+    "category_id" : 3
+}

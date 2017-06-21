@@ -1,0 +1,63 @@
+{
+    "specs" : [
+               {
+               "id" : 4,
+               "width_mm" : 35,
+               "min_bytes" : null,
+               "max_bytes" : null,
+               "width_px" : 413,
+               "paper" : {
+               "width_px" : 1795,
+               "height_mm" : 102,
+               "slots" : [
+                          {
+                          "x" : 317,
+                          "rotation_ccw" : 0,
+                          "y" : 99
+                          },
+                          {
+                          "x" : 317,
+                          "rotation_ccw" : 0,
+                          "y" : 615
+                          },
+                          {
+                          "x" : 1111,
+                          "rotation_ccw" : 0,
+                          "y" : 99
+                          },
+                          {
+                          "x" : 1111,
+                          "rotation_ccw" : 0,
+                          "y" : 615
+                          }
+                          ],
+               "width_mm" : 152,
+               "height_px" : 1205
+               },
+               "backdrop_ids" : [
+                                 1,
+                                 2,
+                                 3,
+                                 4
+                                 ],
+               "other_requirement" : "",
+               "size_requirement" : "35×35mm",
+               "height_mm" : 35,
+               "height_px" : 413,
+               "name" : "35×35mm",
+               "ratios" : [
+                           2.4,
+                           2.2,
+                           2.0,
+                           2.2,
+                           0.5,
+                           0.7,
+                           0.57,
+                           0.69,
+                           0.05,
+                           0.25
+                           ]
+               }
+               ],
+    "category_id" : 4
+}

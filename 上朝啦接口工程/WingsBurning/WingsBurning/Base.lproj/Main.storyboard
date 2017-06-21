@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1JE-ee-OX4">
+                                <rect key="frame" x="140" y="92" width="75" height="30"/>
+                                <state key="normal" title="获取验证码"/>
+                                <connections>
+                                    <action selector="huoQuYZM:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M9O-G1-Kgn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcH-Lw-nSK">
+                                <rect key="frame" x="162" y="150" width="30" height="30"/>
+                                <state key="normal" title="注册"/>
+                                <connections>
+                                    <action selector="zhuCe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4eY-UB-IWg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YD9-0d-XYy">
+                                <rect key="frame" x="162" y="200" width="30" height="30"/>
+                                <state key="normal" title="登录"/>
+                                <connections>
+                                    <action selector="dengLu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3zO-cR-kVb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MT1-KH-76B">
+                                <rect key="frame" x="132" y="238" width="90" height="30"/>
+                                <state key="normal" title="获取公司列表"/>
+                                <connections>
+                                    <action selector="huoQuGSLBXX:" destination="BYZ-38-t0r" eventType="touchUpInside" id="92v-8u-JwP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWK-zz-GOx">
+                                <rect key="frame" x="132" y="285" width="90" height="30"/>
+                                <state key="normal" title="获取打卡信息"/>
+                                <connections>
+                                    <action selector="daKaJiLu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nll-AM-wk0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6A-Q4-LuM">
+                                <rect key="frame" x="254" y="383" width="75" height="30"/>
+                                <state key="normal" title="编号查合约"/>
+                                <connections>
+                                    <action selector="bianHaoChaHeYue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L4a-8M-cEw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljU-Vj-FYb">
+                                <rect key="frame" x="147" y="332" width="60" height="30"/>
+                                <state key="normal" title="刷新令牌"/>
+                                <connections>
+                                    <action selector="shuaXinLinPai:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bF4-hn-j9F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edp-Wf-hB5">
+                                <rect key="frame" x="132" y="420" width="90" height="30"/>
+                                <state key="normal" title="获取公司信息"/>
+                                <connections>
+                                    <action selector="huoQuGSXX:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9jR-eW-neG"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="手机号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yJs-fc-EH3">
+                                <rect key="frame" x="216" y="147" width="151" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="验证码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mYQ-KM-lrK">
+                                <rect key="frame" x="216" y="209" width="146" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KFy-K3-CFX">
+                                <rect key="frame" x="26" y="147" width="90" height="30"/>
+                                <state key="normal" title="放弃加入公司"/>
+                                <connections>
+                                    <action selector="fangQiJiaRuGongSi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Fu-Re-Pib"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cuW-2W-E3v">
+                                <rect key="frame" x="35" y="194" width="60" height="30"/>
+                                <state key="normal" title="离开公司"/>
+                                <connections>
+                                    <action selector="liKaiGongSi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A8w-Zo-7Ls"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4I-qN-m5M">
+                                <rect key="frame" x="26" y="238" width="90" height="30"/>
+                                <state key="normal" title="放弃离开公司"/>
+                                <connections>
+                                    <action selector="fangQiLiKaiGongSi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gNW-Et-QlV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RTP-pq-FeK">
+                                <rect key="frame" x="20" y="285" width="90" height="30"/>
+                                <state key="normal" title="查看合约信息"/>
+                                <connections>
+                                    <action selector="chaKanHeYue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Ts-Jq-bQX"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_logo" translatesAutoresizingMaskIntoConstraints="NO" id="bEO-EI-tr5">
+                                <rect key="frame" x="20" y="489" width="90" height="127"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHa-zL-Grp">
+                                <rect key="frame" x="252" y="285" width="75" height="30"/>
+                                <state key="normal" title="上传七牛云"/>
+                                <connections>
+                                    <action selector="shangChuanQiniu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P8R-wf-xjT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCW-Ph-2Ul">
+                                <rect key="frame" x="276" y="332" width="30" height="30"/>
+                                <state key="normal" title="打卡"/>
+                                <connections>
+                                    <action selector="daKa:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qrd-LA-KMC"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="用户名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IP2-St-0sb">
+                                <rect key="frame" x="216" y="94" width="151" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="公司" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sc2-7e-nd8">
+                                <rect key="frame" x="35" y="41" width="81" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="编号" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4V1-xA-kts">
+                                <rect key="frame" x="150" y="41" width="118" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQU-Mt-SMF">
+                                <rect key="frame" x="139" y="383" width="60" height="30"/>
+                                <state key="normal" title="雇员信息"/>
+                                <connections>
+                                    <action selector="guYuanXinXi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DY0-7b-LlJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwp-4g-6rM">
+                                <rect key="frame" x="20" y="92" width="60" height="30"/>
+                                <state key="normal" title="加入公司"/>
+                                <connections>
+                                    <action selector="jiaRuGongSi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nUf-tm-1QS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDs-At-ayt">
+                                <rect key="frame" x="37" y="383" width="90" height="30"/>
+                                <state key="normal" title="更新雇员信息"/>
+                                <connections>
+                                    <action selector="gengXinGYXX:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uZm-en-UYB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="gongsiLabel" destination="sc2-7e-nd8" id="avj-Mo-Cps"/>
+                        <outlet property="gsBianHaoLabel" destination="4V1-xA-kts" id="4K1-M0-KQQ"/>
+                        <outlet property="testImgView" destination="bEO-EI-tr5" id="7gd-ff-r8R"/>
+                        <outlet property="userName" destination="IP2-St-0sb" id="1IA-J1-U3B"/>
+                        <outlet property="userPhone" destination="yJs-fc-EH3" id="Am6-U4-98V"/>
+                        <outlet property="userYZM" destination="mYQ-KM-lrK" id="Crf-5N-a8U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="217.5" y="362.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_logo" width="90" height="90"/>
+    </resources>
+</document>

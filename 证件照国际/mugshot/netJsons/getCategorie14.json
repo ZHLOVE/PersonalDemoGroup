@@ -1,0 +1,80 @@
+{
+    "specs" : [
+               {
+               "id" : 134,
+               "width_mm" : 25,
+               "min_bytes" : 15360,
+               "max_bytes" : 40960,
+               "width_px" : 295,
+               "paper" : {
+               "width_px" : 1795,
+               "height_mm" : 102,
+               "slots" : [
+                          {
+                          "x" : 196,
+                          "rotation_ccw" : 0,
+                          "y" : 102
+                          },
+                          {
+                          "x" : 196,
+                          "rotation_ccw" : 0,
+                          "y" : 620
+                          },
+                          {
+                          "x" : 561,
+                          "rotation_ccw" : 0,
+                          "y" : 620
+                          },
+                          {
+                          "x" : 561,
+                          "rotation_ccw" : 0,
+                          "y" : 102
+                          },
+                          {
+                          "x" : 925,
+                          "rotation_ccw" : 0,
+                          "y" : 102
+                          },
+                          {
+                          "x" : 925,
+                          "rotation_ccw" : 0,
+                          "y" : 620
+                          },
+                          {
+                          "x" : 1282,
+                          "rotation_ccw" : 0,
+                          "y" : 102
+                          },
+                          {
+                          "x" : 1282,
+                          "rotation_ccw" : 0,
+                          "y" : 620
+                          }
+                          ],
+               "width_mm" : 152,
+               "height_px" : 1205
+               },
+               "backdrop_ids" : [
+                                 2
+                                 ],
+               "other_requirement" : "头部占照片尺寸的2\/3",
+               "size_requirement" : "25×35mm",
+               "height_mm" : 35,
+               "height_px" : 413,
+               "name" : "全国医用设备使用人员业务能力考评",
+               "ratios" : [
+                           2.49,
+                           1.64,
+                           2.1,
+                           1.64,
+                           0.5,
+                           0.7,
+                           0.5,
+                           0.72,
+                           0.05,
+                           0.25
+                           ]
+               }
+               ],
+    "category_id" : 14
+}

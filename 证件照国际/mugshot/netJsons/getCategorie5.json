@@ -1,0 +1,60 @@
+{
+    "specs" : [
+               {
+               "id" : 3,
+               "width_mm" : 30,
+               "min_bytes" : null,
+               "max_bytes" : null,
+               "width_px" : 358,
+               "paper" : {
+               "width_px" : 1795,
+               "height_mm" : 102,
+               "slots" : [
+                          {
+                          "x" : 261,
+                          "rotation_ccw" : 90,
+                          "y" : 117
+                          },
+                          {
+                          "x" : 261,
+                          "rotation_ccw" : 90,
+                          "y" : 597
+                          },
+                          {
+                          "x" : 985,
+                          "rotation_ccw" : 90,
+                          "y" : 117
+                          },
+                          {
+                          "x" : 985,
+                          "rotation_ccw" : 90,
+                          "y" : 597
+                          }
+                          ],
+               "width_mm" : 152,
+               "height_px" : 1205
+               },
+               "backdrop_ids" : [
+                                 2
+                                 ],
+               "other_requirement" : "",
+               "size_requirement" : "30×40mm",
+               "height_mm" : 40,
+               "height_px" : 472,
+               "name" : "30×40mm",
+               "ratios" : [
+                           2.41,
+                           1.7,
+                           2.12,
+                           1.7,
+                           0.5,
+                           0.7,
+                           0.5,
+                           0.72,
+                           0.05,
+                           0.25
+                           ]
+               }
+               ],
+    "category_id" : 5
+}

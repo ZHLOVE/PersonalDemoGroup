@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'WingsBurning' do
+    pod 'AFNetworking', '~> 3.1.0'
+    pod 'MJExtension', '~> 3.0.10'
+    pod 'HappyDNS', '~> 0.3.5'
+    pod 'MMDrawerController', '~> 0.6.0'
+    pod 'Masonry', '~> 1.0.1'
+
+end
+
+

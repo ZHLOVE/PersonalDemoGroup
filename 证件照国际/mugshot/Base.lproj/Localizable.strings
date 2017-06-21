@@ -1,0 +1,62 @@
+/* 
+  Localizable.strings
+  mugshot
+
+  Created by 沈阳 on 15/10/20.
+  Copyright © 2015年 junyu. All rights reserved.
+*/
+"Feedback" = "Feedback";
+"Settings" = "Settings";
+"Tips" = "Tips";
+"Raiders" = "Guide";
+"Recommend to Friends" = "Recommend";
+"Rate Instant ID Photo" = "Rate";
+"About" = "About";
+"Intro" = "Features";
+"Not enough? Tell me." = "Not enough? Tell me.";
+"Ask someone else to help you take pictures." = "Ask someone else to help you take pictures.";
+"Make sure there is enough light." = "Make sure there is enough light.";
+"Keep yourself in clear contrast to the background." = "Keep yourself in clear contrast to the background.";
+"Keep your head straight." = "Keep your head straight.";
+"It's better to use the back facing camera." = "It's better to use the back facing camera.";
+"We recommend you to use the back facing camera." = "We recommend you to use the back facing camera.";
+"Evaluating your shooting environment" = "Evaluating your shooting environment";
+"No face detected" = "No face detected";
+"Multiple faces detected, only one please." = "Multiple faces detected, only one please.";
+"Your face is too close.Please try again." = "Your face is too close.Please try again.";
+"Permission required" = "Permission required";
+"Saving to album not permitted by system settings." = "Saving to album not permitted by system settings.";
+"OK" = "OK";
+"Error" = "Error";
+"Failed taking photo" = "Failed taking photo.";
+"Not bad, but it may be better to try again" = "Not bad, but it may be better to try again.";
+"Not qualified, please try again" = "Not qualified, please try again.";
+"Processing" = "Processing";
+"Pen size" = "Pen Size";
+"Erase" = "Erase";
+"Paint" = "Paint";
+"Cancel" = "Cancel";
+"Original" = "Original";
+"Compare" = "Compare";
+"Retake" = "Retake";
+"Already saved." = "Already saved!";
+"It looks like your privacy settings are preventing us from accessing your camera. You can fix this by going to the Settings app, touch Privacy, and turn camera on." = "It looks like your privacy settings are preventing us from accessing your camera. You can fix this by going to the Settings app, touch Privacy, and turn camera on.";
+"Check my photos." = "Check My ID Photo.";
+"http://www.camcap.us/m/guide_global/"="http://www.camcap.us/m/guide_global/";
+"http://www.camcap.us/en/"="Instant ID Photo:smart background replacement, natural face beautification, full support of photo types. Find it at   http://www.camcap.us/en/";
+"Loading..." = "Loading...";
+"pages"="pages";
+"get-started-0"="get-started-0";
+"Balanced Lighting"="Balanced Lighting";
+"Sufficient Lighting"="Sufficient Lighting";
+"Prominent Clothing"="Prominent Clothing";
+"Head-shoulder being vertical"="Head-shoulder being vertical";
+"Close"="Close";
+"Network unavailable!"="Network unavailable!";
+"Loading failed, please try again"="Loading failed, please try again";
+"Network unavailable, please try again!"="Network unavailable, please try again!";
+"seperate"=", ";
+"Saved"="Saved";
+"Please share the photo after saving to the album"="Please share the photo after saving to the album";
+"Confirm to go back?"="Your changes will be lost if you don't save them. Are you sure to go back?";
+"Don't Save"="Don't Save";

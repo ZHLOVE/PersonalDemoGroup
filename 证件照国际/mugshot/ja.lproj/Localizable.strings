@@ -1,0 +1,62 @@
+/* 
+  Localizable.strings
+  mugshot
+
+  Created by 沈阳 on 15/10/20.
+  Copyright © 2015年 junyu. All rights reserved.
+*/
+"Feedback" = "フィードバック";
+"Settings" = "設定";
+"Tips" = "ヒント";
+"Raiders" = "攻略";
+"Recommend to Friends" = "お友達へ紹介";
+"Rate Instant ID Photo" = "評価";
+"About" = "このアプリについて";
+"Intro" = "ソフト紹介";
+"Not enough? Tell me." = "種類が少ないと感じた場合、我々にご連絡ください";
+"Ask someone else to help you take pictures." = "他の人から撮影協力してもらいましょう";
+"Make sure there is enough light." = "明るい場所で撮影しましょう";
+"Keep yourself in clear contrast to the background." = "背景と同じ色の服装を避けましょう";
+"Keep your head straight." = "頭を真っ直ぐにしてください";
+"It's better to use the back facing camera." = "リアカメラ撮影した証明写真はもっと標準的";
+"We recommend you to use the back facing camera." = "リアカメラの使用をお勧めします";
+"Evaluating your shooting environment" = "撮影環境スコア";
+"No face detected" = "顔を検知されませんでした。正面顔の写真を読み込んでください";
+"Multiple faces detected, only one please." = "複数顔を検知しました。１つの正面顔が映った写真を読み込んでください";
+"Your face is too close.Please try again." = "顔がカメラに近すぎるため、もう一度撮影してください";
+"Permission required" = "アクセス権が必要です";
+"Saving to album not permitted by system settings." = "アルバムに写真を保存する権利ません、システムのプライバシーを開いてください";
+"OK" = "完成";
+"Error" = "エラー";
+"Failed taking photo" = "アクセス権が必要です";
+"Not bad, but it may be better to try again" = "よりよくするためにもう一度取りましょう";
+"Not qualified, please try again" = "不合格、写真を撮り直してください";
+"Processing" = "画像処理しています";
+"Pen size" = "筆サイズ";
+"Erase" = "削除";
+"Paint" = "戻る";
+"Cancel" = "キャンセル";
+"Original" = "元";
+"Compare" = "対比";
+"Retake" = "撮影撮り直す";
+"Already saved." = "保存されました!";
+"It looks like your privacy settings are preventing us from accessing your camera. You can fix this by going to the Settings app, touch Privacy, and turn camera on." = "カメラは許可を取得していません。「設定」に対応するアクセス権を開きます";
+"Check my photos." = "私の証明写真を見ます";
+"http://www.camcap.us/m/guide_global/"="http://www.camcap.us/m/guide_global/";
+"http://www.camcap.us/en/"="便利で強力なアプリをお勧めします-Instant ID Photo: 自動的に背景を置き換える、自然に顔を美しく、任意の証明写真サイズをサポート。http://www.camcap.us/jp/ でそれをダウンロードします";
+"Loading..." = "ページダウンロード中、少しお待ちください";
+"pages"="pages_jap";
+"get-started-0"="japan-0";
+"Balanced Lighting"="照度十分";
+"Sufficient Lighting"="照度均一";
+"Prominent Clothing"="服装強調";
+"Head-shoulder being vertical"="頭を真っ直ぐにしてください";
+"Close"="閉じる";
+"Network unavailable!"="ネットワークが繋がりません";
+"Loading failed, please try again"="データのダウロード失敗しました、もう一度お試しください";
+"Network unavailable, please try again!"="ネットワークが接続されていないため、後程再度お試しください";
+"seperate"="、";
+"Saved"="保存されました";
+"Please share the photo after saving to the album"="アルバムに保存した後に写真を共有してください";
+"Confirm to go back?"="先ほど写真の編集操作は未保存ですが、戻りますか";
+"Don't Save"="保存へ";

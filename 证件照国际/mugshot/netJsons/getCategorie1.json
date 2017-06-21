@@ -1,0 +1,63 @@
+{
+    "specs" : [
+               {
+               "id" : 1,
+               "width_mm" : 35,
+               "min_bytes" : null,
+               "max_bytes" : null,
+               "width_px" : 413,
+               "paper" : {
+               "width_px" : 1795,
+               "height_mm" : 102,
+               "slots" : [
+                          {
+                          "x" : 261,
+                          "rotation_ccw" : 90,
+                          "y" : 117
+                          },
+                          {
+                          "x" : 261,
+                          "rotation_ccw" : 90,
+                          "y" : 597
+                          },
+                          {
+                          "x" : 985,
+                          "rotation_ccw" : 90,
+                          "y" : 117
+                          },
+                          {
+                          "x" : 985,
+                          "rotation_ccw" : 90,
+                          "y" : 597
+                          }
+                          ],
+               "width_mm" : 152,
+               "height_px" : 1205
+               },
+               "backdrop_ids" : [
+                                 1,
+                                 2,
+                                 3,
+                                 4
+                                 ],
+               "other_requirement" : "",
+               "size_requirement" : "35×45mm",
+               "height_mm" : 45,
+               "height_px" : 521,
+               "name" : "35×45mm",
+               "ratios" : [
+                           2.46,
+                           1.72,
+                           1.96,
+                           1.72,
+                           0.5,
+                           0.7,
+                           0.5,
+                           0.72,
+                           0.05,
+                           0.25
+                           ]
+               }
+               ],
+    "category_id" : 1
+}
