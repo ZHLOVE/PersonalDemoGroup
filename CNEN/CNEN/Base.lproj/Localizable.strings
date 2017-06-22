@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  CNEN
+
+  Created by MBP on 2017/6/13.
+  Copyright © 2017年 leqi. All rights reserved.
+*/
+
+
+"key1" = "标签一";
+"key2" = "标签二";
+"key3" = "标签三";
+"imgKey1" = "coca_cola_cn";
