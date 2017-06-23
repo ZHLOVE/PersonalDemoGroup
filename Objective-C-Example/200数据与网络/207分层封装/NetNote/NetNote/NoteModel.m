@@ -1,0 +1,28 @@
+//
+//  NoteModel.m
+//  NetNote
+//
+//  Created by niit on 16/4/5.
+//  Copyright © 2016年 NIIT. All rights reserved.
+//
+
+#import "NoteModel.h"
+
+@implementation NoteModel
+
+- (instancetype)initWithDict:(NSDictionary *)dict
+{
+    self = [super init];
+    if (self) {
+        [self setValuesForKeysWithDictionary:dict];
+    }
+    return self;
+}
+
++(instancetype)noteWithDict:(NSDictionary *)dict
+{
+    return [[self alloc] initWithDict:dict];
+}
+
+
+@end

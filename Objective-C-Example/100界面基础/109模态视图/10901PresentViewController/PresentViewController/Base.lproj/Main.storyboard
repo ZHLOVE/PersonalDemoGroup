@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View ControllerA-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewControllerA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Tl-Lu-QGi">
+                                <rect key="frame" x="128" y="302" width="40" height="30"/>
+                                <animations/>
+                                <state key="normal" title="弹出B"/>
+                                <connections>
+                                    <segue destination="FHY-9U-u1E" kind="presentation" identifier="popB" modalTransitionStyle="flipHorizontal" id="Xs4-5P-twu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGt-bl-fyp">
+                                <rect key="frame" x="128" y="354" width="41" height="30"/>
+                                <animations/>
+                                <state key="normal" title="弹出C"/>
+                                <connections>
+                                    <action selector="popCBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0kM-3d-dEe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPl-NX-1dM">
+                                <rect key="frame" x="127" y="401" width="41" height="30"/>
+                                <animations/>
+                                <state key="normal" title="弹出D"/>
+                                <connections>
+                                    <action selector="popDBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y0h-Px-3OP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xau-RZ-vGA">
+                                <rect key="frame" x="130" y="453" width="39" height="30"/>
+                                <animations/>
+                                <state key="normal" title="弹出E"/>
+                                <connections>
+                                    <action selector="popEBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Gd-Dx-v4U"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OHD-fD-K98">
+                                <rect key="frame" x="28" y="199" width="264" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQW-6q-Cex">
+                                <rect key="frame" x="7" y="15" width="282" height="203"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="numTextField" destination="OHD-fD-K98" id="V1q-oT-Awe"/>
+                        <segue destination="5qE-nS-gkr" kind="presentation" identifier="popC" id="8c7-mi-JMg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="311" y="467"/>
+        </scene>
+        <!--View ControllerB-->
+        <scene sceneID="Wba-8k-RRK">
+            <objects>
+                <viewController id="FHY-9U-u1E" customClass="ViewControllerB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5zt-nQ-bDQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="PYP-Gl-HY0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OuU-0W-AS8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBP-4A-YlM">
+                                <rect key="frame" x="133" y="328" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="取消"/>
+                                <connections>
+                                    <action selector="cancelBtnPressed:" destination="FHY-9U-u1E" eventType="touchUpInside" id="OFK-St-1tb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyY-55-JM2">
+                                <rect key="frame" x="7" y="97" width="282" height="203"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nS-Vw-WRg">
+                                <rect key="frame" x="58" y="279" width="215" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="resultLabel" destination="8nS-Vw-WRg" id="ZGh-XO-Jwa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eLj-xo-5Gl" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="863" y="461"/>
+        </scene>
+        <!--View ControllerC-->
+        <scene sceneID="51I-ob-Qup">
+            <objects>
+                <viewController id="5qE-nS-gkr" customClass="ViewControllerC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ouc-R9-p0P"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mv8-jq-nV9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GSq-Pl-Iab">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucJ-Zd-Ic4">
+                                <rect key="frame" x="7" y="97" width="282" height="203"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="riB-Hs-Pnk">
+                                <rect key="frame" x="133" y="302" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="取消"/>
+                                <connections>
+                                    <action selector="cancelBtnPressed:" destination="5qE-nS-gkr" eventType="touchUpInside" id="f7l-w2-wAm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.97711771726608276" green="0.99943119287490845" blue="0.0060032522305846214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ct-Z0-l7u" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="824" y="1263"/>
+        </scene>
+        <!--View ControllerD-->
+        <scene sceneID="afy-Kl-MN0">
+            <objects>
+                <viewController storyboardIdentifier="vcD" id="DSR-o5-0r5" customClass="ViewControllerD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WjV-9z-QD2"/>
+                        <viewControllerLayoutGuide type="bottom" id="zfU-ud-xHa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hal-CD-HlB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCN-aD-ICk">
+                                <rect key="frame" x="20" y="91" width="282" height="203"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5N-Sy-wdk">
+                                <rect key="frame" x="139" y="302" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="取消"/>
+                                <connections>
+                                    <action selector="cancelBtnPressed:" destination="DSR-o5-0r5" eventType="touchUpInside" id="NLE-W7-IQv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.18534091114997864" green="0.12508118152618408" blue="0.98257690668106079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KWE-KA-nYu" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="393" y="1263"/>
+        </scene>
+    </scenes>
+</document>

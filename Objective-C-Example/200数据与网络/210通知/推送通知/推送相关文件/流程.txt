@@ -1,0 +1,22 @@
+1 应用
+appId:com.niit.pushdemo2 支持APNS
+创建设备描述文件 下载 安装一下
+
+2 为该appId创建服务器推送证书 
+
+a. 进入AppId编辑设置该appId的服务器证书
+b. 用钥匙串创建CertificateSigningRequest -> (CertificateSigningRequest.certSigningRequest文件)
+c. 上传，后得到 aps_development.cer，下载  ->( aps_development.cer 文件)
+d. 双击cer导入钥匙串
+e. 钥匙串导出为p12证书 App Development apns ce***  -> (aps_development.p12文件)
+f. 钥匙串中再删除该证书
+
+3 极光创建一个项目
+a 设置Bundle ID为appId  com.niit.pushdemo2
+b 设置证书 上传刚才创建的p21证书     -> 上传 aps_development.p12
+c 记录一下 AppKey
+
+4 下载极光的demo,修改一下设置
+a 设置Appid、开发证书及设备描述文件得设置一下
+c 在appDelegate中代码里设置一下AppKey
+d 真机运行，极光网页上发送消息 

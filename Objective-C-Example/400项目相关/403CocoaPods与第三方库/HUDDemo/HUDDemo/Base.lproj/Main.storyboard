@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27p-AK-q0Y">
+                                <rect key="frame" x="30" y="27" width="124" height="30"/>
+                                <state key="normal" title="用法一"/>
+                                <connections>
+                                    <action selector="btn1Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7LV-ry-lWe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xVP-Iu-hG7">
+                                <rect key="frame" x="30" y="65" width="124" height="30"/>
+                                <state key="normal" title="用法二"/>
+                                <connections>
+                                    <action selector="btn2Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2mh-nR-mCy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJM-kY-U6Z">
+                                <rect key="frame" x="30" y="102" width="124" height="30"/>
+                                <state key="normal" title="自定义视图"/>
+                                <connections>
+                                    <action selector="btn3Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xrP-iU-l4h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iqj-nn-ZX1">
+                                <rect key="frame" x="30" y="140" width="124" height="30"/>
+                                <state key="normal" title="纯文字"/>
+                                <connections>
+                                    <action selector="btn4Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="blb-HZ-zM2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q8O-ic-oT5">
+                                <rect key="frame" x="30" y="231" width="124" height="30"/>
+                                <state key="normal" title="显示1"/>
+                                <connections>
+                                    <action selector="btn5Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gNH-nX-T2U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6N-ho-mQB">
+                                <rect key="frame" x="66" y="269" width="39" height="30"/>
+                                <state key="normal" title="显示2"/>
+                                <connections>
+                                    <action selector="btn6Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GhK-Ns-u6B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2j-GD-duR">
+                                <rect key="frame" x="28" y="0.0" width="116" height="30"/>
+                                <state key="normal" title="MBProgressHUD"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vO-H2-A5D">
+                                <rect key="frame" x="30" y="194" width="113" height="30"/>
+                                <state key="normal" title="SVProgressHUD"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cM9-sn-FWU">
+                                <rect key="frame" x="24" y="301" width="124" height="30"/>
+                                <state key="normal" title="显示3"/>
+                                <connections>
+                                    <action selector="btn5Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XRJ-Vf-Llg"/>
+                                    <action selector="btn7Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YdZ-cM-jTO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wpf-p3-PBB">
+                                <rect key="frame" x="185" y="268" width="124" height="30"/>
+                                <state key="normal" title="隐藏"/>
+                                <connections>
+                                    <action selector="btn5Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vIv-4A-Tp5"/>
+                                    <action selector="btn8Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n7V-RF-ODP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2P-hh-tt1">
+                                <rect key="frame" x="30" y="352" width="124" height="30"/>
+                                <state key="normal" title="综合"/>
+                                <connections>
+                                    <action selector="btn5Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kFE-bH-4WN"/>
+                                    <action selector="btn9Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sXA-Rv-JIa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="541" y="479"/>
+        </scene>
+    </scenes>
+</document>

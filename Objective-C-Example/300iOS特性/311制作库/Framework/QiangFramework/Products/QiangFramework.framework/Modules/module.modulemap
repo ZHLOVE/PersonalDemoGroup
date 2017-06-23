@@ -1,0 +1,6 @@
+framework module QiangFramework {
+  umbrella header "QiangFramework.h"
+
+  export *
+  module * { export * }
+}

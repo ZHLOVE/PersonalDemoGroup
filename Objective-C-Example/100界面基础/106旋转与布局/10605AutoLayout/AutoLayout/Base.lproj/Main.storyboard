@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="geF-aV-tyP"/>
+                        <viewControllerLayoutGuide type="bottom" id="tll-jb-PhT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zn3-mP-aaF">
+                                <rect key="frame" x="20" y="304" width="280" height="244"/>
+                                <color key="backgroundColor" red="0.2014024555683136" green="0.23680713772773743" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vvj-UG-ehu">
+                                <rect key="frame" x="170" y="40" width="130" height="244"/>
+                                <color key="backgroundColor" red="0.98214834928512573" green="0.95338910818099976" blue="0.011491120792925358" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFc-Cm-muS">
+                                <rect key="frame" x="20" y="40" width="130" height="244"/>
+                                <color key="backgroundColor" red="0.32601261138916016" green="0.88410753011703491" blue="0.038974981755018234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vvj-UG-ehu" firstAttribute="height" secondItem="LFc-Cm-muS" secondAttribute="height" id="7Bi-aW-cUm"/>
+                            <constraint firstItem="LFc-Cm-muS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="7oR-E8-Njx"/>
+                            <constraint firstItem="Vvj-UG-ehu" firstAttribute="leading" secondItem="LFc-Cm-muS" secondAttribute="trailing" constant="20" id="9UH-kD-p4B"/>
+                            <constraint firstAttribute="trailing" secondItem="Vvj-UG-ehu" secondAttribute="trailing" constant="20" id="FB7-Gv-7eb"/>
+                            <constraint firstItem="tll-jb-PhT" firstAttribute="top" secondItem="zn3-mP-aaF" secondAttribute="bottom" constant="20" id="KLO-Yo-1Sd"/>
+                            <constraint firstItem="Vvj-UG-ehu" firstAttribute="width" secondItem="LFc-Cm-muS" secondAttribute="width" id="N3n-1Z-0Vq"/>
+                            <constraint firstItem="zn3-mP-aaF" firstAttribute="height" secondItem="LFc-Cm-muS" secondAttribute="height" id="WT6-Z7-5Lw"/>
+                            <constraint firstItem="LFc-Cm-muS" firstAttribute="top" secondItem="geF-aV-tyP" secondAttribute="bottom" constant="20" id="Z7u-pD-rHR"/>
+                            <constraint firstAttribute="trailing" secondItem="zn3-mP-aaF" secondAttribute="trailing" constant="20" id="eJS-WM-Bxj"/>
+                            <constraint firstItem="zn3-mP-aaF" firstAttribute="top" secondItem="LFc-Cm-muS" secondAttribute="bottom" constant="20" id="h0e-lb-hQd"/>
+                            <constraint firstItem="zn3-mP-aaF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="r7q-h2-SqU"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="406"/>
+        </scene>
+    </scenes>
+</document>

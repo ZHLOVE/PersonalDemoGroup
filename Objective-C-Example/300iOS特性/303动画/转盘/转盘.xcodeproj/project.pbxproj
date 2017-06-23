@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F74376991C9F5AA6007F535D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F74376981C9F5AA6007F535D /* main.m */; };
+		F743769C1C9F5AA6007F535D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F743769B1C9F5AA6007F535D /* AppDelegate.m */; };
+		F743769F1C9F5AA6007F535D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F743769E1C9F5AA6007F535D /* ViewController.m */; };
+		F74376A21C9F5AA6007F535D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74376A01C9F5AA6007F535D /* Main.storyboard */; };
+		F74376A41C9F5AA6007F535D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74376A31C9F5AA6007F535D /* Assets.xcassets */; };
+		F74376A71C9F5AA6007F535D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74376A51C9F5AA6007F535D /* LaunchScreen.storyboard */; };
+		F74376B01C9F5B36007F535D /* WheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = F74376AF1C9F5B36007F535D /* WheelView.m */; };
+		F74376B21C9F5B40007F535D /* WheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74376B11C9F5B40007F535D /* WheelView.xib */; };
+		F74376D41C9F6483007F535D /* WheelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F74376D31C9F6483007F535D /* WheelButton.m */; };
+		F74376D61C9F6CB0007F535D /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74376D51C9F6CB0007F535D /* Reveal.framework */; };
+		F74376D81C9F6CCA007F535D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F74376D71C9F6CCA007F535D /* libz.tbd */; };
+		F74376DB1C9FB8D5007F535D /* SelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F74376DA1C9FB8D5007F535D /* SelButton.m */; };
+		F74376DE1C9FB8FE007F535D /* ComFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = F74376DD1C9FB8FE007F535D /* ComFunc.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F74376941C9F5AA6007F535D /* 转盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "转盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74376981C9F5AA6007F535D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F743769A1C9F5AA6007F535D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F743769B1C9F5AA6007F535D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F743769D1C9F5AA6007F535D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F743769E1C9F5AA6007F535D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F74376A11C9F5AA6007F535D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F74376A31C9F5AA6007F535D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F74376A61C9F5AA6007F535D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F74376A81C9F5AA6007F535D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74376AE1C9F5B36007F535D /* WheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelView.h; sourceTree = "<group>"; };
+		F74376AF1C9F5B36007F535D /* WheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelView.m; sourceTree = "<group>"; };
+		F74376B11C9F5B40007F535D /* WheelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WheelView.xib; sourceTree = "<group>"; };
+		F74376D21C9F6483007F535D /* WheelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelButton.h; sourceTree = "<group>"; };
+		F74376D31C9F6483007F535D /* WheelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelButton.m; sourceTree = "<group>"; };
+		F74376D51C9F6CB0007F535D /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		F74376D71C9F6CCA007F535D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F74376D91C9FB8D5007F535D /* SelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelButton.h; sourceTree = "<group>"; };
+		F74376DA1C9FB8D5007F535D /* SelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelButton.m; sourceTree = "<group>"; };
+		F74376DC1C9FB8FE007F535D /* ComFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComFunc.h; sourceTree = "<group>"; };
+		F74376DD1C9FB8FE007F535D /* ComFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComFunc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F74376911C9F5AA5007F535D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74376D81C9F6CCA007F535D /* libz.tbd in Frameworks */,
+				F74376D61C9F6CB0007F535D /* Reveal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F743768B1C9F5AA5007F535D = {
+			isa = PBXGroup;
+			children = (
+				F74376D71C9F6CCA007F535D /* libz.tbd */,
+				F74376961C9F5AA6007F535D /* 转盘 */,
+				F74376951C9F5AA6007F535D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F74376951C9F5AA6007F535D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F74376941C9F5AA6007F535D /* 转盘.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F74376961C9F5AA6007F535D /* 转盘 */ = {
+			isa = PBXGroup;
+			children = (
+				F74376D51C9F6CB0007F535D /* Reveal.framework */,
+				F743769A1C9F5AA6007F535D /* AppDelegate.h */,
+				F743769B1C9F5AA6007F535D /* AppDelegate.m */,
+				F743769D1C9F5AA6007F535D /* ViewController.h */,
+				F743769E1C9F5AA6007F535D /* ViewController.m */,
+				F74376AE1C9F5B36007F535D /* WheelView.h */,
+				F74376AF1C9F5B36007F535D /* WheelView.m */,
+				F74376B11C9F5B40007F535D /* WheelView.xib */,
+				F74376D21C9F6483007F535D /* WheelButton.h */,
+				F74376D31C9F6483007F535D /* WheelButton.m */,
+				F74376D91C9FB8D5007F535D /* SelButton.h */,
+				F74376DA1C9FB8D5007F535D /* SelButton.m */,
+				F74376DC1C9FB8FE007F535D /* ComFunc.h */,
+				F74376DD1C9FB8FE007F535D /* ComFunc.m */,
+				F74376A01C9F5AA6007F535D /* Main.storyboard */,
+				F74376A31C9F5AA6007F535D /* Assets.xcassets */,
+				F74376A51C9F5AA6007F535D /* LaunchScreen.storyboard */,
+				F74376A81C9F5AA6007F535D /* Info.plist */,
+				F74376971C9F5AA6007F535D /* Supporting Files */,
+			);
+			path = "转盘";
+			sourceTree = "<group>";
+		};
+		F74376971C9F5AA6007F535D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F74376981C9F5AA6007F535D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F74376931C9F5AA5007F535D /* 转盘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74376AB1C9F5AA6007F535D /* Build configuration list for PBXNativeTarget "转盘" */;
+			buildPhases = (
+				F74376901C9F5AA5007F535D /* Sources */,
+				F74376911C9F5AA5007F535D /* Frameworks */,
+				F74376921C9F5AA5007F535D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "转盘";
+			productName = "转盘";
+			productReference = F74376941C9F5AA6007F535D /* 转盘.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F743768C1C9F5AA5007F535D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Qiangtech;
+				TargetAttributes = {
+					F74376931C9F5AA5007F535D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F743768F1C9F5AA5007F535D /* Build configuration list for PBXProject "转盘" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F743768B1C9F5AA5007F535D;
+			productRefGroup = F74376951C9F5AA6007F535D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F74376931C9F5AA5007F535D /* 转盘 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F74376921C9F5AA5007F535D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74376A71C9F5AA6007F535D /* LaunchScreen.storyboard in Resources */,
+				F74376A41C9F5AA6007F535D /* Assets.xcassets in Resources */,
+				F74376B21C9F5B40007F535D /* WheelView.xib in Resources */,
+				F74376A21C9F5AA6007F535D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F74376901C9F5AA5007F535D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F743769F1C9F5AA6007F535D /* ViewController.m in Sources */,
+				F74376DE1C9FB8FE007F535D /* ComFunc.m in Sources */,
+				F74376D41C9F6483007F535D /* WheelButton.m in Sources */,
+				F74376DB1C9FB8D5007F535D /* SelButton.m in Sources */,
+				F743769C1C9F5AA6007F535D /* AppDelegate.m in Sources */,
+				F74376B01C9F5B36007F535D /* WheelView.m in Sources */,
+				F74376991C9F5AA6007F535D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F74376A01C9F5AA6007F535D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74376A11C9F5AA6007F535D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F74376A51C9F5AA6007F535D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74376A61C9F5AA6007F535D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F74376A91C9F5AA6007F535D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F74376AA1C9F5AA6007F535D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F74376AC1C9F5AA6007F535D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/转盘",
+				);
+				INFOPLIST_FILE = "转盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiangtech.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F74376AD1C9F5AA6007F535D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/转盘",
+				);
+				INFOPLIST_FILE = "转盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiangtech.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F743768F1C9F5AA5007F535D /* Build configuration list for PBXProject "转盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74376A91C9F5AA6007F535D /* Debug */,
+				F74376AA1C9F5AA6007F535D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74376AB1C9F5AA6007F535D /* Build configuration list for PBXNativeTarget "转盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74376AC1C9F5AA6007F535D /* Debug */,
+				F74376AD1C9F5AA6007F535D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F743768C1C9F5AA5007F535D /* Project object */;
+}

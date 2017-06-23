@@ -1,0 +1,36 @@
+练习1
+使用百度api实现制作一个查询工具
+
+1. 查询身份证
+2. 汇率查询接口
+3. 手机号归属地
+4. 天气
+
+练习2
+到http://www.51work6.com/注册一个账号
+使用以下接口功能实现一个简单的网络记事本 
+(要求：将网络请求封装在一个类中解决,要异步不能卡主界面)
+
+// JSON格式数据
+http://www.51work6.com/service/mynotes/WebService.php?email=你的邮箱&type=JSON&action=query
+// XML格式数据
+http://www.51work6.com/service/mynotes/WebService.php?email=你的邮箱&type=XML&action=query
+
+1.查询记事列表
+http://www.51work6.com/service/mynotes/WebService.php?email=你的邮箱&type=JSON&action=query
+
+查询结果
+{"ResultCode":0,"Record":[{"ID":2713,"CDate":"2015-08-17","Content":"i"},{"ID":2455,"CDate":"2015-08-17","Content":"o o"},{"ID":2466,"CDate":"2015-08-17","Content":"m m"},{"ID":2443,"CDate":"2015-08-17","Content":"1111111"},{"ID":2447,"CDate":"2015-08-17","Content":"qwery "},{"ID":2456,"CDate":"2015-08-17","Content":"今天"},{"ID":2483,"CDate":"2015-08-17","Content":"tyy"},{"ID":2485,"CDate":"2015-08-17","Content":"ertgdd"},{"ID":2712,"CDate":"2015-08-17","Content":"ty"},{"ID":2714,"CDate":"2015-08-17","Content":"p"}]}
+
+2.添加记事
+http://www.51work6.com/service/mynotes/WebService.php?email=你的邮箱&type=JSON&action=add&content=内容&date=2015-03-25
+
+action=add&content=内容&date=2015-03-25
+添加返回
+{"ResultCode":1} 添加成功
+
+3.删除
+action=remove&id=要删除的编号
+
+http://www.51work6.com/service/mynotes/WebService.php?email=你的邮箱&type=JSON&action=remove&id=2714
+{"ResultCode":1} 删除成功

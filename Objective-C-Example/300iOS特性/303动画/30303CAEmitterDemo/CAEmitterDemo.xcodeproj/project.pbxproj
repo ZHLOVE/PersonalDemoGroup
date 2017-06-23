@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEF6E810143EB78A007978E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF6E80F143EB78A007978E9 /* UIKit.framework */; };
+		BEF6E812143EB78A007978E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF6E811143EB78A007978E9 /* Foundation.framework */; };
+		BEF6E814143EB78A007978E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF6E813143EB78A007978E9 /* CoreGraphics.framework */; };
+		BEF6E81A143EB78A007978E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEF6E818143EB78A007978E9 /* InfoPlist.strings */; };
+		BEF6E81C143EB78A007978E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF6E81B143EB78A007978E9 /* main.m */; };
+		BEF6E820143EB78A007978E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF6E81F143EB78A007978E9 /* AppDelegate.m */; };
+		BEF6E82C143EB7A6007978E9 /* CAEmitterDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF6E82B143EB7A6007978E9 /* CAEmitterDemoViewController.m */; };
+		BEF6E830143EB7B7007978E9 /* FireworksView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF6E82F143EB7B7007978E9 /* FireworksView.m */; };
+		BEF6E832143EB9B2007978E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF6E831143EB9B2007978E9 /* QuartzCore.framework */; };
+		BEF6E839143EBAB3007978E9 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF6E837143EBAB3007978E9 /* fire.png */; };
+		BEF6E83A143EBAB3007978E9 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF6E838143EBAB3007978E9 /* smoke.png */; };
+		BEF6E840143EC033007978E9 /* tspark.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF6E83F143EC033007978E9 /* tspark.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEF6E80B143EB78A007978E9 /* CAEmitterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAEmitterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF6E80F143EB78A007978E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BEF6E811143EB78A007978E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEF6E813143EB78A007978E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BEF6E817143EB78A007978E9 /* CAEmitterDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CAEmitterDemo-Info.plist"; sourceTree = "<group>"; };
+		BEF6E819143EB78A007978E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEF6E81B143EB78A007978E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEF6E81D143EB78A007978E9 /* CAEmitterDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAEmitterDemo-Prefix.pch"; sourceTree = "<group>"; };
+		BEF6E81E143EB78A007978E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEF6E81F143EB78A007978E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEF6E82A143EB7A6007978E9 /* CAEmitterDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEmitterDemoViewController.h; sourceTree = "<group>"; };
+		BEF6E82B143EB7A6007978E9 /* CAEmitterDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEmitterDemoViewController.m; sourceTree = "<group>"; };
+		BEF6E82E143EB7B7007978E9 /* FireworksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireworksView.h; sourceTree = "<group>"; };
+		BEF6E82F143EB7B7007978E9 /* FireworksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireworksView.m; sourceTree = "<group>"; };
+		BEF6E831143EB9B2007978E9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BEF6E837143EBAB3007978E9 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		BEF6E838143EBAB3007978E9 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		BEF6E83F143EC033007978E9 /* tspark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tspark.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF6E808143EB78A007978E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF6E832143EB9B2007978E9 /* QuartzCore.framework in Frameworks */,
+				BEF6E810143EB78A007978E9 /* UIKit.framework in Frameworks */,
+				BEF6E812143EB78A007978E9 /* Foundation.framework in Frameworks */,
+				BEF6E814143EB78A007978E9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEF6E800143EB789007978E9 = {
+			isa = PBXGroup;
+			children = (
+				BEF6E815143EB78A007978E9 /* CAEmitterDemo */,
+				BEF6E80E143EB78A007978E9 /* Frameworks */,
+				BEF6E80C143EB78A007978E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF6E80C143EB78A007978E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF6E80B143EB78A007978E9 /* CAEmitterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF6E80E143EB78A007978E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEF6E831143EB9B2007978E9 /* QuartzCore.framework */,
+				BEF6E80F143EB78A007978E9 /* UIKit.framework */,
+				BEF6E811143EB78A007978E9 /* Foundation.framework */,
+				BEF6E813143EB78A007978E9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEF6E815143EB78A007978E9 /* CAEmitterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BEF6E81E143EB78A007978E9 /* AppDelegate.h */,
+				BEF6E81F143EB78A007978E9 /* AppDelegate.m */,
+				BEF6E82A143EB7A6007978E9 /* CAEmitterDemoViewController.h */,
+				BEF6E82B143EB7A6007978E9 /* CAEmitterDemoViewController.m */,
+				BEF6E82E143EB7B7007978E9 /* FireworksView.h */,
+				BEF6E82F143EB7B7007978E9 /* FireworksView.m */,
+				BEF6E816143EB78A007978E9 /* Supporting Files */,
+			);
+			path = CAEmitterDemo;
+			sourceTree = "<group>";
+		};
+		BEF6E816143EB78A007978E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEF6E83F143EC033007978E9 /* tspark.png */,
+				BEF6E837143EBAB3007978E9 /* fire.png */,
+				BEF6E838143EBAB3007978E9 /* smoke.png */,
+				BEF6E817143EB78A007978E9 /* CAEmitterDemo-Info.plist */,
+				BEF6E818143EB78A007978E9 /* InfoPlist.strings */,
+				BEF6E81B143EB78A007978E9 /* main.m */,
+				BEF6E81D143EB78A007978E9 /* CAEmitterDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF6E80A143EB78A007978E9 /* CAEmitterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF6E823143EB78A007978E9 /* Build configuration list for PBXNativeTarget "CAEmitterDemo" */;
+			buildPhases = (
+				BEF6E807143EB78A007978E9 /* Sources */,
+				BEF6E808143EB78A007978E9 /* Frameworks */,
+				BEF6E809143EB78A007978E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAEmitterDemo;
+			productName = CAEmitterDemo;
+			productReference = BEF6E80B143EB78A007978E9 /* CAEmitterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF6E802143EB789007978E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = anythingsimple.com;
+			};
+			buildConfigurationList = BEF6E805143EB789007978E9 /* Build configuration list for PBXProject "CAEmitterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BEF6E800143EB789007978E9;
+			productRefGroup = BEF6E80C143EB78A007978E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF6E80A143EB78A007978E9 /* CAEmitterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF6E809143EB78A007978E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF6E81A143EB78A007978E9 /* InfoPlist.strings in Resources */,
+				BEF6E839143EBAB3007978E9 /* fire.png in Resources */,
+				BEF6E83A143EBAB3007978E9 /* smoke.png in Resources */,
+				BEF6E840143EC033007978E9 /* tspark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF6E807143EB78A007978E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF6E81C143EB78A007978E9 /* main.m in Sources */,
+				BEF6E820143EB78A007978E9 /* AppDelegate.m in Sources */,
+				BEF6E82C143EB7A6007978E9 /* CAEmitterDemoViewController.m in Sources */,
+				BEF6E830143EB7B7007978E9 /* FireworksView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEF6E818143EB78A007978E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF6E819143EB78A007978E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEF6E821143EB78A007978E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEF6E822143EB78A007978E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF6E824143EB78A007978E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAEmitterDemo/CAEmitterDemo-Prefix.pch";
+				INFOPLIST_FILE = "CAEmitterDemo/CAEmitterDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEF6E825143EB78A007978E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAEmitterDemo/CAEmitterDemo-Prefix.pch";
+				INFOPLIST_FILE = "CAEmitterDemo/CAEmitterDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF6E805143EB789007978E9 /* Build configuration list for PBXProject "CAEmitterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF6E821143EB78A007978E9 /* Debug */,
+				BEF6E822143EB78A007978E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF6E823143EB78A007978E9 /* Build configuration list for PBXNativeTarget "CAEmitterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF6E824143EB78A007978E9 /* Debug */,
+				BEF6E825143EB78A007978E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEF6E802143EB789007978E9 /* Project object */;
+}
