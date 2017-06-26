@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10FBD5C61D405F12009CF78C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FBD5C51D405F12009CF78C /* main.m */; };
+		10FBD5C91D405F12009CF78C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FBD5C81D405F12009CF78C /* AppDelegate.m */; };
+		10FBD5D11D405F12009CF78C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10FBD5D01D405F12009CF78C /* Assets.xcassets */; };
+		10FBD5D41D405F12009CF78C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10FBD5D21D405F12009CF78C /* LaunchScreen.storyboard */; };
+		10FBD5DC1D405FE5009CF78C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 10FBD5DB1D405FE5009CF78C /* Podfile */; };
+		10FBD5E21D40620F009CF78C /* TeslaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FBD5E11D40620F009CF78C /* TeslaVC.m */; };
+		10FBD5E51D406221009CF78C /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FBD5E41D406221009CF78C /* Network.m */; };
+		10FBD5EB1D407547009CF78C /* MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FBD5EA1D407547009CF78C /* MD5.m */; };
+		10FBD5EE1D40786B009CF78C /* Verify.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FBD5ED1D40786B009CF78C /* Verify.m */; };
+		878C2C66A95DC9CE42977AEC /* Pods_Tesla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B324D1C26A0DED1EC4FC5F10 /* Pods_Tesla.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10FBD5C11D405F12009CF78C /* Tesla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tesla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FBD5C51D405F12009CF78C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10FBD5C71D405F12009CF78C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10FBD5C81D405F12009CF78C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10FBD5D01D405F12009CF78C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10FBD5D31D405F12009CF78C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10FBD5D51D405F12009CF78C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10FBD5DB1D405FE5009CF78C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		10FBD5E01D40620F009CF78C /* TeslaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeslaVC.h; sourceTree = "<group>"; };
+		10FBD5E11D40620F009CF78C /* TeslaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeslaVC.m; sourceTree = "<group>"; };
+		10FBD5E31D406221009CF78C /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		10FBD5E41D406221009CF78C /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
+		10FBD5E71D40634A009CF78C /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		10FBD5E81D406358009CF78C /* default.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = default.h; sourceTree = "<group>"; };
+		10FBD5E91D407547009CF78C /* MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5.h; sourceTree = "<group>"; };
+		10FBD5EA1D407547009CF78C /* MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5.m; sourceTree = "<group>"; };
+		10FBD5EC1D40786B009CF78C /* Verify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Verify.h; sourceTree = "<group>"; };
+		10FBD5ED1D40786B009CF78C /* Verify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Verify.m; sourceTree = "<group>"; };
+		2A1B3A7E909BB84F8D2785BA /* Pods-Tesla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tesla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tesla/Pods-Tesla.debug.xcconfig"; sourceTree = "<group>"; };
+		B324D1C26A0DED1EC4FC5F10 /* Pods_Tesla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tesla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22E6CE5581A16E6479EC1D0 /* Pods-Tesla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tesla.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tesla/Pods-Tesla.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10FBD5BE1D405F12009CF78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878C2C66A95DC9CE42977AEC /* Pods_Tesla.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10FBD5B81D405F12009CF78C = {
+			isa = PBXGroup;
+			children = (
+				10FBD5DB1D405FE5009CF78C /* Podfile */,
+				10FBD5C31D405F12009CF78C /* Tesla */,
+				10FBD5C21D405F12009CF78C /* Products */,
+				4D830AEBDCDE7930AAD3B2BC /* Pods */,
+				E574E748C0550A35F1B964A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10FBD5C21D405F12009CF78C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10FBD5C11D405F12009CF78C /* Tesla.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10FBD5C31D405F12009CF78C /* Tesla */ = {
+			isa = PBXGroup;
+			children = (
+				10FBD5C71D405F12009CF78C /* AppDelegate.h */,
+				10FBD5C81D405F12009CF78C /* AppDelegate.m */,
+				10FBD5DD1D4061CF009CF78C /* Class */,
+				10FBD5C41D405F12009CF78C /* Supporting Files */,
+			);
+			path = Tesla;
+			sourceTree = "<group>";
+		};
+		10FBD5C41D405F12009CF78C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10FBD5D51D405F12009CF78C /* Info.plist */,
+				10FBD5D01D405F12009CF78C /* Assets.xcassets */,
+				10FBD5D21D405F12009CF78C /* LaunchScreen.storyboard */,
+				10FBD5C51D405F12009CF78C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10FBD5DD1D4061CF009CF78C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				10FBD5E61D406315009CF78C /* Tools */,
+				10FBD5DF1D4061FB009CF78C /* ViewController */,
+				10FBD5DE1D4061E6009CF78C /* Network */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		10FBD5DE1D4061E6009CF78C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				10FBD5E31D406221009CF78C /* Network.h */,
+				10FBD5E41D406221009CF78C /* Network.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		10FBD5DF1D4061FB009CF78C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				10FBD5E01D40620F009CF78C /* TeslaVC.h */,
+				10FBD5E11D40620F009CF78C /* TeslaVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		10FBD5E61D406315009CF78C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				10FBD5E81D406358009CF78C /* default.h */,
+				10FBD5E71D40634A009CF78C /* Singleton.h */,
+				10FBD5E91D407547009CF78C /* MD5.h */,
+				10FBD5EA1D407547009CF78C /* MD5.m */,
+				10FBD5EC1D40786B009CF78C /* Verify.h */,
+				10FBD5ED1D40786B009CF78C /* Verify.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		4D830AEBDCDE7930AAD3B2BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A1B3A7E909BB84F8D2785BA /* Pods-Tesla.debug.xcconfig */,
+				C22E6CE5581A16E6479EC1D0 /* Pods-Tesla.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E574E748C0550A35F1B964A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B324D1C26A0DED1EC4FC5F10 /* Pods_Tesla.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10FBD5C01D405F12009CF78C /* Tesla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10FBD5D81D405F12009CF78C /* Build configuration list for PBXNativeTarget "Tesla" */;
+			buildPhases = (
+				29213700BD36A550E099F7AC /* [CP] Check Pods Manifest.lock */,
+				10FBD5BD1D405F12009CF78C /* Sources */,
+				10FBD5BE1D405F12009CF78C /* Frameworks */,
+				10FBD5BF1D405F12009CF78C /* Resources */,
+				5375D00F32F35C2599021B27 /* [CP] Embed Pods Frameworks */,
+				35D15BB42AFE367071D99A1D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tesla;
+			productName = Tesla;
+			productReference = 10FBD5C11D405F12009CF78C /* Tesla.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10FBD5B91D405F12009CF78C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = leqi;
+				TargetAttributes = {
+					10FBD5C01D405F12009CF78C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S2M9W9G946;
+					};
+				};
+			};
+			buildConfigurationList = 10FBD5BC1D405F12009CF78C /* Build configuration list for PBXProject "Tesla" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10FBD5B81D405F12009CF78C;
+			productRefGroup = 10FBD5C21D405F12009CF78C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10FBD5C01D405F12009CF78C /* Tesla */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10FBD5BF1D405F12009CF78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FBD5D41D405F12009CF78C /* LaunchScreen.storyboard in Resources */,
+				10FBD5D11D405F12009CF78C /* Assets.xcassets in Resources */,
+				10FBD5DC1D405FE5009CF78C /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29213700BD36A550E099F7AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		35D15BB42AFE367071D99A1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tesla/Pods-Tesla-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5375D00F32F35C2599021B27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tesla/Pods-Tesla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10FBD5BD1D405F12009CF78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FBD5E21D40620F009CF78C /* TeslaVC.m in Sources */,
+				10FBD5C91D405F12009CF78C /* AppDelegate.m in Sources */,
+				10FBD5EB1D407547009CF78C /* MD5.m in Sources */,
+				10FBD5E51D406221009CF78C /* Network.m in Sources */,
+				10FBD5EE1D40786B009CF78C /* Verify.m in Sources */,
+				10FBD5C61D405F12009CF78C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10FBD5D21D405F12009CF78C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10FBD5D31D405F12009CF78C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10FBD5D61D405F12009CF78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10FBD5D71D405F12009CF78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10FBD5D91D405F12009CF78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1B3A7E909BB84F8D2785BA /* Pods-Tesla.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S2M9W9G946;
+				INFOPLIST_FILE = Tesla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.leqi.Tesla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10FBD5DA1D405F12009CF78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C22E6CE5581A16E6479EC1D0 /* Pods-Tesla.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S2M9W9G946;
+				INFOPLIST_FILE = Tesla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.leqi.Tesla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10FBD5BC1D405F12009CF78C /* Build configuration list for PBXProject "Tesla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FBD5D61D405F12009CF78C /* Debug */,
+				10FBD5D71D405F12009CF78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10FBD5D81D405F12009CF78C /* Build configuration list for PBXNativeTarget "Tesla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FBD5D91D405F12009CF78C /* Debug */,
+				10FBD5DA1D405F12009CF78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10FBD5B91D405F12009CF78C /* Project object */;
+}
