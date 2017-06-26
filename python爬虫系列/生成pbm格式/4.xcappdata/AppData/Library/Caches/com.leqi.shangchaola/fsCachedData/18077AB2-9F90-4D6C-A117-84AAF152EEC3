@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no" id="viewport" name="viewport">
+    <title>上朝啦(移动端)</title>
+    <link href="theme/all-i6.css" type="text/css" rel="stylesheet" media="screen and (min-width:375px)">
+    <link href="theme/all-i5.css" type="text/css" rel="stylesheet" media="screen and (max-width:374px) and (min-width:320px)">
+    <script src="js/all.js" language="JavaScript"></script>
+</head>
+<body>
+    <div class="page">
+        <div class="p_area">
+            <div class="p1_bg">
+                <img src="img/banner.png">
+            </div>
+            <div class="p1_ico">
+                <img src="img/icon.png">
+            </div>
+            <div class="main_area">
+                <div class="txt_title"><span>上朝啦</span>城市合伙人</div>
+                <div class="txt_title sub">大有可为 大有作为</div>
+                <div class="line">
+                </div>
+                <div class="txt_content">
+                    平均部署50家企业，每年稳定收入超过10万
+                </div>
+            </div>
+            <div class="p_area">
+                <div class="p_title"><span class="p_line"></span><span>JOIN US</span><span class="p_line"></span></div>
+                <div class="p_title_sub">为什么加入我们 </div>
+                <div class="p_content">上朝啦为城市合伙人提供品牌支持,运营管理,代理商IT系统,合作伙伴资源等方式,通过平台与本地相结合，快速占领亿万员工考勤的蓝海市场。上朝啦给予合伙人优厚的现金奖励----平均每50家200人的企业入住并使用上朝啦,城市合伙人每年可稳定收入72000元。</div>
+                <div class="ico_area">
+                  <div class="ico_area_list">
+                      <img src="img/icon01.png">
+                      <p class="ico_area_list_p">品牌支持</p>
+                  </div>
+                    <div class="ico_area_list">
+                        <img src="img/icon02.png">
+                        <p class="ico_area_list_p">运营管理</p>
+                    </div>
+                    <div class="ico_area_list">
+                        <img src="img/icon03.png">
+                        <p class="ico_area_list_p">代理商IT系统</p>
+                    </div>
+                    <div class="ico_area_list">
+                        <img src="img/icon04.png">
+                        <p class="ico_area_list_p">合作伙伴资源</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="f_line"></div>
+        <div class="p_area">
+            <div class="p_title"><span class="p_line"></span><span>OUR REQUEST</span><span class="p_line"></span></div>
+            <div class="p_title_sub">成为城市合伙人的要求 </div>
+            <div class="p_content">上朝啦与城市合伙人互利共赢,根据入驻平台企业的数量给予城市合伙人相应的报酬。但需要您满足如下条件：</div>
+            <div class="case_list">
+                <span class="order order_l1"></span>
+                <span class="s_line"></span>
+                <span class="case_content">
+                    <p>拥有基本拓展用户渠道,</p>
+                    <p>资源的能力,或拥有各类行业资源</p>
+                </span>
+            </div>
+            <div class="case_list">
+                <span class="order order_l2"></span>
+                <span class="s_line"></span>
+                <span class="case_content">
+                    <p>高度认同上朝啦的产品,</p>
+                    <p>运用策略,有良好的服务意识</p>
+                </span>
+            </div>
+            <div class="case_list">
+                <span class="order order_l3"></span>
+                <span class="s_line"></span>
+                <span class="case_content">
+                    <p>拥有一定的经济基础,</p>
+                    <p>看重长期的经济价值,人脉回报</p>
+                </span>
+            </div>
+            <div class="btn_a_list p_area">
+                <a href="https://www.shangchao.la"><span>前往官网</span></a>
+                <a href="https://form.mikecrm.com/PGbqud"><span>立即加入</span></a>
+            </div>
+        </div>
+        <div class="p_area contact">
+            <!--<div class="contactus_title p_title"><span class="con_title">CONNECT US</span></div>
+            <div class="p_title_sub contactus">联系我们</div>
+            <div class="contect_ico">
+                <ul>
+                    <a href="mqq://im/chat?chat_type=wpa&uin=2478506669&version=1&src_type=web"><li class="contect_qq"></li></a>
+                    <a href="https://mp.weixin.qq.com/s?__biz=MzI4NjUzMTk0OA==&mid=2247483699&idx=1&sn=87e97f99744474c1d0c223100c03ae48&chksm=ebdac930dcad40264e6b22dccf787410775cff506542530f4ad1bf0a366e3be54655bbc83502&mpshare=1&scene=1&srcid=1223iYXNaFz3Gtp5YQ2hDOHJ#rd"><li class="contect_wechart"></li></a>
+                    <a href="https://weibo.com/u/6086630189/home"><li class="contect_weibo"></li></a>
+                    <a href="051081819939"><li class="contect_phone"></li></a>
+                </ul>
+            </div>-->
+            <div class="c_line"></div>
+            <div class="p_area">
+                <div class="copyright">Copyright &copy; 2016 Shangchao.la.</div>
+                <div class="copyright">All right reserved. 苏ICP备14019013号-7</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
