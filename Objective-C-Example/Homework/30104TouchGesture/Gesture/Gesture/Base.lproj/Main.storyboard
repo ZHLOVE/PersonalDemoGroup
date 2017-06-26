@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower.png" translatesAutoresizingMaskIntoConstraints="NO" id="Au2-dk-mp8">
+                                <rect key="frame" x="62" y="439" width="251" height="228"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nPF-qy-3Cj" userLabel="View1">
+                                <rect key="frame" x="0.0" y="28" width="182" height="117"/>
+                                <color key="backgroundColor" red="0.36495715070000001" green="0.62528632200000001" blue="0.35641855989999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m15-uY-Rge" userLabel="View2">
+                                <rect key="frame" x="193" y="28" width="182" height="117"/>
+                                <color key="backgroundColor" red="0.75179973820000001" green="0.37385906899999999" blue="0.3849274674" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xge-kJ-c8L" userLabel="View3">
+                                <rect key="frame" x="0.0" y="153" width="182" height="117"/>
+                                <color key="backgroundColor" red="0.28435558960000001" green="0.49737628280000001" blue="0.90884734950000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4JG-Bp-wZV" userLabel="View4">
+                                <rect key="frame" x="193" y="153" width="182" height="117"/>
+                                <color key="backgroundColor" red="1" green="0.5856123097" blue="0.38171744829999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QUe-MH-h4k" userLabel="View6">
+                                <rect key="frame" x="193" y="278" width="182" height="117"/>
+                                <color key="backgroundColor" red="0.43107374639913437" green="0.59047404015054339" blue="0.75179973820000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9mq-AN-ilQ" userLabel="View5">
+                                <rect key="frame" x="0.0" y="278" width="182" height="117"/>
+                                <color key="backgroundColor" red="0.421875" green="0.37676574332896079" blue="0.35307348193761201" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="imageView" destination="Au2-dk-mp8" id="V0A-C2-k3Q"/>
+                        <outlet property="view1" destination="nPF-qy-3Cj" id="kE1-CD-FTb"/>
+                        <outlet property="view2" destination="m15-uY-Rge" id="4BM-cI-nM6"/>
+                        <outlet property="view3" destination="xge-kJ-c8L" id="S4Y-sK-LM0"/>
+                        <outlet property="view4" destination="4JG-Bp-wZV" id="rK3-dq-XM8"/>
+                        <outlet property="view5" destination="9mq-AN-ilQ" id="eNW-3O-sdF"/>
+                        <outlet property="view6" destination="QUe-MH-h4k" id="KOc-AX-Iif"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="339.5" y="429.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flower.png" width="350" height="325"/>
+    </resources>
+</document>

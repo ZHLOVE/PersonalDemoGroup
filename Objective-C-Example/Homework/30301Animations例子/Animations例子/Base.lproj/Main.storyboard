@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="VWG-F5-6Hp">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="QnU-Zz-FeV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="850.5" y="285.5"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="9Pj-FH-EHV">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="VWG-F5-6Hp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="PKe-kP-w6C">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="tkt-yM-8jE"/>
+                        <segue destination="JY9-Q8-7Rn" kind="relationship" relationship="viewControllers" id="ZaL-Al-d8t"/>
+                        <segue destination="zJM-eb-EfW" kind="relationship" relationship="viewControllers" id="fUx-i8-0PJ"/>
+                        <segue destination="Swh-Zo-HQx" kind="relationship" relationship="viewControllers" id="fPJ-ZB-SWh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Az-yc-B3a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="429"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="UYa-Yp-oHg">
+            <objects>
+                <viewController id="JY9-Q8-7Rn" customClass="UIViewAnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LE1-ru-h1A"/>
+                        <viewControllerLayoutGuide type="bottom" id="xq6-Ws-pk1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="npe-M1-yOO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clipartPlane" translatesAutoresizingMaskIntoConstraints="NO" id="5LT-AS-mrh">
+                                <rect key="frame" x="67" y="85" width="100" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="xKw-qy-siP"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="plane" destination="5LT-AS-mrh" id="bsd-Fn-gNn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wLA-XY-QCl" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="962.5" y="1173.5"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="vuE-8k-sE0">
+            <objects>
+                <viewController id="zJM-eb-EfW" customClass="BaseAnimationVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vUm-Ie-gXN"/>
+                        <viewControllerLayoutGuide type="bottom" id="qfx-au-qgD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="n0Z-2j-BcI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clipartPlane" translatesAutoresizingMaskIntoConstraints="NO" id="qEf-rK-9xz">
+                                <rect key="frame" x="67" y="85" width="100" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="yym-y5-bID"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="plane" destination="qEf-rK-9xz" id="A3r-at-7qC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1g8-DH-0mm" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="527.5" y="1274.5"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="Xsb-AA-Gma">
+            <objects>
+                <viewController id="Swh-Zo-HQx" customClass="KeyFrameAnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zpV-4h-ATM"/>
+                        <viewControllerLayoutGuide type="bottom" id="g3Z-GS-BsK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ug1-Jj-cMC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clipartPlane" translatesAutoresizingMaskIntoConstraints="NO" id="wru-NR-tBx">
+                                <rect key="frame" x="67" y="85" width="100" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="G0W-5R-eXp"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="plane" destination="wru-NR-tBx" id="gd5-ql-Cy7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VDj-7l-ZpX" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="65.5" y="1274.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="clipartPlane" width="100" height="100"/>
+    </resources>
+</document>

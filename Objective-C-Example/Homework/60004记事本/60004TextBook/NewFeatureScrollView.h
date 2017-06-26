@@ -1,0 +1,18 @@
+//
+//  NewFeatureScrollView.h
+//  60004TextBook
+//
+//  Created by 马千里 on 16/3/12.
+//  Copyright © 2016年 马千里. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface NewFeatureScrollView : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIScrollView *NewFeaturescrollView;
+
+
+- (IBAction)btnEnter:(UIButton *)sender;
+
+@end

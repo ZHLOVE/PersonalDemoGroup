@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>edition</key>
+		<string>3.2.1 | 51,90MB</string>
+		<key>fortune</key>
+		<string>star0</string>
+		<key>softName</key>
+		<string>概念画板:更智能的画板</string>
+		<key>image</key>
+		<string>s_1.png</string>
+	</dict>
+	<dict>
+		<key>edition</key>
+		<string>4.5.2 | 20.80MB</string>
+		<key>fortune</key>
+		<string>star0</string>
+		<key>softName</key>
+		<string>KK唱响-真人视频在线</string>
+		<key>image</key>
+		<string>s_2.png</string>
+	</dict>
+	<dict>
+		<key>edition</key>
+		<string>1.3 | 54.30MB</string>
+		<key>fortune</key>
+		<string>star0</string>
+		<key>softName</key>
+		<string>暂停</string>
+		<key>image</key>
+		<string>s_3.png</string>
+	</dict>
+	<dict>
+		<key>edition</key>
+		<string>1.1 | 4.1MB</string>
+		<key>fortune</key>
+		<string>star0</string>
+		<key>softName</key>
+		<string>DogeDoge-人脸变Doge</string>
+		<key>image</key>
+		<string>s_4.png</string>
+	</dict>
+	<dict>
+		<key>edition</key>
+		<string>1.0.2 | 1.23GB</string>
+		<key>fortune</key>
+		<string>star0</string>
+		<key>softName</key>
+		<string>死亡效应2</string>
+		<key>image</key>
+		<string>s_5.png</string>
+	</dict>
+	<dict>
+		<key>edition</key>
+		<string>1.0.0 | 3.30MB</string>
+		<key>fortune</key>
+		<string>star0</string>
+		<key>softName</key>
+		<string>Splasher - Unofficial Unsplash Client</string>
+		<key>image</key>
+		<string>s_6.png</string>
+	</dict>
+	<dict>
+		<key>edition</key>
+		<string>1.0.5 | 16.5MB</string>
+		<key>fortune</key>
+		<string>star0</string>
+		<key>softName</key>
+		<string>Google Spotlight Stories</string>
+		<key>image</key>
+		<string>s_7.png</string>
+	</dict>
+	<dict>
+		<key>edition</key>
+		<string>4.1 | 11.10MB</string>
+		<key>fortune</key>
+		<string>star4.5</string>
+		<key>softName</key>
+		<string>Stary Night Iteractive Animation</string>
+		<key>image</key>
+		<string>s_8.png</string>
+	</dict>
+</array>
+</plist>

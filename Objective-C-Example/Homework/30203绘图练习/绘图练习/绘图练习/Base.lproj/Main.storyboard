@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0QE-hg-hRe">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKu-aQ-J3q">
+                                <rect key="frame" x="150" y="189" width="75" height="30"/>
+                                <state key="normal" title="到老爸房间"/>
+                                <connections>
+                                    <segue destination="osa-WL-nW6" kind="presentation" id="Soa-bF-ecx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8u-ga-8Ss">
+                                <rect key="frame" x="150" y="291" width="75" height="30"/>
+                                <state key="normal" title="到老妈房间"/>
+                                <connections>
+                                    <segue destination="z8a-xY-lnN" kind="presentation" id="Gml-uY-Fxa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ji6-ui-JgE"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="107.5" y="729.5"/>
+        </scene>
+        <!--Father View Controller-->
+        <scene sceneID="4bA-k6-z07">
+            <objects>
+                <viewController id="osa-WL-nW6" customClass="FatherViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7IF-Dr-c5W"/>
+                        <viewControllerLayoutGuide type="bottom" id="OJI-43-Ypq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JcZ-EY-YVg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="老爸，明天周末干啥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esf-Fb-U0q">
+                                <rect key="frame" x="111" y="98" width="153" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DR3-bf-l3J">
+                                <rect key="frame" x="90" y="163" width="195" height="30"/>
+                                <state key="normal" title="明天我加班，你在家复习功课"/>
+                                <connections>
+                                    <action selector="btnFather1:" destination="osa-WL-nW6" eventType="touchUpInside" id="scx-0J-0SE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PhS-1f-WDf">
+                                <rect key="frame" x="135" y="251" width="105" height="30"/>
+                                <state key="normal" title="我们到爷爷家去"/>
+                                <connections>
+                                    <action selector="btnFather2:" destination="osa-WL-nW6" eventType="touchUpInside" id="KuN-Jo-5UY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CV9-qX-f2j">
+                                <rect key="frame" x="157" y="342" width="60" height="30"/>
+                                <state key="normal" title="我们去嗨"/>
+                                <connections>
+                                    <action selector="btnFather3:" destination="osa-WL-nW6" eventType="touchUpInside" id="l3x-z9-LoN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H4N-2g-XNP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="703.5" y="452.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fma-7L-sO7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0QE-hg-hRe" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gmi-qv-6cN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="zXm-gq-ejf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zxn-MK-AKT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-389.5" y="729.5"/>
+        </scene>
+        <!--Mother View Controller-->
+        <scene sceneID="0zW-GT-xd8">
+            <objects>
+                <viewController id="z8a-xY-lnN" customClass="MotherViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JLC-sk-wCr"/>
+                        <viewControllerLayoutGuide type="bottom" id="PtS-ha-5SI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BP5-ct-WJ8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="老妈晚上吃啥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A74-K6-QIF">
+                                <rect key="frame" x="136" y="119" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zU-hl-QWJ">
+                                <rect key="frame" x="165" y="204" width="45" height="30"/>
+                                <state key="normal" title="食屎啦"/>
+                                <connections>
+                                    <action selector="btnMother1:" destination="z8a-xY-lnN" eventType="touchUpInside" id="H32-ls-vg3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9aI-7h-A2D">
+                                <rect key="frame" x="165" y="271" width="45" height="30"/>
+                                <state key="normal" title="蛋炒饭"/>
+                                <connections>
+                                    <action selector="btnMother2:" destination="z8a-xY-lnN" eventType="touchUpInside" id="QvF-Wh-iK5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9xO-KY-uEG">
+                                <rect key="frame" x="158" y="345" width="60" height="30"/>
+                                <state key="normal" title="糖醋排骨"/>
+                                <connections>
+                                    <action selector="btnMother3:" destination="z8a-xY-lnN" eventType="touchUpInside" id="cx5-JG-7Am"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HXo-XS-Bid" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="703.5" y="1314.5"/>
+        </scene>
+    </scenes>
+</document>

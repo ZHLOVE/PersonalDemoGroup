@@ -1,0 +1,35 @@
+1 在终端里输入 java
+如果显示:
+Usage: java [-options] class [args...]
+           (to execute a class)
+   or  java [-options] -jar jarfile [args...]
+           (to execute a jar file)
+…
+
+说明已安装java的环境。不需要安装javaforosx.dmg
+
+2 解压缩三个文件夹
+
+3 运行eclipse
+welcome 关掉
+// 如果已有项目 
+右键点项目
+Run as -> Run on Server 
+如果正常运行，不需要做什么操作了。
+不能正常运行，删掉文稿下的workspace，重开eclipse
+
+4 添加项目文件
+点空白处 菜单里 import -> import -> General -> Existing Projectis into Workspace 然后点下一步 browser选择 MJServer -> Finish
+
+5
+右键点项目
+Run as -> Run on Server 
+Server 选Tomcat v7.0 Server 下一步
+Browse 选Tomcat的位置
+
+6 修改设置
+右键点项目菜单 -> properties -> Java Build Path ->librries
+双击Server Library 点 Apache Tomcat v7.0
+
+8 出现登陆界面
+输入用户名 123 密码123 显示 登陆成功 ，一切OK!

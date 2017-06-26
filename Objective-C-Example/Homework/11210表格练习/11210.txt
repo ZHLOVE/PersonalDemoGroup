@@ -1,0 +1,35 @@
+  @[@"箭头",@"选择",@"行控制",@"移动",@"删除",@"添加",@"编辑"]; @[@"disclosureButtonControllerIcon.png",@"checkmarkControllerIcon.png",@"rowControlsIcon.png",@"moveMeIcon.png",@"deleteMeIcon.png",@"deleteMeIcon.png",@"detailEditIcon.png"];
+ 
+
+@[@"Toy Story",@"A Bug's Life", @"Toy Story 2", @"Monsters, Inc.",
+                  @"Finding Nemo", @"The Incredibles", @"Cars",
+                  @"Ratatouille", @"WALL-E", @"Up", @"Toy Story 3",
+                  @"Cars 2", @"Brave",@"Toy Story",
+                  @"A Bug's Life", @"Toy Story 2", @"Monsters, Inc.",
+                  @"Finding Nemo", @"The Incredibles", @"Cars",
+                  @"Ratatouille", @"WALL-E", @"Up", @"Toy Story 3",
+                  @"Cars 2", @"Brave",
+                  @"Toy Story",
+                  @"A Bug's Life", @"Toy Story 2", @"Monsters, Inc.",
+                  @"Finding Nemo", @"The Incredibles", @"Cars",
+                  @"Ratatouille", @"WALL-E", @"Up", @"Toy Story 3",
+                  @"Cars 2", @"Brave"];
+
+@[@"Who Hash",
+                  @"Bubba Gump Shrimp Étouffée", @"Who Pudding", @"Scooby Snacks",
+                  @"Everlasting Gobstopper", @"Green Eggs and Ham", @"Soylent Green",
+                  @"Hard Tack", @"Lembas Bread", @"Roast Beast", @"Blancmange",@"Who Hash",
+                  @"Bubba Gump Shrimp Étouffée", @"Who Pudding", @"Scooby Snacks",
+                  @"Everlasting Gobstopper", @"Green Eggs and Ham", @"Soylent Green",
+                  @"Hard Tack", @"Lembas Bread", @"Roast Beast", @"Blancmange"];
+
+@[@"C3PO", @"Tik-Tok", @"Robby", @"Rosie", @"Uniblab",
+                @"Bender", @"Marvin", @"Lt. Commander Data",
+                @"Evil Brother Lore", @"Optimus Prime", @"Tobor", @"HAL",
+                @"Orgasmatron",@"C3PO", @"Tik-Tok", @"Robby", @"Rosie", @"Uniblab",
+                @"Bender", @"Marvin", @"Lt. Commander Data",
+                @"Evil Brother Lore", @"Optimus Prime", @"Tobor", @"HAL",
+                @"Orgasmatron"];
+
+@[@"Eeny", @"Meeny", @"Miney", @"Moe", @"Catch", @"A",
+                   @"Tiger", @"By", @"The", @"Toe"]

@@ -1,0 +1,39 @@
+//
+//  def.pch
+//  2048
+//
+//  Created by niit on 16/3/21.
+//  Copyright © 2016年 NIIT. All rights reserved.
+//
+
+#ifndef def_pch
+#define def_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// 颜色定义
+#define kRGB(x,y,z) [UIColor colorWithRed:x/255.0 green:y/255.0 blue:z/255.0 alpha:1]
+
+#define kRGBBakcgroundColor kRGB(247,248,235)
+#define kRGBBoxColor  kRGB(172,58,144)
+#define kRGBCellColor kRGB(190,178,165)
+
+// 格子每行数量
+#define N 5
+
+// 格子宽度高度
+#define kCellWidth 50
+// 格子间距1/2
+#define kCellPadding 4
+
+// 盒子外围间隔
+#define kBoxPadding 5
+
+// 盒子的圆角
+#define kBoxCornerRadius 5
+// 单元格的圆角
+#define kCellCornerRadius 3
+
+
+#endif /* def_pch */

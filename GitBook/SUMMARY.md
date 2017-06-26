@@ -1,0 +1,223 @@
+# Summary
+
+* [Introduction](README.md)
+* [课程日志](rizhi/ke_cheng_ri_zhi.md)
+   * [相关资料地址](rizhi/xiang_guan_zi_liao_di_zhi.md)
+   * [iOS开发练习与作业列表汇总](rizhi/ioskai_fa_lian_xi_yu_zuo_ye_lie_biao.md)
+   * [项目计划](rizhi/xiang_mu_ji_hua.md)
+       * [GitBook客户端](rizhi/xiangmu/gitbookke_hu_duan.md)
+       * [家谱](rizhi/xiangmu/jia_pu.md)
+       * [学语言播放器](rizhi/xiangmu/xue_yu_yan_bo_fang_qi.md)
+       * [单词本](rizhi/xiangmu/dan_ci_ben.md)
+       * [背课文](rizhi/xiangmu/bei_ke_wen.md)
+       * [做题](rizhi/xiangmu/zuo_ti.md)
+       * [任务分工](rizhi/ren_wu_fen_gong.md)
+   * [100界面基础](rizhi/100/100jie_mian_ji_chu.md)
+       * [160128星期四](rizhi/100/160128xing_qi_si.md)
+       * [160129星期五](rizhi/100/160129xing_qi_wu.md)
+       * [160218星期四](rizhi/100/160218xing_qi_si.md)
+       * [160219星期五](rizhi/100/160219xing_qi_si.md)
+       * [160222星期一](rizhi/100/160222xing_qi_yi.md)
+       * [160223星期二](rizhi/100/160223xing_qi_er.md)
+       * [160224星期三](rizhi/100/160224xing_qi_san.md)
+       * [160225星期四](rizhi/100/160225xing_qi_si.md)
+       * [160229星期一](rizhi/100/160229xing_qi_yi.md)
+       * [160301星期二](rizhi/100/160301xing_qi_er.md)
+       * [160302星期三](rizhi/100/160302xing_qi_san.md)
+       * [160303星期四](rizhi/100/160303xing_qi_si.md)
+       * [160304星期五](rizhi/100/160304xing_qi_wu.md)
+       * [160307星期一](rizhi/100/160307xing_qi_yi.md)
+       * [160308星期二](rizhi/100/160308xing_qi_er.md)
+       * [160309星期三_集合视图](rizhi/100/160309.md)
+       * [160310星期四_iPad开发自定义UI](rizhi/100/160310.md)
+       * [160311星期五_UIStackView](rizhi/100/160311.md)
+   * [200数据与网络](rizhi/200/200shu_ju_yu_wang_luo.md)
+       * [160314星期一_数据保存](rizhi/200/160314xing_qi_yi_shu_ju_bao_cun.md)
+       * [160316星期二_应用程序设置](rizhi/200/160316xing_qi_er_ying_yong_cheng_xu_she_zhi.md)
+   * [300iOS特性](rizhi/texin/300iostexing_md.md)
+       * [16-03-17星期四_触摸与手势](rizhi/texin/16-03-17.md)
+       * [16-03-18星期五_动画](rizhi/texin/16-03-18xing_qi_wu_dong_hua.md)
+   * [400项目相关](rizhi/400/400xiang_mu_xiang_guan.md)
+   * [500综合练习](rizhi/500/500zong_he_lian_xi.md)
+   * [600项目演练](rizhi/600/600xiang_mu_yan_lian.md)
+* [iOS开发](ios/ios.md)
+   * [100界面基础](ios/ui_base/jiemian_ji_chu_md.md)
+       * [iOS开发概述](ios/ui_base/ioskai_fa_gai_shu.md)
+       * [创建基本项目](ios/ui_base/create_base_proejct/chuang_jian_ji_ben_xiang_mu.md)
+           * [应用程序生命周期](ios/ui_base/create_base_proejct/ying_yong_cheng_xu_sheng_ming_zhou_qi.md)
+       * [处理基本交互](ios/ui_base/chu_li_ji_ben_jiao_hu.md)
+       * [视图与视图控制器](ios/ui_base/shi_tu_yu_shi_tu_kong_zhi_qi.md)
+           * [UIView类](ios/ui_base/uiviewlei.md)
+           * [UIViewController类](ios/ui_base/uiviewcontrollerlei.md)
+           * [例子代码](ios/ui_base/li_zi_dai_ma.md)
+       * [引起用户注意](ios/ui_base/yin_qi_yong_hu_zhu_yi.md)
+       * [丰富的用户界面](ios/ui_base/feng_fu_de_yong_hu_jie_mian.md)
+       * [旋转与布局](ios/ui_base/xuan_zhuan_yu_bu_ju.md)
+       * [多视图](ios/ui_base/duo_shi_tu.md)
+       * [选取器](ios/ui_base/xuan_qu_qi.md)
+       * 模态视图
+       * [导航栏控制器](ios/ui_base/dao_hang_lan_kong_zhi_qi.md)
+       * 滑动视图
+       * 表视图
+       * [CollectionView集合视图](ios/ui_base/collectionview/collectionviewji_he_shi_tu.md)
+       * iPad开发
+       * 自定义外观
+   * [200数据存储与网络](ios/data_and_net/shu_ju_cun_chu_yu_wang_luo.md)
+       * [保存数据](ios/data_and_net/save_data/bao_cun_shu_ju.md)
+       * 应用程序设置
+       * sqlite
+       * CoreData
+       * [多线程](ios/data_and_net/multithread/duo_xian_cheng.md)
+       * [网络](ios/data_and_net/net/wang_luo.md)
+           * [接口](ios/data_and_net/net/jie_kou.md)
+       * 分层架构与设计
+       * socket与Bonjour
+       * 对等网络与蓝牙
+       * 本地通知推送通知
+       * iCloud
+       * 数据加解密
+   * [300特性编程](ios/ios_feature/te_xing_bian_cheng.md)
+       * 触摸与手势
+       * 绘图与照片库
+       * 动画
+       * 多媒体
+       * 传感器加速计陀螺仪
+       * 定位与地图
+       * 通讯录发邮件短信
+       * 复制粘贴
+       * 设备相关API
+       * 后台处理与应用
+       * [静态库](ios/ios_feature/static_library/jing_tai_ku.md)
+       * 二维码
+   * [400项目相关](ios/about_project/xiang_mu_xiang_guan.md)
+       * [真机测试](ios/about_project/zhen_ji_ce_shi.md)
+       * [CocoaPods与第三方库](ios/about_project/cocoapodsyu_di_san_fang_ku.md)
+           * [第三方库](ios/about_project/di_san_fang_ku.md)
+       * 本地化
+       * 调试测试优化
+       * [收费策略与广告](ios/about_project/ad/shou_fei_ce_lve_yu_guang_gao.md)
+           * [广告平台](ios/about_project/ad/guang_gao_ping_tai.md)
+       * 系统账号与社交分享
+       * 发布应用程序
+   * [500综合练习](ios/zonghe/500zong_he_lian_xi.md)
+   * [600实战演练](ios/actual_practise/shi_zhan_yan_lian.md)
+       * 电子书
+   * [练习题](ios/iospractise/lian_xi_ti.md)
+       * [答案](ios/iospractise/iospanswer/da_an.md)
+   * [知识点](ios/zhishidian/zhi_shi_dian.md)
+       * [懒加载](rizhi/lan_jia_zai.md)
+       * [分类与类扩展](rizhi/fen_lei_yu_lei_kuo_zhan.md)
+       * [项目info.plist](ios/zhishidian/guanyu_info__plist.md)
+* [常用snippest](snippets/chang_yong_snippest.md)
+   * [项目允许透明传输](snippets/xiang_mu_yun_xu_tou_ming_chuan_shu.md)
+* [UIKit框架](ios/UIKit/uikitleishi_yong_zheng_li_md.md)
+   * [UIPresentationController](ios/UIKit/uipresentationcontroller.md)
+   * [UIResponder](ios/UIKit/uiresponder/uiresponder.md)
+       * [UIApplication](ios/UIKit/uiresponder/uiapplication.md)
+       * [UIView](ios/UIKit/uiresponder/uiview/uiview.md)
+           * [UIWindow](ios/UIKit/uiresponder/uiview/uiwindow.md)
+           * [UILabel](ios/UIKit/uiresponder/uiview/uilabel.md)
+           * UIPickerView
+           * UIProgressView
+           * UIActivityIndicatorView
+           * [UIImageView](ios/UIKit/uiresponder/uiview/uiimageview.md)
+           * [UITabBar](ios/UIKit/uiresponder/uiview/uitabbar.md)
+           * [UIToolBar](ios/UIKit/uiresponder/uiview/uitoolbar.md)
+           * UINavigationBar
+           * [UIControl](ios/UIKit/uiresponder/uiview/uicontrol/uicontrol.md)
+               * [UIButton](ios/UIKit/uiresponder/uiview/uicontrol/uibutton.md)
+                   * [UIButton相关技巧](ios/UIKit/uiresponder/uiview/uicontrol/uibutton/uibuttonxiang_guan_ji_qiao.md)
+           * [UIStackView](ios/UIKit/uiresponder/uiview/uistackview/uistackview.md)
+       * [UIViewController](ios/UIKit/uiresponder/uiviewcontroller.md)
+* [Foundation框架](foundation/foundationkuang_jia.md)
+   * [NSDate](foundation/nsdate.md)
+   * [NSString](foundation/nsstring.md)
+       * [中文网址](foundation/zhong_wen_wang_zhi.md)
+   * [NSError](foundation/nserror.md)
+   * [NSRunLoop](foundation/nsrunloop/nsrunloop.md)
+* [Objective-C语言](oc/objective-c.md)
+   * [C语言](oc/c/c.md)
+       * [Hello World!](oc/c/hello_world.md)
+       * [常量变量与数据类型](oc/c/chang_liang_bian_liang_yu_shu_ju_lei_xing.md)
+       * [运算符与表达式](oc/c/shu_ju_lei_xing_3001_biao_da_shi_3001_yun_suan_fu.md)
+       * [选择结构](oc/c/xuan_ze_jie_gou.md)
+       * [循环结构](oc/c/xun_huan_jie_gou.md)
+       * 数组
+       * 函数
+       * 结构与联合
+       * 指针
+       * 变量与数据类型补充
+       * 预处理
+   * [OC类](oc/occlass/ocleimd.md)
+       * [类](oc/occlass/class/lei.md)
+           * [NSString使用copy和strong的区别](oc/occlass/class/nsstringshi_yong_copy_he_strong_de_qu_bie.md)
+           * [属性的格式](oc/occlass/class/shu_xing_de_ge_shi.md)
+       * [继承](oc/occlass/jichen/ji_cheng.md)
+           * [instancetype和id的异同](oc/occlass/jichen/instancetypehe_id_de_yi_tong.md)
+       * 初始化
+       * 多态
+       * 类方法与单例模式
+   * [OC特性](oc/ocfeatures/octe_xing.md)
+       * [异常处理](oc/ocfeatures/yi_chang_chu_li.md)
+       * [程序错误处理](oc/ocfeatures/cheng_xu_cuo_wu_chu_li.md)
+       * Foundation框架
+       * 容器类
+       * 其他常用结构与类
+       * [分类](oc/ocfeatures/category/fen_lei.md)
+       * 协议
+       * 文件
+       * 复制对象
+       * 归档
+       * KVC
+       * KVO
+       * 通知
+       * 谓词
+       * 内存管理
+   * [练习题](oc/ocparctise/lian_xi_ti.md)
+       * [C语言练习1](oc/ocparctise/lian_xi_1.md)
+       * [OC练习1](oc/ocparctise/oclian_xi_1.md)
+       * [答案](oc/ocparctise/answer/da_an.md)
+           * [C语言练习1_参考答案](oc/ocparctise/answer/cyu_yan_lian_xi_1_can_kao_da_an.md)
+           * [OC练习1_参考答案](oc/ocparctise/answer/oclian_xi_1_da_an.md)
+* [Swift语言](swift/swift.md)
+   * [基础部分](swift/ji_chu_bu_fen.md)
+       * [变量和常量](swift/bian_liang_he_chang_liang.md)
+       * [逻辑分支](swift/luo_ji_fen_zhi.md)
+       * [循环](swift/xun_huan.md)
+       * [闭包](swift/bi_bao.md)
+       * [懒加载](swift/lan_jia_zai.md)
+   * [参考资料](swift/can_kao_zi_liao.md)
+* [开发相关](dev_related/related.md)
+   * [MacOS使用](dev_related/use_macos/macosshi_yong.md)
+       * [显示隐藏文件](dev_related/use_macos/xian_shi_yin_cang_wen_jian.md)
+   * [工具](dev_related/tools/tools.md)
+       * [Xcode](dev_related/tools/xcode/xcode.md)
+           * [codesnippet](dev_related/tools/xcode/codesnippet.md)
+           * [插件](dev_related/tools/xcode/cha_jian.md)
+       * [源码管理工具](dev_related/tools/source_code_manage/yuan_ma_guan_li_gong_ju.md)
+       * [Git](dev_related/tools/source_code_manage/git.md)
+           * [Objective-C .gitignore](dev_related/tools/source_code_manage/objective-c_gitignore.md)
+           * [Swift .gitignore](dev_related/tools/source_code_manage/swift_gitignore.md)
+       * [Markdown语法说明](dev_related/tools/markdown/markdownyu_fa_shuo_ming.md)
+           * [语法说明1](dev_related/tools/markdown/yu_fa_shuo_ming_1.md)
+           * [语法说明2](dev_related/tools/markdown/yu_fa_shuo_ming_2.md)
+           * [语法例子3](dev_related/tools/markdown/yu_fa_li_zi_3.md)
+       * [gitbook](dev_related/tools/gitbook/gitbookmd.md)
+           * [gitbook插件使用](dev_related/tools/gitbook/gitbookcha_jian_shi_yong.md)
+       * [Reveal](dev_related/tools/reveal/reveal.md)
+       * [OmnGraffle](dev_related/tools/omngraffle.md)
+       * [Charles](dev_related/tools/charles.md)
+   * [Apple](dev_related/apple/apple.md)
+       * [AppleOpenSource](dev_related/apple/appleopensource.md)
+* [笔记](note/bi_ji.md)
+   * [待研究内容](note/dai_yan_jiu_nei_rong.md)
+   * [16-02-01_星期一](note/116_-02-01xing_qi_yi.md)
+   * [16-02-15_星期二](note/116_-02-15xing_qi_er.md)
+   * [16-02-15 星期三](note/16-02-15_xing_qi_san.md)
+   * [16-02-20 星期六](note/16-02-20_xing_qi_liu.md)
+   * [16-02-22 星期一](note/16-02-22_xing_qi_yi.md)
+   * [16-02-23 星期二](note/16-02-23_xing_qi_er.md)
+   * [16-02-24 星期三](note/16-02-24xing_qi_san_md.md)
+   * [16-02-25 星期四](note/16-02-25_xing_qi_si.md)
+   * [16-03-20 星期日](note/16-03-20.md)
+

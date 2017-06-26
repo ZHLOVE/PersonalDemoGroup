@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    
+    <dict>
+        <key>型号</key>
+        <string>7系</string>
+        <key>品牌</key>
+        <string>BMW</string>
+        <key>价格</key>
+        <integer>130</integer>
+    </dict>
+    
+    <dict>
+        <key>型号</key>
+        <string>E系</string>
+        <key>品牌</key>
+        <string>奔驰</string>
+        <key>价格</key>
+        <integer>180</integer>
+    </dict>
+    
+    <dict>
+        <key>型号</key>
+        <string>X系</string>
+        <key>品牌</key>
+        <string>保时捷</string>
+        <key>价格</key>
+        <integer>180</integer>
+    </dict>
+    
+</array>
+</plist>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lCQ-lM-182"/>
+                        <viewControllerLayoutGuide type="bottom" id="tRL-aY-VsD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Efw-C2-uxW">
+                                <rect key="frame" x="20" y="389" width="335" height="258"/>
+                                <color key="backgroundColor" red="0.2843555896169585" green="0.4973762827739191" blue="0.90884734947643975" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOS-tn-oLm">
+                                <rect key="frame" x="200" y="40" width="160" height="301"/>
+                                <color key="backgroundColor" red="0.98214834929999995" green="0.9533891082" blue="0.01149112079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mp9-2h-1uu">
+                                <rect key="frame" x="20" y="40" width="160" height="301"/>
+                                <color key="backgroundColor" red="0.32601261139999999" green="0.88410753009999998" blue="0.038974981759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Efw-C2-uxW" firstAttribute="height" secondItem="Mp9-2h-1uu" secondAttribute="height" id="0kw-xD-IbU"/>
+                            <constraint firstAttribute="trailing" secondItem="SOS-tn-oLm" secondAttribute="trailing" constant="15" id="6FT-Pq-NjC"/>
+                            <constraint firstItem="Mp9-2h-1uu" firstAttribute="top" secondItem="lCQ-lM-182" secondAttribute="bottom" constant="20" id="Ngd-gQ-voI"/>
+                            <constraint firstItem="Efw-C2-uxW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Qvz-Ot-eOg"/>
+                            <constraint firstItem="SOS-tn-oLm" firstAttribute="width" secondItem="Mp9-2h-1uu" secondAttribute="width" id="Val-DD-gHe"/>
+                            <constraint firstItem="tRL-aY-VsD" firstAttribute="top" secondItem="Efw-C2-uxW" secondAttribute="bottom" constant="20" id="WOX-zV-jYD"/>
+                            <constraint firstItem="Mp9-2h-1uu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Zf4-N1-W6g"/>
+                            <constraint firstAttribute="trailing" secondItem="Efw-C2-uxW" secondAttribute="trailing" constant="20" id="dnF-pt-H32"/>
+                            <constraint firstItem="SOS-tn-oLm" firstAttribute="leading" secondItem="Mp9-2h-1uu" secondAttribute="trailing" constant="20" id="kLK-mi-uSN"/>
+                            <constraint firstItem="SOS-tn-oLm" firstAttribute="height" secondItem="Mp9-2h-1uu" secondAttribute="height" id="lNj-vW-ev8"/>
+                            <constraint firstItem="Efw-C2-uxW" firstAttribute="top" secondItem="Mp9-2h-1uu" secondAttribute="bottom" constant="20" id="ofD-7h-3Za"/>
+                            <constraint firstItem="SOS-tn-oLm" firstAttribute="top" secondItem="lCQ-lM-182" secondAttribute="bottom" constant="20" id="wzp-PV-Klk"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="180.5" y="406.5"/>
+        </scene>
+    </scenes>
+</document>

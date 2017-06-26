@@ -1,0 +1,13 @@
+# 160316星期二_应用程序设置
+
+##内容:
+1. 添加应用程序设置
+2. 应用程序的通知
+3. 分层架构
+
+```
+UIApplicationDidEnterBackgroundNotification UIApplicationWillEnterForegroundNotification UIApplicationDidFinishLaunchingNotification
+UIApplicationDidBecomeActiveNotification
+UIApplicationWillResignActiveNotification UIApplicationDidReceiveMemoryWarningNotification;
+UIKIT_EXTERN NSString *const UIApplicationWillTerminateNotification;
+```

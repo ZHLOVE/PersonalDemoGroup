@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A58CF6A81C3214E2008E8EDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6A71C3214E2008E8EDE /* main.m */; };
+		A58CF6B01C3214F8008E8EDE /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6AF1C3214F8008E8EDE /* ClassA.m */; };
+		A58CF6B31C321540008E8EDE /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6B21C321540008E8EDE /* ClassB.m */; };
+		A58CF6B61C321C3A008E8EDE /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6B51C321C3A008E8EDE /* Animal.m */; };
+		A58CF6B91C321CEF008E8EDE /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6B81C321CEF008E8EDE /* Cat.m */; };
+		A58CF6BC1C321D16008E8EDE /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6BB1C321D16008E8EDE /* Dog.m */; };
+		A58CF6BF1C322974008E8EDE /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6BE1C322974008E8EDE /* Ship.m */; };
+		A58CF6C31C323218008E8EDE /* SmallBoat.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6C11C322A3E008E8EDE /* SmallBoat.m */; };
+		A58CF6C61C3259F0008E8EDE /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6C51C3259F0008E8EDE /* Rectangle.m */; };
+		A58CF6C91C3268CB008E8EDE /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6C81C3268CB008E8EDE /* Card.m */; };
+		A58CF6CC1C326A15008E8EDE /* CreditCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6CB1C326A15008E8EDE /* CreditCard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A58CF6A21C3214E2008E8EDE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A58CF6A41C3214E2008E8EDE /* 继承 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "继承"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58CF6A71C3214E2008E8EDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A58CF6AE1C3214F8008E8EDE /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		A58CF6AF1C3214F8008E8EDE /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		A58CF6B11C321540008E8EDE /* ClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		A58CF6B21C321540008E8EDE /* ClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		A58CF6B41C321C3A008E8EDE /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		A58CF6B51C321C3A008E8EDE /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		A58CF6B71C321CEF008E8EDE /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		A58CF6B81C321CEF008E8EDE /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		A58CF6BA1C321D16008E8EDE /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		A58CF6BB1C321D16008E8EDE /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		A58CF6BD1C322974008E8EDE /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		A58CF6BE1C322974008E8EDE /* Ship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ship.m; sourceTree = "<group>"; };
+		A58CF6C01C322A3E008E8EDE /* SmallBoat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallBoat.h; sourceTree = "<group>"; };
+		A58CF6C11C322A3E008E8EDE /* SmallBoat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallBoat.m; sourceTree = "<group>"; };
+		A58CF6C41C3259F0008E8EDE /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		A58CF6C51C3259F0008E8EDE /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		A58CF6C71C3268CB008E8EDE /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		A58CF6C81C3268CB008E8EDE /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		A58CF6CA1C326A15008E8EDE /* CreditCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCard.h; sourceTree = "<group>"; };
+		A58CF6CB1C326A15008E8EDE /* CreditCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCard.m; sourceTree = "<group>"; };
+		A58CF6CD1C326A8A008E8EDE /* def.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = def.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A58CF6A11C3214E2008E8EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A58CF69B1C3214E2008E8EDE = {
+			isa = PBXGroup;
+			children = (
+				A58CF6A61C3214E2008E8EDE /* 继承 */,
+				A58CF6A51C3214E2008E8EDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A58CF6A51C3214E2008E8EDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A58CF6A41C3214E2008E8EDE /* 继承 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A58CF6A61C3214E2008E8EDE /* 继承 */ = {
+			isa = PBXGroup;
+			children = (
+				A58CF6CD1C326A8A008E8EDE /* def.h */,
+				A58CF6A71C3214E2008E8EDE /* main.m */,
+				A58CF6C71C3268CB008E8EDE /* Card.h */,
+				A58CF6C81C3268CB008E8EDE /* Card.m */,
+				A58CF6CA1C326A15008E8EDE /* CreditCard.h */,
+				A58CF6CB1C326A15008E8EDE /* CreditCard.m */,
+				A58CF6C41C3259F0008E8EDE /* Rectangle.h */,
+				A58CF6C51C3259F0008E8EDE /* Rectangle.m */,
+				A58CF6BD1C322974008E8EDE /* Ship.h */,
+				A58CF6BE1C322974008E8EDE /* Ship.m */,
+				A58CF6C01C322A3E008E8EDE /* SmallBoat.h */,
+				A58CF6C11C322A3E008E8EDE /* SmallBoat.m */,
+				A58CF6B41C321C3A008E8EDE /* Animal.h */,
+				A58CF6B51C321C3A008E8EDE /* Animal.m */,
+				A58CF6B71C321CEF008E8EDE /* Cat.h */,
+				A58CF6B81C321CEF008E8EDE /* Cat.m */,
+				A58CF6BA1C321D16008E8EDE /* Dog.h */,
+				A58CF6BB1C321D16008E8EDE /* Dog.m */,
+				A58CF6AE1C3214F8008E8EDE /* ClassA.h */,
+				A58CF6AF1C3214F8008E8EDE /* ClassA.m */,
+				A58CF6B11C321540008E8EDE /* ClassB.h */,
+				A58CF6B21C321540008E8EDE /* ClassB.m */,
+			);
+			path = "继承";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A58CF6A31C3214E2008E8EDE /* 继承 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58CF6AB1C3214E2008E8EDE /* Build configuration list for PBXNativeTarget "继承" */;
+			buildPhases = (
+				A58CF6A01C3214E2008E8EDE /* Sources */,
+				A58CF6A11C3214E2008E8EDE /* Frameworks */,
+				A58CF6A21C3214E2008E8EDE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "继承";
+			productName = "继承";
+			productReference = A58CF6A41C3214E2008E8EDE /* 继承 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A58CF69C1C3214E2008E8EDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = NIIT;
+				TargetAttributes = {
+					A58CF6A31C3214E2008E8EDE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A58CF69F1C3214E2008E8EDE /* Build configuration list for PBXProject "继承" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A58CF69B1C3214E2008E8EDE;
+			productRefGroup = A58CF6A51C3214E2008E8EDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A58CF6A31C3214E2008E8EDE /* 继承 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A58CF6A01C3214E2008E8EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58CF6C31C323218008E8EDE /* SmallBoat.m in Sources */,
+				A58CF6CC1C326A15008E8EDE /* CreditCard.m in Sources */,
+				A58CF6BC1C321D16008E8EDE /* Dog.m in Sources */,
+				A58CF6C61C3259F0008E8EDE /* Rectangle.m in Sources */,
+				A58CF6B31C321540008E8EDE /* ClassB.m in Sources */,
+				A58CF6B61C321C3A008E8EDE /* Animal.m in Sources */,
+				A58CF6C91C3268CB008E8EDE /* Card.m in Sources */,
+				A58CF6B01C3214F8008E8EDE /* ClassA.m in Sources */,
+				A58CF6A81C3214E2008E8EDE /* main.m in Sources */,
+				A58CF6BF1C322974008E8EDE /* Ship.m in Sources */,
+				A58CF6B91C321CEF008E8EDE /* Cat.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A58CF6A91C3214E2008E8EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A58CF6AA1C3214E2008E8EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A58CF6AC1C3214E2008E8EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A58CF6AD1C3214E2008E8EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A58CF69F1C3214E2008E8EDE /* Build configuration list for PBXProject "继承" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58CF6A91C3214E2008E8EDE /* Debug */,
+				A58CF6AA1C3214E2008E8EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58CF6AB1C3214E2008E8EDE /* Build configuration list for PBXNativeTarget "继承" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58CF6AC1C3214E2008E8EDE /* Debug */,
+				A58CF6AD1C3214E2008E8EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A58CF69C1C3214E2008E8EDE /* Project object */;
+}

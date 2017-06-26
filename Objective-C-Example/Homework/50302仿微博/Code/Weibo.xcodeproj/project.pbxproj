@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B17A97E8C899CE3D93AF571E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129E8B28BE0655C7BE29475 /* libPods.a */; };
+		F71944171CCEF83300504E1B /* PopoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71944161CCEF83300504E1B /* PopoverViewController.storyboard */; };
+		F719441A1CCEFA5100504E1B /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71944191CCEFA5100504E1B /* PopoverViewController.m */; };
+		F724C0F51CCF425400D18EEA /* QRCodeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F724C0F41CCF425400D18EEA /* QRCodeViewController.storyboard */; };
+		F724C0F81CCF43D400D18EEA /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F724C0F71CCF43D400D18EEA /* QRCodeViewController.m */; };
+		F74BB27B1CD1A885007D9691 /* OAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74BB27A1CD1A885007D9691 /* OAuthViewController.m */; };
+		F74BB27F1CD1B534007D9691 /* NetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F74BB27E1CD1B534007D9691 /* NetworkTools.m */; };
+		F74BB2821CD1E01E007D9691 /* UserAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = F74BB2811CD1E01E007D9691 /* UserAccount.m */; };
+		F766141E1CE0675C0074B728 /* NSDate+Covertion.m in Sources */ = {isa = PBXBuildFile; fileRef = F766141D1CE0675C0074B728 /* NSDate+Covertion.m */; };
+		F76D70EA1CD8860C003F8878 /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D70E91CD8860C003F8878 /* NSString+Path.m */; };
+		F76D70EF1CD88866003F8878 /* NewFeatureCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D70EE1CD88866003F8878 /* NewFeatureCollectionViewController.m */; };
+		F76D70F21CD8891E003F8878 /* NewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D70F11CD8891E003F8878 /* NewFeatureCell.m */; };
+		F7867B071CC8AEBC001C44EC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F7867B061CC8AEBC001C44EC /* README.md */; };
+		F7867B201CC8CBD9001C44EC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F7867B1F1CC8CBD9001C44EC /* libz.tbd */; };
+		F7868DE81CCDF33300025463 /* UIBarButtonItem+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = F7868DE71CCDF33300025463 /* UIBarButtonItem+Create.m */; };
+		F7868DEB1CCDFF0400025463 /* TitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7868DEA1CCDFF0400025463 /* TitleButton.m */; };
+		F7868DEE1CCE011200025463 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F7868DED1CCE011200025463 /* UIView+Frame.m */; };
+		F7910F721CCAE31B00596C9B /* VisitorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7910F711CCAE31B00596C9B /* VisitorView.m */; };
+		F7A632061CD04DB600D26A46 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A632051CD04DB600D26A46 /* AVFoundation.framework */; };
+		F7AC801E1CCE32D7001AF22B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F7AC801D1CCE32D7001AF22B /* Podfile */; };
+		F7BAACEC1CD09561008D662B /* QRCodeCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAACEB1CD09561008D662B /* QRCodeCardViewController.m */; };
+		F7BAACF11CD095AE008D662B /* QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAACEE1CD095AE008D662B /* QRCode.m */; };
+		F7BAACF51CD098D9008D662B /* UIImage+RoundedRectImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAACF41CD098D9008D662B /* UIImage+RoundedRectImage.m */; };
+		F7C439081CC9BA3000369509 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C438F31CC9BA3000369509 /* AppDelegate.m */; };
+		F7C439091CC9BA3000369509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C438F41CC9BA3000369509 /* Assets.xcassets */; };
+		F7C4390A1CC9BA3000369509 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C438F91CC9BA3000369509 /* DiscoverViewController.m */; };
+		F7C4390B1CC9BA3000369509 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C438FC1CC9BA3000369509 /* HomeViewController.m */; };
+		F7C4390C1CC9BA3000369509 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C438FF1CC9BA3000369509 /* MainTabBarController.m */; };
+		F7C4390D1CC9BA3000369509 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C439021CC9BA3000369509 /* MessageViewController.m */; };
+		F7C4390E1CC9BA3000369509 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C439051CC9BA3000369509 /* ProfileViewController.m */; };
+		F7C4390F1CC9BA3000369509 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7C439061CC9BA3000369509 /* Info.plist */; };
+		F7C439101CC9BA3000369509 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C439071CC9BA3000369509 /* main.m */; };
+		F7C439121CC9BF9900369509 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = F7C439111CC9BF9900369509 /* MainVCSettings.json */; };
+		F7D55AB51CC9CF3B00577FE1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D55AB41CC9CF3B00577FE1 /* BaseViewController.m */; };
+		F7EAA1201CD99EF2004D2666 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EAA11F1CD99EF2004D2666 /* WelcomeViewController.m */; };
+		F7EAA1291CD9D21A004D2666 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EAA1281CD9D21A004D2666 /* Status.m */; };
+		F7EAA12C1CD9D90B004D2666 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EAA12B1CD9D90B004D2666 /* User.m */; };
+		F7EAA1391CDAE34C004D2666 /* StatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EAA1381CDAE34C004D2666 /* StatusCell.m */; };
+		F7EAA13C1CDAE614004D2666 /* UILabel+Creation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EAA13B1CDAE614004D2666 /* UILabel+Creation.m */; };
+		F7EAA13F1CDAE87A004D2666 /* UIButton+Creation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EAA13E1CDAE87A004D2666 /* UIButton+Creation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18E3D0B547A3BCDBF2FE90C7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6129E8B28BE0655C7BE29475 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA7731F3F0212E51FF83681 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F71944161CCEF83300504E1B /* PopoverViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopoverViewController.storyboard; sourceTree = "<group>"; };
+		F71944181CCEFA5100504E1B /* PopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewController.h; sourceTree = "<group>"; };
+		F71944191CCEFA5100504E1B /* PopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewController.m; sourceTree = "<group>"; };
+		F71944211CCF149400504E1B /* def.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = def.pch; sourceTree = "<group>"; };
+		F724C0F41CCF425400D18EEA /* QRCodeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QRCodeViewController.storyboard; sourceTree = "<group>"; };
+		F724C0F61CCF43D400D18EEA /* QRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeViewController.h; sourceTree = "<group>"; };
+		F724C0F71CCF43D400D18EEA /* QRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewController.m; sourceTree = "<group>"; };
+		F74BB2791CD1A885007D9691 /* OAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthViewController.h; sourceTree = "<group>"; };
+		F74BB27A1CD1A885007D9691 /* OAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthViewController.m; sourceTree = "<group>"; };
+		F74BB27D1CD1B534007D9691 /* NetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTools.h; sourceTree = "<group>"; };
+		F74BB27E1CD1B534007D9691 /* NetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTools.m; sourceTree = "<group>"; };
+		F74BB2801CD1E01E007D9691 /* UserAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAccount.h; sourceTree = "<group>"; };
+		F74BB2811CD1E01E007D9691 /* UserAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccount.m; sourceTree = "<group>"; };
+		F766141C1CE0675C0074B728 /* NSDate+Covertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Covertion.h"; path = "Weibo/Classes/Category/NSDate+Covertion.h"; sourceTree = SOURCE_ROOT; };
+		F766141D1CE0675C0074B728 /* NSDate+Covertion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Covertion.m"; path = "Weibo/Classes/Category/NSDate+Covertion.m"; sourceTree = SOURCE_ROOT; };
+		F76D70E81CD8860C003F8878 /* NSString+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Path.h"; sourceTree = "<group>"; };
+		F76D70E91CD8860C003F8878 /* NSString+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Path.m"; sourceTree = "<group>"; };
+		F76D70ED1CD88866003F8878 /* NewFeatureCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureCollectionViewController.h; sourceTree = "<group>"; };
+		F76D70EE1CD88866003F8878 /* NewFeatureCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureCollectionViewController.m; sourceTree = "<group>"; };
+		F76D70F01CD8891E003F8878 /* NewFeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureCell.h; sourceTree = "<group>"; };
+		F76D70F11CD8891E003F8878 /* NewFeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureCell.m; sourceTree = "<group>"; };
+		F7867AEC1CC8AE54001C44EC /* Weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7867B061CC8AEBC001C44EC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F7867B1F1CC8CBD9001C44EC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F7868DE61CCDF33300025463 /* UIBarButtonItem+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Create.h"; sourceTree = "<group>"; };
+		F7868DE71CCDF33300025463 /* UIBarButtonItem+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Create.m"; sourceTree = "<group>"; };
+		F7868DE91CCDFF0400025463 /* TitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleButton.h; sourceTree = "<group>"; };
+		F7868DEA1CCDFF0400025463 /* TitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleButton.m; sourceTree = "<group>"; };
+		F7868DEC1CCE011200025463 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F7868DED1CCE011200025463 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F7910F701CCAE31B00596C9B /* VisitorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorView.h; sourceTree = "<group>"; };
+		F7910F711CCAE31B00596C9B /* VisitorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitorView.m; sourceTree = "<group>"; };
+		F7A632051CD04DB600D26A46 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F7AC801D1CCE32D7001AF22B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F7BAACEA1CD09561008D662B /* QRCodeCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeCardViewController.h; sourceTree = "<group>"; };
+		F7BAACEB1CD09561008D662B /* QRCodeCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeCardViewController.m; sourceTree = "<group>"; };
+		F7BAACED1CD095AE008D662B /* QRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCode.h; sourceTree = "<group>"; };
+		F7BAACEE1CD095AE008D662B /* QRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCode.m; sourceTree = "<group>"; };
+		F7BAACF31CD098D9008D662B /* UIImage+RoundedRectImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedRectImage.h"; sourceTree = "<group>"; };
+		F7BAACF41CD098D9008D662B /* UIImage+RoundedRectImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedRectImage.m"; sourceTree = "<group>"; };
+		F7C438F21CC9BA3000369509 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7C438F31CC9BA3000369509 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7C438F41CC9BA3000369509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7C438F81CC9BA3000369509 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		F7C438F91CC9BA3000369509 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		F7C438FB1CC9BA3000369509 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F7C438FC1CC9BA3000369509 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F7C438FE1CC9BA3000369509 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		F7C438FF1CC9BA3000369509 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		F7C439011CC9BA3000369509 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		F7C439021CC9BA3000369509 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		F7C439041CC9BA3000369509 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		F7C439051CC9BA3000369509 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		F7C439061CC9BA3000369509 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7C439071CC9BA3000369509 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7C439111CC9BF9900369509 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		F7D55AB31CC9CF3B00577FE1 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F7D55AB41CC9CF3B00577FE1 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F7EAA11E1CD99EF2004D2666 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		F7EAA11F1CD99EF2004D2666 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		F7EAA1271CD9D21A004D2666 /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		F7EAA1281CD9D21A004D2666 /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
+		F7EAA12A1CD9D90B004D2666 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F7EAA12B1CD9D90B004D2666 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		F7EAA1371CDAE34C004D2666 /* StatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusCell.h; sourceTree = "<group>"; };
+		F7EAA1381CDAE34C004D2666 /* StatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusCell.m; sourceTree = "<group>"; };
+		F7EAA13A1CDAE614004D2666 /* UILabel+Creation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Creation.h"; sourceTree = "<group>"; };
+		F7EAA13B1CDAE614004D2666 /* UILabel+Creation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Creation.m"; sourceTree = "<group>"; };
+		F7EAA13D1CDAE87A004D2666 /* UIButton+Creation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Creation.h"; sourceTree = "<group>"; };
+		F7EAA13E1CDAE87A004D2666 /* UIButton+Creation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Creation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7867AE91CC8AE54001C44EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A632061CD04DB600D26A46 /* AVFoundation.framework in Frameworks */,
+				F7867B201CC8CBD9001C44EC /* libz.tbd in Frameworks */,
+				B17A97E8C899CE3D93AF571E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8083066081FE8AD03C995DE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7A632051CD04DB600D26A46 /* AVFoundation.framework */,
+				F7867B1F1CC8CBD9001C44EC /* libz.tbd */,
+				6129E8B28BE0655C7BE29475 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F71944141CCEF7F000504E1B /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				F71944161CCEF83300504E1B /* PopoverViewController.storyboard */,
+				F71944181CCEFA5100504E1B /* PopoverViewController.h */,
+				F71944191CCEFA5100504E1B /* PopoverViewController.m */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		F71944151CCEF7F000504E1B /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				F7BAACED1CD095AE008D662B /* QRCode.h */,
+				F7BAACEE1CD095AE008D662B /* QRCode.m */,
+				F724C0F41CCF425400D18EEA /* QRCodeViewController.storyboard */,
+				F724C0F61CCF43D400D18EEA /* QRCodeViewController.h */,
+				F724C0F71CCF43D400D18EEA /* QRCodeViewController.m */,
+				F7BAACEA1CD09561008D662B /* QRCodeCardViewController.h */,
+				F7BAACEB1CD09561008D662B /* QRCodeCardViewController.m */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		F74BB2781CD1A865007D9691 /* OAuth(认证) */ = {
+			isa = PBXGroup;
+			children = (
+				F74BB2791CD1A885007D9691 /* OAuthViewController.h */,
+				F74BB27A1CD1A885007D9691 /* OAuthViewController.m */,
+				F74BB2801CD1E01E007D9691 /* UserAccount.h */,
+				F74BB2811CD1E01E007D9691 /* UserAccount.m */,
+			);
+			name = "OAuth(认证)";
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		F74BB27C1CD1B500007D9691 /* Tools(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+				F74BB27D1CD1B534007D9691 /* NetworkTools.h */,
+				F74BB27E1CD1B534007D9691 /* NetworkTools.m */,
+			);
+			name = "Tools(工具类)";
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F76D70EC1CD88846003F8878 /* NetFeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				F76D70ED1CD88866003F8878 /* NewFeatureCollectionViewController.h */,
+				F76D70EE1CD88866003F8878 /* NewFeatureCollectionViewController.m */,
+				F76D70F01CD8891E003F8878 /* NewFeatureCell.h */,
+				F76D70F11CD8891E003F8878 /* NewFeatureCell.m */,
+				F7EAA11E1CD99EF2004D2666 /* WelcomeViewController.h */,
+				F7EAA11F1CD99EF2004D2666 /* WelcomeViewController.m */,
+			);
+			name = "NetFeature(新特性)";
+			path = NetFeature;
+			sourceTree = "<group>";
+		};
+		F7867AE31CC8AE54001C44EC = {
+			isa = PBXGroup;
+			children = (
+				F7AC801D1CCE32D7001AF22B /* Podfile */,
+				F7867B061CC8AEBC001C44EC /* README.md */,
+				F7C438F11CC9BA3000369509 /* Weibo */,
+				F7867AED1CC8AE54001C44EC /* Products */,
+				FE6D44F0806B52077FC8C234 /* Pods */,
+				8083066081FE8AD03C995DE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7867AED1CC8AE54001C44EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7867AEC1CC8AE54001C44EC /* Weibo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7868DE51CCDF2DE00025463 /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				F7BAACF31CD098D9008D662B /* UIImage+RoundedRectImage.h */,
+				F7BAACF41CD098D9008D662B /* UIImage+RoundedRectImage.m */,
+				F7868DE61CCDF33300025463 /* UIBarButtonItem+Create.h */,
+				F7868DE71CCDF33300025463 /* UIBarButtonItem+Create.m */,
+				F7868DEC1CCE011200025463 /* UIView+Frame.h */,
+				F7868DED1CCE011200025463 /* UIView+Frame.m */,
+				F76D70E81CD8860C003F8878 /* NSString+Path.h */,
+				F76D70E91CD8860C003F8878 /* NSString+Path.m */,
+				F7EAA13A1CDAE614004D2666 /* UILabel+Creation.h */,
+				F7EAA13B1CDAE614004D2666 /* UILabel+Creation.m */,
+				F7EAA13D1CDAE87A004D2666 /* UIButton+Creation.h */,
+				F7EAA13E1CDAE87A004D2666 /* UIButton+Creation.m */,
+				F766141C1CE0675C0074B728 /* NSDate+Covertion.h */,
+				F766141D1CE0675C0074B728 /* NSDate+Covertion.m */,
+			);
+			name = "Category(分类)";
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F7910F6F1CCAE31B00596C9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7910F701CCAE31B00596C9B /* VisitorView.h */,
+				F7910F711CCAE31B00596C9B /* VisitorView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7C438F11CC9BA3000369509 /* Weibo */ = {
+			isa = PBXGroup;
+			children = (
+				F7EC062E1CCE2FEA00BA0D02 /* AppDelegate */,
+				F7C438F51CC9BA3000369509 /* Classes */,
+				F7C438F41CC9BA3000369509 /* Assets.xcassets */,
+				F7C439061CC9BA3000369509 /* Info.plist */,
+				F7C439071CC9BA3000369509 /* main.m */,
+			);
+			path = Weibo;
+			sourceTree = "<group>";
+		};
+		F7C438F51CC9BA3000369509 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F7C438F61CC9BA3000369509 /* Common(通用) */,
+				F7868DE51CCDF2DE00025463 /* Category(分类) */,
+				F74BB27C1CD1B500007D9691 /* Tools(工具类) */,
+				F74BB2781CD1A865007D9691 /* OAuth(认证) */,
+				F76D70EC1CD88846003F8878 /* NetFeature(新特性) */,
+				F7C438FD1CC9BA3000369509 /* Main(主TabBar) */,
+				F7C439001CC9BA3000369509 /* Message(消息) */,
+				F7C438FA1CC9BA3000369509 /* Home(首页) */,
+				F7C438F71CC9BA3000369509 /* Discover(发现) */,
+				F7C439031CC9BA3000369509 /* Profile(我) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F7C438F61CC9BA3000369509 /* Common(通用) */ = {
+			isa = PBXGroup;
+			children = (
+				F7868DE91CCDFF0400025463 /* TitleButton.h */,
+				F7868DEA1CCDFF0400025463 /* TitleButton.m */,
+				F71944211CCF149400504E1B /* def.pch */,
+			);
+			name = "Common(通用)";
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F7C438F71CC9BA3000369509 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				F7C438F81CC9BA3000369509 /* DiscoverViewController.h */,
+				F7C438F91CC9BA3000369509 /* DiscoverViewController.m */,
+			);
+			name = "Discover(发现)";
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		F7C438FA1CC9BA3000369509 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				F71944141CCEF7F000504E1B /* Popover */,
+				F71944151CCEF7F000504E1B /* QRCode */,
+				F7C438FB1CC9BA3000369509 /* HomeViewController.h */,
+				F7C438FC1CC9BA3000369509 /* HomeViewController.m */,
+				F7EAA1371CDAE34C004D2666 /* StatusCell.h */,
+				F7EAA1381CDAE34C004D2666 /* StatusCell.m */,
+				F7EAA1271CD9D21A004D2666 /* Status.h */,
+				F7EAA1281CD9D21A004D2666 /* Status.m */,
+				F7EAA12A1CD9D90B004D2666 /* User.h */,
+				F7EAA12B1CD9D90B004D2666 /* User.m */,
+			);
+			name = "Home(首页)";
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F7C438FD1CC9BA3000369509 /* Main(主TabBar) */ = {
+			isa = PBXGroup;
+			children = (
+				F7910F6F1CCAE31B00596C9B /* View */,
+				F7C439111CC9BF9900369509 /* MainVCSettings.json */,
+				F7C438FE1CC9BA3000369509 /* MainTabBarController.h */,
+				F7C438FF1CC9BA3000369509 /* MainTabBarController.m */,
+				F7D55AB31CC9CF3B00577FE1 /* BaseViewController.h */,
+				F7D55AB41CC9CF3B00577FE1 /* BaseViewController.m */,
+			);
+			name = "Main(主TabBar)";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F7C439001CC9BA3000369509 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				F7C439011CC9BA3000369509 /* MessageViewController.h */,
+				F7C439021CC9BA3000369509 /* MessageViewController.m */,
+			);
+			name = "Message(消息)";
+			path = Message;
+			sourceTree = "<group>";
+		};
+		F7C439031CC9BA3000369509 /* Profile(我) */ = {
+			isa = PBXGroup;
+			children = (
+				F7C439041CC9BA3000369509 /* ProfileViewController.h */,
+				F7C439051CC9BA3000369509 /* ProfileViewController.m */,
+			);
+			name = "Profile(我)";
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F7EC062E1CCE2FEA00BA0D02 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F7C438F21CC9BA3000369509 /* AppDelegate.h */,
+				F7C438F31CC9BA3000369509 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FE6D44F0806B52077FC8C234 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18E3D0B547A3BCDBF2FE90C7 /* Pods.debug.xcconfig */,
+				9FA7731F3F0212E51FF83681 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7867AEB1CC8AE54001C44EC /* Weibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7867B031CC8AE54001C44EC /* Build configuration list for PBXNativeTarget "Weibo" */;
+			buildPhases = (
+				FCBF79E1220C6C282F06D4D7 /* Check Pods Manifest.lock */,
+				F7867AE81CC8AE54001C44EC /* Sources */,
+				F7867AE91CC8AE54001C44EC /* Frameworks */,
+				F7867AEA1CC8AE54001C44EC /* Resources */,
+				B641D890237E43D874CD865B /* Embed Pods Frameworks */,
+				54135F20123C8D32EBB34A8E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weibo;
+			productName = Weibo;
+			productReference = F7867AEC1CC8AE54001C44EC /* Weibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7867AE41CC8AE54001C44EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = QiangTech;
+				TargetAttributes = {
+					F7867AEB1CC8AE54001C44EC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F7867AE71CC8AE54001C44EC /* Build configuration list for PBXProject "Weibo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7867AE31CC8AE54001C44EC;
+			productRefGroup = F7867AED1CC8AE54001C44EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7867AEB1CC8AE54001C44EC /* Weibo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7867AEA1CC8AE54001C44EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C4390F1CC9BA3000369509 /* Info.plist in Resources */,
+				F7C439091CC9BA3000369509 /* Assets.xcassets in Resources */,
+				F7AC801E1CCE32D7001AF22B /* Podfile in Resources */,
+				F71944171CCEF83300504E1B /* PopoverViewController.storyboard in Resources */,
+				F7C439121CC9BF9900369509 /* MainVCSettings.json in Resources */,
+				F724C0F51CCF425400D18EEA /* QRCodeViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54135F20123C8D32EBB34A8E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B641D890237E43D874CD865B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCBF79E1220C6C282F06D4D7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7867AE81CC8AE54001C44EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C4390D1CC9BA3000369509 /* MessageViewController.m in Sources */,
+				F76D70EF1CD88866003F8878 /* NewFeatureCollectionViewController.m in Sources */,
+				F7EAA12C1CD9D90B004D2666 /* User.m in Sources */,
+				F7D55AB51CC9CF3B00577FE1 /* BaseViewController.m in Sources */,
+				F7EAA13F1CDAE87A004D2666 /* UIButton+Creation.m in Sources */,
+				F7EAA13C1CDAE614004D2666 /* UILabel+Creation.m in Sources */,
+				F7C439081CC9BA3000369509 /* AppDelegate.m in Sources */,
+				F7C4390C1CC9BA3000369509 /* MainTabBarController.m in Sources */,
+				F7C4390A1CC9BA3000369509 /* DiscoverViewController.m in Sources */,
+				F74BB27B1CD1A885007D9691 /* OAuthViewController.m in Sources */,
+				F724C0F81CCF43D400D18EEA /* QRCodeViewController.m in Sources */,
+				F766141E1CE0675C0074B728 /* NSDate+Covertion.m in Sources */,
+				F74BB2821CD1E01E007D9691 /* UserAccount.m in Sources */,
+				F7868DEE1CCE011200025463 /* UIView+Frame.m in Sources */,
+				F719441A1CCEFA5100504E1B /* PopoverViewController.m in Sources */,
+				F7C4390E1CC9BA3000369509 /* ProfileViewController.m in Sources */,
+				F7BAACF51CD098D9008D662B /* UIImage+RoundedRectImage.m in Sources */,
+				F7868DEB1CCDFF0400025463 /* TitleButton.m in Sources */,
+				F74BB27F1CD1B534007D9691 /* NetworkTools.m in Sources */,
+				F7EAA1201CD99EF2004D2666 /* WelcomeViewController.m in Sources */,
+				F76D70EA1CD8860C003F8878 /* NSString+Path.m in Sources */,
+				F7868DE81CCDF33300025463 /* UIBarButtonItem+Create.m in Sources */,
+				F76D70F21CD8891E003F8878 /* NewFeatureCell.m in Sources */,
+				F7EAA1291CD9D21A004D2666 /* Status.m in Sources */,
+				F7867B071CC8AEBC001C44EC /* README.md in Sources */,
+				F7BAACF11CD095AE008D662B /* QRCode.m in Sources */,
+				F7BAACEC1CD09561008D662B /* QRCodeCardViewController.m in Sources */,
+				F7910F721CCAE31B00596C9B /* VisitorView.m in Sources */,
+				F7C439101CC9BA3000369509 /* main.m in Sources */,
+				F7C4390B1CC9BA3000369509 /* HomeViewController.m in Sources */,
+				F7EAA1391CDAE34C004D2666 /* StatusCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7867B011CC8AE54001C44EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7867B021CC8AE54001C44EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7867B041CC8AE54001C44EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E3D0B547A3BCDBF2FE90C7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xiaohui Qiang (7TCPT3YWYR)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/Weibo/Classes/Common/def.pch";
+				INFOPLIST_FILE = Weibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niit.familytree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "90e86ed8-aba8-4d23-994a-77baa2324ae1";
+			};
+			name = Debug;
+		};
+		F7867B051CC8AE54001C44EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA7731F3F0212E51FF83681 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xiaohui Qiang (7TCPT3YWYR)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/Weibo/Classes/Common/def.pch";
+				INFOPLIST_FILE = Weibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niit.familytree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "90e86ed8-aba8-4d23-994a-77baa2324ae1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7867AE71CC8AE54001C44EC /* Build configuration list for PBXProject "Weibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7867B011CC8AE54001C44EC /* Debug */,
+				F7867B021CC8AE54001C44EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7867B031CC8AE54001C44EC /* Build configuration list for PBXNativeTarget "Weibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7867B041CC8AE54001C44EC /* Debug */,
+				F7867B051CC8AE54001C44EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7867AE41CC8AE54001C44EC /* Project object */;
+}

@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A57D9CB31C3F450D00F1B930 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CB21C3F450D00F1B930 /* main.m */; };
+		A57D9CBC1C3F45D100F1B930 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CBB1C3F45D100F1B930 /* Person.m */; };
+		A57D9CC01C3F473000F1B930 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CBF1C3F473000F1B930 /* Student.m */; };
+		A57D9CF81C3F60BC00F1B930 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CEF1C3F60BC00F1B930 /* Child.m */; };
+		A57D9CF91C3F60BC00F1B930 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CF11C3F60BC00F1B930 /* Father.m */; };
+		A57D9CFA1C3F60BC00F1B930 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CF31C3F60BC00F1B930 /* main.m */; };
+		A57D9CFB1C3F60BC00F1B930 /* Mother.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CF51C3F60BC00F1B930 /* Mother.m */; };
+		A57D9CFC1C3F60BC00F1B930 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CF71C3F60BC00F1B930 /* main.m */; };
+		A57D9CFD1C3F610700F1B930 /* Child.h in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CEE1C3F60BC00F1B930 /* Child.h */; };
+		A57D9CFE1C3F610700F1B930 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CEF1C3F60BC00F1B930 /* Child.m */; };
+		A57D9CFF1C3F610700F1B930 /* Father.h in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CF01C3F60BC00F1B930 /* Father.h */; };
+		A57D9D001C3F610700F1B930 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CF11C3F60BC00F1B930 /* Father.m */; };
+		A57D9D021C3F610700F1B930 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CF31C3F60BC00F1B930 /* main.m */; };
+		A57D9D031C3F610700F1B930 /* Mother.h in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CF41C3F60BC00F1B930 /* Mother.h */; };
+		A57D9D041C3F610700F1B930 /* Mother.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CF51C3F60BC00F1B930 /* Mother.m */; };
+		A57D9D051C3F610F00F1B930 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9CF71C3F60BC00F1B930 /* main.m */; };
+		A57D9D081C3F620A00F1B930 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9D071C3F620A00F1B930 /* Person.m */; };
+		A57D9D0B1C3F621300F1B930 /* Agent.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9D0A1C3F621300F1B930 /* Agent.m */; };
+		A57D9D0C1C3F63C700F1B930 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9D071C3F620A00F1B930 /* Person.m */; };
+		A57D9D0D1C3F63C700F1B930 /* Agent.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9D0A1C3F621300F1B930 /* Agent.m */; };
+		A57D9D101C3F8A6D00F1B930 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9D0F1C3F8A6D00F1B930 /* Friend.m */; };
+		A57D9D111C3F8B2600F1B930 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9D0F1C3F8A6D00F1B930 /* Friend.m */; };
+		A57D9D1C1C3F935400F1B930 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9D1B1C3F935400F1B930 /* main.m */; };
+		A57D9D221C3F937200F1B930 /* Table.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9D211C3F937200F1B930 /* Table.m */; };
+		A57D9D251C3FA4F800F1B930 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9D241C3FA4F800F1B930 /* Controller.m */; };
+		A57D9D281C3FA6E400F1B930 /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9D271C3FA6E400F1B930 /* Girl.m */; };
+		A57D9D291C3FA77F00F1B930 /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D9D271C3FA6E400F1B930 /* Girl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A57D9CAD1C3F450D00F1B930 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A57D9CD81C3F57D700F1B930 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A57D9CE81C3F607E00F1B930 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A57D9D171C3F935400F1B930 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A57D9CAF1C3F450D00F1B930 /* 协议 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "协议"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57D9CB21C3F450D00F1B930 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A57D9CB91C3F456F00F1B930 /* SportProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportProtocol.h; sourceTree = "<group>"; };
+		A57D9CBA1C3F45D100F1B930 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A57D9CBB1C3F45D100F1B930 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A57D9CBD1C3F46AE00F1B930 /* StudyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyProtocol.h; sourceTree = "<group>"; };
+		A57D9CBE1C3F473000F1B930 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		A57D9CBF1C3F473000F1B930 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		A57D9CDA1C3F57D700F1B930 /* 练习:找房子 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "练习:找房子"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57D9CEC1C3F607E00F1B930 /* 例子:喂养小孩 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "例子:喂养小孩"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57D9CEE1C3F60BC00F1B930 /* Child.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		A57D9CEF1C3F60BC00F1B930 /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
+		A57D9CF01C3F60BC00F1B930 /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		A57D9CF11C3F60BC00F1B930 /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		A57D9CF31C3F60BC00F1B930 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A57D9CF41C3F60BC00F1B930 /* Mother.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mother.h; sourceTree = "<group>"; };
+		A57D9CF51C3F60BC00F1B930 /* Mother.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mother.m; sourceTree = "<group>"; };
+		A57D9CF71C3F60BC00F1B930 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A57D9D061C3F620A00F1B930 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A57D9D071C3F620A00F1B930 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A57D9D091C3F621300F1B930 /* Agent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Agent.h; sourceTree = "<group>"; };
+		A57D9D0A1C3F621300F1B930 /* Agent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Agent.m; sourceTree = "<group>"; };
+		A57D9D0E1C3F8A6D00F1B930 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		A57D9D0F1C3F8A6D00F1B930 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		A57D9D191C3F935400F1B930 /* 练习:实现为表格提供数据的协议 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "练习:实现为表格提供数据的协议"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57D9D1B1C3F935400F1B930 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A57D9D201C3F937200F1B930 /* Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table.h; sourceTree = "<group>"; };
+		A57D9D211C3F937200F1B930 /* Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Table.m; sourceTree = "<group>"; };
+		A57D9D231C3FA4F800F1B930 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		A57D9D241C3FA4F800F1B930 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		A57D9D261C3FA6E400F1B930 /* Girl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Girl.h; sourceTree = "<group>"; };
+		A57D9D271C3FA6E400F1B930 /* Girl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Girl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A57D9CAC1C3F450D00F1B930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57D9CD71C3F57D700F1B930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57D9CE71C3F607E00F1B930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57D9D161C3F935400F1B930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A57D9CA61C3F450D00F1B930 = {
+			isa = PBXGroup;
+			children = (
+				A57D9CB11C3F450D00F1B930 /* 协议 */,
+				A57D9CED1C3F60BC00F1B930 /* 例子_喂养小孩 */,
+				A57D9CF61C3F60BC00F1B930 /* 练习_找房子 */,
+				A57D9D1A1C3F935400F1B930 /* 练习:实现为表格提供数据的协议 */,
+				A57D9CB01C3F450D00F1B930 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A57D9CB01C3F450D00F1B930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A57D9CAF1C3F450D00F1B930 /* 协议 */,
+				A57D9CDA1C3F57D700F1B930 /* 练习:找房子 */,
+				A57D9CEC1C3F607E00F1B930 /* 例子:喂养小孩 */,
+				A57D9D191C3F935400F1B930 /* 练习:实现为表格提供数据的协议 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A57D9CB11C3F450D00F1B930 /* 协议 */ = {
+			isa = PBXGroup;
+			children = (
+				A57D9CB21C3F450D00F1B930 /* main.m */,
+				A57D9CB91C3F456F00F1B930 /* SportProtocol.h */,
+				A57D9CBD1C3F46AE00F1B930 /* StudyProtocol.h */,
+				A57D9CBA1C3F45D100F1B930 /* Person.h */,
+				A57D9CBB1C3F45D100F1B930 /* Person.m */,
+				A57D9CBE1C3F473000F1B930 /* Student.h */,
+				A57D9CBF1C3F473000F1B930 /* Student.m */,
+			);
+			path = "协议";
+			sourceTree = "<group>";
+		};
+		A57D9CED1C3F60BC00F1B930 /* 例子_喂养小孩 */ = {
+			isa = PBXGroup;
+			children = (
+				A57D9CEE1C3F60BC00F1B930 /* Child.h */,
+				A57D9CEF1C3F60BC00F1B930 /* Child.m */,
+				A57D9CF01C3F60BC00F1B930 /* Father.h */,
+				A57D9CF11C3F60BC00F1B930 /* Father.m */,
+				A57D9CF31C3F60BC00F1B930 /* main.m */,
+				A57D9CF41C3F60BC00F1B930 /* Mother.h */,
+				A57D9CF51C3F60BC00F1B930 /* Mother.m */,
+			);
+			path = "例子_喂养小孩";
+			sourceTree = "<group>";
+		};
+		A57D9CF61C3F60BC00F1B930 /* 练习_找房子 */ = {
+			isa = PBXGroup;
+			children = (
+				A57D9CF71C3F60BC00F1B930 /* main.m */,
+				A57D9D061C3F620A00F1B930 /* Person.h */,
+				A57D9D071C3F620A00F1B930 /* Person.m */,
+				A57D9D0E1C3F8A6D00F1B930 /* Friend.h */,
+				A57D9D0F1C3F8A6D00F1B930 /* Friend.m */,
+				A57D9D091C3F621300F1B930 /* Agent.h */,
+				A57D9D0A1C3F621300F1B930 /* Agent.m */,
+				A57D9D261C3FA6E400F1B930 /* Girl.h */,
+				A57D9D271C3FA6E400F1B930 /* Girl.m */,
+			);
+			path = "练习_找房子";
+			sourceTree = "<group>";
+		};
+		A57D9D1A1C3F935400F1B930 /* 练习:实现为表格提供数据的协议 */ = {
+			isa = PBXGroup;
+			children = (
+				A57D9D201C3F937200F1B930 /* Table.h */,
+				A57D9D211C3F937200F1B930 /* Table.m */,
+				A57D9D231C3FA4F800F1B930 /* Controller.h */,
+				A57D9D241C3FA4F800F1B930 /* Controller.m */,
+				A57D9D1B1C3F935400F1B930 /* main.m */,
+			);
+			path = "练习:实现为表格提供数据的协议";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A57D9CAE1C3F450D00F1B930 /* 协议 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57D9CB61C3F450D00F1B930 /* Build configuration list for PBXNativeTarget "协议" */;
+			buildPhases = (
+				A57D9CAB1C3F450D00F1B930 /* Sources */,
+				A57D9CAC1C3F450D00F1B930 /* Frameworks */,
+				A57D9CAD1C3F450D00F1B930 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "协议";
+			productName = "协议";
+			productReference = A57D9CAF1C3F450D00F1B930 /* 协议 */;
+			productType = "com.apple.product-type.tool";
+		};
+		A57D9CD91C3F57D700F1B930 /* 练习:找房子 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57D9CDE1C3F57D700F1B930 /* Build configuration list for PBXNativeTarget "练习:找房子" */;
+			buildPhases = (
+				A57D9CD61C3F57D700F1B930 /* Sources */,
+				A57D9CD71C3F57D700F1B930 /* Frameworks */,
+				A57D9CD81C3F57D700F1B930 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "练习:找房子";
+			productName = "练习:找房子";
+			productReference = A57D9CDA1C3F57D700F1B930 /* 练习:找房子 */;
+			productType = "com.apple.product-type.tool";
+		};
+		A57D9CE11C3F607E00F1B930 /* 例子:喂养小孩 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57D9CE91C3F607E00F1B930 /* Build configuration list for PBXNativeTarget "例子:喂养小孩" */;
+			buildPhases = (
+				A57D9CE21C3F607E00F1B930 /* Sources */,
+				A57D9CE71C3F607E00F1B930 /* Frameworks */,
+				A57D9CE81C3F607E00F1B930 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "例子:喂养小孩";
+			productName = "例子1喂养小孩";
+			productReference = A57D9CEC1C3F607E00F1B930 /* 例子:喂养小孩 */;
+			productType = "com.apple.product-type.tool";
+		};
+		A57D9D181C3F935400F1B930 /* 练习:实现为表格提供数据的协议 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57D9D1D1C3F935400F1B930 /* Build configuration list for PBXNativeTarget "练习:实现为表格提供数据的协议" */;
+			buildPhases = (
+				A57D9D151C3F935400F1B930 /* Sources */,
+				A57D9D161C3F935400F1B930 /* Frameworks */,
+				A57D9D171C3F935400F1B930 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "练习:实现为表格提供数据的协议";
+			productName = "练习:实现为表格提供数据的协议";
+			productReference = A57D9D191C3F935400F1B930 /* 练习:实现为表格提供数据的协议 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A57D9CA71C3F450D00F1B930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = NIIT;
+				TargetAttributes = {
+					A57D9CAE1C3F450D00F1B930 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A57D9CD91C3F57D700F1B930 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A57D9D181C3F935400F1B930 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A57D9CAA1C3F450D00F1B930 /* Build configuration list for PBXProject "协议" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A57D9CA61C3F450D00F1B930;
+			productRefGroup = A57D9CB01C3F450D00F1B930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A57D9CAE1C3F450D00F1B930 /* 协议 */,
+				A57D9CE11C3F607E00F1B930 /* 例子:喂养小孩 */,
+				A57D9CD91C3F57D700F1B930 /* 练习:找房子 */,
+				A57D9D181C3F935400F1B930 /* 练习:实现为表格提供数据的协议 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A57D9CAB1C3F450D00F1B930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57D9D101C3F8A6D00F1B930 /* Friend.m in Sources */,
+				A57D9CBC1C3F45D100F1B930 /* Person.m in Sources */,
+				A57D9CB31C3F450D00F1B930 /* main.m in Sources */,
+				A57D9CF81C3F60BC00F1B930 /* Child.m in Sources */,
+				A57D9D0B1C3F621300F1B930 /* Agent.m in Sources */,
+				A57D9CC01C3F473000F1B930 /* Student.m in Sources */,
+				A57D9CFA1C3F60BC00F1B930 /* main.m in Sources */,
+				A57D9CF91C3F60BC00F1B930 /* Father.m in Sources */,
+				A57D9D081C3F620A00F1B930 /* Person.m in Sources */,
+				A57D9CFC1C3F60BC00F1B930 /* main.m in Sources */,
+				A57D9CFB1C3F60BC00F1B930 /* Mother.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57D9CD61C3F57D700F1B930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57D9D291C3FA77F00F1B930 /* Girl.m in Sources */,
+				A57D9D111C3F8B2600F1B930 /* Friend.m in Sources */,
+				A57D9D0C1C3F63C700F1B930 /* Person.m in Sources */,
+				A57D9D0D1C3F63C700F1B930 /* Agent.m in Sources */,
+				A57D9D051C3F610F00F1B930 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57D9CE21C3F607E00F1B930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57D9CFD1C3F610700F1B930 /* Child.h in Sources */,
+				A57D9CFE1C3F610700F1B930 /* Child.m in Sources */,
+				A57D9CFF1C3F610700F1B930 /* Father.h in Sources */,
+				A57D9D001C3F610700F1B930 /* Father.m in Sources */,
+				A57D9D021C3F610700F1B930 /* main.m in Sources */,
+				A57D9D031C3F610700F1B930 /* Mother.h in Sources */,
+				A57D9D041C3F610700F1B930 /* Mother.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57D9D151C3F935400F1B930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57D9D221C3F937200F1B930 /* Table.m in Sources */,
+				A57D9D1C1C3F935400F1B930 /* main.m in Sources */,
+				A57D9D251C3FA4F800F1B930 /* Controller.m in Sources */,
+				A57D9D281C3FA6E400F1B930 /* Girl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A57D9CB41C3F450D00F1B930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A57D9CB51C3F450D00F1B930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A57D9CB71C3F450D00F1B930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A57D9CB81C3F450D00F1B930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A57D9CDF1C3F57D700F1B930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A57D9CE01C3F57D700F1B930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A57D9CEA1C3F607E00F1B930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A57D9CEB1C3F607E00F1B930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A57D9D1E1C3F935400F1B930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A57D9D1F1C3F935400F1B930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A57D9CAA1C3F450D00F1B930 /* Build configuration list for PBXProject "协议" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57D9CB41C3F450D00F1B930 /* Debug */,
+				A57D9CB51C3F450D00F1B930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57D9CB61C3F450D00F1B930 /* Build configuration list for PBXNativeTarget "协议" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57D9CB71C3F450D00F1B930 /* Debug */,
+				A57D9CB81C3F450D00F1B930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57D9CDE1C3F57D700F1B930 /* Build configuration list for PBXNativeTarget "练习:找房子" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57D9CDF1C3F57D700F1B930 /* Debug */,
+				A57D9CE01C3F57D700F1B930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57D9CE91C3F607E00F1B930 /* Build configuration list for PBXNativeTarget "例子:喂养小孩" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57D9CEA1C3F607E00F1B930 /* Debug */,
+				A57D9CEB1C3F607E00F1B930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57D9D1D1C3F935400F1B930 /* Build configuration list for PBXNativeTarget "练习:实现为表格提供数据的协议" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57D9D1E1C3F935400F1B930 /* Debug */,
+				A57D9D1F1C3F935400F1B930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A57D9CA71C3F450D00F1B930 /* Project object */;
+}

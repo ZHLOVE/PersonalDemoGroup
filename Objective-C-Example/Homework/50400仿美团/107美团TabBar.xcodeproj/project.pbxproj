@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3FD1651C7BE92E007F5415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FD1641C7BE92E007F5415 /* main.m */; };
+		3F3FD1681C7BE92E007F5415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FD1671C7BE92E007F5415 /* AppDelegate.m */; };
+		3F3FD1701C7BE92E007F5415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FD16F1C7BE92E007F5415 /* Assets.xcassets */; };
+		3F3FD1731C7BE92E007F5415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FD1711C7BE92E007F5415 /* LaunchScreen.storyboard */; };
+		3F3FD1B41C7BF9DD007F5415 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FD1B21C7BF9DD007F5415 /* HomePageViewController.m */; };
+		3F3FD1B51C7BF9DD007F5415 /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FD1B31C7BF9DD007F5415 /* HomePageViewController.xib */; };
+		3F3FD1B91C7BFA24007F5415 /* MerchantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FD1B71C7BFA24007F5415 /* MerchantViewController.m */; };
+		3F3FD1BA1C7BFA24007F5415 /* MerchantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FD1B81C7BFA24007F5415 /* MerchantViewController.xib */; };
+		3F3FD1BE1C7BFA33007F5415 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FD1BC1C7BFA33007F5415 /* MineViewController.m */; };
+		3F3FD1BF1C7BFA33007F5415 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FD1BD1C7BFA33007F5415 /* MineViewController.xib */; };
+		3F3FD1C31C7BFA54007F5415 /* MiscViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FD1C11C7BFA54007F5415 /* MiscViewController.m */; };
+		3F3FD1C41C7BFA54007F5415 /* MiscViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FD1C21C7BFA54007F5415 /* MiscViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F3FD1601C7BE92E007F5415 /* 107美团TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "107美团TabBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3FD1641C7BE92E007F5415 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F3FD1661C7BE92E007F5415 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F3FD1671C7BE92E007F5415 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F3FD16F1C7BE92E007F5415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3FD1721C7BE92E007F5415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3FD1741C7BE92E007F5415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3FD1B11C7BF9DD007F5415 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		3F3FD1B21C7BF9DD007F5415 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		3F3FD1B31C7BF9DD007F5415 /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
+		3F3FD1B61C7BFA24007F5415 /* MerchantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchantViewController.h; sourceTree = "<group>"; };
+		3F3FD1B71C7BFA24007F5415 /* MerchantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerchantViewController.m; sourceTree = "<group>"; };
+		3F3FD1B81C7BFA24007F5415 /* MerchantViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MerchantViewController.xib; sourceTree = "<group>"; };
+		3F3FD1BB1C7BFA33007F5415 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		3F3FD1BC1C7BFA33007F5415 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		3F3FD1BD1C7BFA33007F5415 /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		3F3FD1C01C7BFA54007F5415 /* MiscViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiscViewController.h; sourceTree = "<group>"; };
+		3F3FD1C11C7BFA54007F5415 /* MiscViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiscViewController.m; sourceTree = "<group>"; };
+		3F3FD1C21C7BFA54007F5415 /* MiscViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MiscViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3FD15D1C7BE92E007F5415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3FD1571C7BE92E007F5415 = {
+			isa = PBXGroup;
+			children = (
+				3F3FD1621C7BE92E007F5415 /* 107美团TabBar */,
+				3F3FD1611C7BE92E007F5415 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3FD1611C7BE92E007F5415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FD1601C7BE92E007F5415 /* 107美团TabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3FD1621C7BE92E007F5415 /* 107美团TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FD1661C7BE92E007F5415 /* AppDelegate.h */,
+				3F3FD1671C7BE92E007F5415 /* AppDelegate.m */,
+				3F3FD1B11C7BF9DD007F5415 /* HomePageViewController.h */,
+				3F3FD1B21C7BF9DD007F5415 /* HomePageViewController.m */,
+				3F3FD1B31C7BF9DD007F5415 /* HomePageViewController.xib */,
+				3F3FD1B61C7BFA24007F5415 /* MerchantViewController.h */,
+				3F3FD1B71C7BFA24007F5415 /* MerchantViewController.m */,
+				3F3FD1B81C7BFA24007F5415 /* MerchantViewController.xib */,
+				3F3FD1BB1C7BFA33007F5415 /* MineViewController.h */,
+				3F3FD1BC1C7BFA33007F5415 /* MineViewController.m */,
+				3F3FD1BD1C7BFA33007F5415 /* MineViewController.xib */,
+				3F3FD1C01C7BFA54007F5415 /* MiscViewController.h */,
+				3F3FD1C11C7BFA54007F5415 /* MiscViewController.m */,
+				3F3FD1C21C7BFA54007F5415 /* MiscViewController.xib */,
+				3F3FD16F1C7BE92E007F5415 /* Assets.xcassets */,
+				3F3FD1711C7BE92E007F5415 /* LaunchScreen.storyboard */,
+				3F3FD1741C7BE92E007F5415 /* Info.plist */,
+				3F3FD1631C7BE92E007F5415 /* Supporting Files */,
+			);
+			path = "107美团TabBar";
+			sourceTree = "<group>";
+		};
+		3F3FD1631C7BE92E007F5415 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FD1641C7BE92E007F5415 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3FD15F1C7BE92E007F5415 /* 107美团TabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3FD1771C7BE92E007F5415 /* Build configuration list for PBXNativeTarget "107美团TabBar" */;
+			buildPhases = (
+				3F3FD15C1C7BE92E007F5415 /* Sources */,
+				3F3FD15D1C7BE92E007F5415 /* Frameworks */,
+				3F3FD15E1C7BE92E007F5415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "107美团TabBar";
+			productName = "107美团TabBar";
+			productReference = 3F3FD1601C7BE92E007F5415 /* 107美团TabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3FD1581C7BE92E007F5415 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "马千里";
+				TargetAttributes = {
+					3F3FD15F1C7BE92E007F5415 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R9G6NSM985;
+					};
+				};
+			};
+			buildConfigurationList = 3F3FD15B1C7BE92E007F5415 /* Build configuration list for PBXProject "107美团TabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F3FD1571C7BE92E007F5415;
+			productRefGroup = 3F3FD1611C7BE92E007F5415 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3FD15F1C7BE92E007F5415 /* 107美团TabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3FD15E1C7BE92E007F5415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3FD1BF1C7BFA33007F5415 /* MineViewController.xib in Resources */,
+				3F3FD1BA1C7BFA24007F5415 /* MerchantViewController.xib in Resources */,
+				3F3FD1731C7BE92E007F5415 /* LaunchScreen.storyboard in Resources */,
+				3F3FD1B51C7BF9DD007F5415 /* HomePageViewController.xib in Resources */,
+				3F3FD1C41C7BFA54007F5415 /* MiscViewController.xib in Resources */,
+				3F3FD1701C7BE92E007F5415 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3FD15C1C7BE92E007F5415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3FD1B91C7BFA24007F5415 /* MerchantViewController.m in Sources */,
+				3F3FD1681C7BE92E007F5415 /* AppDelegate.m in Sources */,
+				3F3FD1C31C7BFA54007F5415 /* MiscViewController.m in Sources */,
+				3F3FD1BE1C7BFA33007F5415 /* MineViewController.m in Sources */,
+				3F3FD1651C7BE92E007F5415 /* main.m in Sources */,
+				3F3FD1B41C7BF9DD007F5415 /* HomePageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F3FD1711C7BE92E007F5415 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3FD1721C7BE92E007F5415 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F3FD1751C7BE92E007F5415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F3FD1761C7BE92E007F5415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F3FD1781C7BE92E007F5415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "107美团TabBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mql.-07--TabBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F3FD1791C7BE92E007F5415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "107美团TabBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mql.-07--TabBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3FD15B1C7BE92E007F5415 /* Build configuration list for PBXProject "107美团TabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3FD1751C7BE92E007F5415 /* Debug */,
+				3F3FD1761C7BE92E007F5415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3FD1771C7BE92E007F5415 /* Build configuration list for PBXNativeTarget "107美团TabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3FD1781C7BE92E007F5415 /* Debug */,
+				3F3FD1791C7BE92E007F5415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F3FD1581C7BE92E007F5415 /* Project object */;
+}

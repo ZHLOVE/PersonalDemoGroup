@@ -1,0 +1,5 @@
+1 项目组长在为知笔记中创建团队群组，将组员添加进去
+6157500@qq.com
+
+2 在git.oschina.net创建一个新项目，将组员在git.oschina.net的账号添加为开发者
+ruik@foxmail.com

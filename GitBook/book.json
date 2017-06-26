@@ -1,0 +1,9 @@
+{
+    "plugins": [
+        "katex",
+        "exercises",
+        "advanced-emoji",
+        "search"
+    ],
+    "pluginsConfig": {}
+}

@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A58CF6DB1C326D48008E8EDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6DA1C326D48008E8EDE /* main.m */; };
+		A58CF6E71C326D98008E8EDE /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6E21C326D98008E8EDE /* Game.m */; };
+		A58CF6E81C326D98008E8EDE /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6E41C326D98008E8EDE /* Hero.m */; };
+		A58CF6E91C326D98008E8EDE /* Monster.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6E61C326D98008E8EDE /* Monster.m */; };
+		A58CF6EC1C326DC1008E8EDE /* Role.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CF6EB1C326DC1008E8EDE /* Role.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A58CF6D51C326D48008E8EDE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A58CF6D71C326D48008E8EDE /* RPGGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RPGGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58CF6DA1C326D48008E8EDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A58CF6E11C326D98008E8EDE /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		A58CF6E21C326D98008E8EDE /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		A58CF6E31C326D98008E8EDE /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		A58CF6E41C326D98008E8EDE /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		A58CF6E51C326D98008E8EDE /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monster.h; sourceTree = "<group>"; };
+		A58CF6E61C326D98008E8EDE /* Monster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monster.m; sourceTree = "<group>"; };
+		A58CF6EA1C326DC1008E8EDE /* Role.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Role.h; sourceTree = "<group>"; };
+		A58CF6EB1C326DC1008E8EDE /* Role.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Role.m; sourceTree = "<group>"; };
+		A58CF6ED1C326E22008E8EDE /* def.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = def.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A58CF6D41C326D48008E8EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A58CF6CE1C326D48008E8EDE = {
+			isa = PBXGroup;
+			children = (
+				A58CF6D91C326D48008E8EDE /* RPGGame */,
+				A58CF6D81C326D48008E8EDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A58CF6D81C326D48008E8EDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A58CF6D71C326D48008E8EDE /* RPGGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A58CF6D91C326D48008E8EDE /* RPGGame */ = {
+			isa = PBXGroup;
+			children = (
+				A58CF6ED1C326E22008E8EDE /* def.h */,
+				A58CF6E11C326D98008E8EDE /* Game.h */,
+				A58CF6E21C326D98008E8EDE /* Game.m */,
+				A58CF6EA1C326DC1008E8EDE /* Role.h */,
+				A58CF6EB1C326DC1008E8EDE /* Role.m */,
+				A58CF6E31C326D98008E8EDE /* Hero.h */,
+				A58CF6E41C326D98008E8EDE /* Hero.m */,
+				A58CF6E51C326D98008E8EDE /* Monster.h */,
+				A58CF6E61C326D98008E8EDE /* Monster.m */,
+				A58CF6DA1C326D48008E8EDE /* main.m */,
+			);
+			path = RPGGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A58CF6D61C326D48008E8EDE /* RPGGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58CF6DE1C326D48008E8EDE /* Build configuration list for PBXNativeTarget "RPGGame" */;
+			buildPhases = (
+				A58CF6D31C326D48008E8EDE /* Sources */,
+				A58CF6D41C326D48008E8EDE /* Frameworks */,
+				A58CF6D51C326D48008E8EDE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPGGame;
+			productName = RPGGame;
+			productReference = A58CF6D71C326D48008E8EDE /* RPGGame */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A58CF6CF1C326D48008E8EDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = NIIT;
+				TargetAttributes = {
+					A58CF6D61C326D48008E8EDE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A58CF6D21C326D48008E8EDE /* Build configuration list for PBXProject "RPGGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A58CF6CE1C326D48008E8EDE;
+			productRefGroup = A58CF6D81C326D48008E8EDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A58CF6D61C326D48008E8EDE /* RPGGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A58CF6D31C326D48008E8EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58CF6EC1C326DC1008E8EDE /* Role.m in Sources */,
+				A58CF6E91C326D98008E8EDE /* Monster.m in Sources */,
+				A58CF6DB1C326D48008E8EDE /* main.m in Sources */,
+				A58CF6E81C326D98008E8EDE /* Hero.m in Sources */,
+				A58CF6E71C326D98008E8EDE /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A58CF6DC1C326D48008E8EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A58CF6DD1C326D48008E8EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A58CF6DF1C326D48008E8EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A58CF6E01C326D48008E8EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A58CF6D21C326D48008E8EDE /* Build configuration list for PBXProject "RPGGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58CF6DC1C326D48008E8EDE /* Debug */,
+				A58CF6DD1C326D48008E8EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58CF6DE1C326D48008E8EDE /* Build configuration list for PBXNativeTarget "RPGGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58CF6DF1C326D48008E8EDE /* Debug */,
+				A58CF6E01C326D48008E8EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A58CF6CF1C326D48008E8EDE /* Project object */;
+}
