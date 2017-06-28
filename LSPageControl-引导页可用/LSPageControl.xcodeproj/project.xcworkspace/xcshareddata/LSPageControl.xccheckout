@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3538484C-ED55-4E46-8C7F-90FA16DCD6D5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LSPageControl</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>054770CE767FF205E633E938CAC41376B1867FFE</key>
+		<string>https://github.com/liusen001/LSPageControl.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LSPageControl.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>054770CE767FF205E633E938CAC41376B1867FFE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/liusen001/LSPageControl.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>054770CE767FF205E633E938CAC41376B1867FFE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>054770CE767FF205E633E938CAC41376B1867FFE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LSPageControl</string>
+		</dict>
+	</array>
+</dict>
+</plist>
