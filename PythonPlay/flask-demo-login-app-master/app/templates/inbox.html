@@ -1,0 +1,19 @@
+{% extends '_base.html' %}
+{% set title = "Inbox" %}
+{% set active_page = "inbox" %}
+
+{% block body %}
+<script src="{{ static('js/angular.js') }}"></script>
+<script src="{{ static('js/angular-route.js') }}"></script>
+<script src="{{ static('js/angular-animate.js') }}"></script>
+<script src="{{ static('js/inbox.js') }}"></script>
+<div>
+  <div class="jumbotron container">
+    <h1>Welcome, {{user.name}}!</h1>
+  </div>
+</div>
+
+<div class="container view-animate-container" ng-app="InboxApp">
+  <div ng-view class="view-animate">
+</div>
+{% endblock %}
