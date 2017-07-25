@@ -215,7 +215,7 @@
 				TargetAttributes = {
 					A5E786321C7C325300D3DC91 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 94V3K52A79;
+						DevelopmentTeam = S2M9W9G946;
 					};
 				};
 			};
@@ -388,6 +388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S2M9W9G946;
 				INFOPLIST_FILE = UIPickerViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niit.UIPickerViewDemo;
@@ -399,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S2M9W9G946;
 				INFOPLIST_FILE = UIPickerViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niit.UIPickerViewDemo;

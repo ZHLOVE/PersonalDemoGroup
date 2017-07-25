@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.5.0)
+  - CryptoSwift (0.6.9)
+  - JGProgressHUD (1.4)
+  - JPSVolumeButtonHandler (1.0.4)
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - CryptoSwift (~> 0.6)
+  - JGProgressHUD (~> 1.2)
+  - JPSVolumeButtonHandler (~> 1.0.0)
+  - SnapKit (~> 3.0)
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  CryptoSwift: a22f6ba238e9ce4d26ee7bf45b9ed82e7122d4a0
+  JGProgressHUD: 1617b0940cf80bb53e8f7d6f0fd69252ea45d6d4
+  JPSVolumeButtonHandler: a120aa1580ba99d501155e29dcd04c3cef80bed2
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+
+PODFILE CHECKSUM: 5fd3d4fd5f64e954efff07296e710ef68c9a003a
+
+COCOAPODS: 1.2.1

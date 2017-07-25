@@ -1,0 +1,28 @@
+PODS:
+  - CocoaLumberjack (3.2.0):
+    - CocoaLumberjack/Default (= 3.2.0)
+    - CocoaLumberjack/Extensions (= 3.2.0)
+  - CocoaLumberjack/Default (3.2.0)
+  - CocoaLumberjack/Extensions (3.2.0):
+    - CocoaLumberjack/Default
+  - LumberjackConsole (3.0.0):
+    - CocoaLumberjack (>= 3.x)
+    - NBUCore (>= 2.0.5)
+  - NBUCore (2.0.5)
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - LumberjackConsole (from `../`)
+
+EXTERNAL SOURCES:
+  LumberjackConsole:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
+  LumberjackConsole: e36ef0ed4fdcbe8caea3ec5b0e68d06db25e6fce
+  NBUCore: bfdce78c97f2a9566c97082f44157547223b22a6
+
+PODFILE CHECKSUM: 90a156a3e96d1859607737f390b7347a50d9ff34
+
+COCOAPODS: 1.2.1

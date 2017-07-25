@@ -45,14 +45,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSLog(@"hello mccRee");
+    NSString *str = @"";
+    for (int i = 0; i < 3; i++) {
+        str = [str stringByAppendingFormat:@"%@%@%@",@"嘛",@"卖",@"批"];
+    }
+    NSLog(@"%@",str);
 
-//    Ivar ---成员属性
-//    Method ----成员方法
-    CGFloat h = [UIScreen mainScreen].bounds.size.height;
-    CGFloat w = [UIScreen mainScreen].bounds.size.width;
-    NSLog(@"%f~%f",w,h);
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 - (void)getPrivateProperty{

@@ -1,0 +1,15 @@
+
+platform :ios, '8.0'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'ConsoleDemo' do
+    # For regular projects
+    pod 'CocoaLumberjack'
+    #pod 'LumberjackConsole', :configurations => ['Debug']
+
+    # Optional for dynamic logging
+    #pod 'NBULog'
+
+    # For development
+    pod 'LumberjackConsole', :path => '../'
+end
