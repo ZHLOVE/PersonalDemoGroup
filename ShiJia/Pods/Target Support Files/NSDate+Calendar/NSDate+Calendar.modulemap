@@ -1,0 +1,6 @@
+framework module NSDate_Calendar {
+  umbrella header "NSDate+Calendar-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SJAlbumToolViewController">
+            <connections>
+                <outlet property="cloudScreenButton" destination="DAU-qw-ZwO" id="Nk1-cx-ueP"/>
+                <outlet property="cloudShareButton" destination="cDT-jX-ZMs" id="Lge-Ji-Uye"/>
+                <outlet property="downloadButton" destination="Pg5-L8-HCx" id="rnQ-UI-MAb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDT-jX-ZMs" customClass="SJToolButton">
+                    <rect key="frame" x="165" y="2" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="rIe-up-Wg3"/>
+                        <constraint firstAttribute="height" constant="45" id="tEy-Hl-6Us"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="分享" image="albumshare">
+                        <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="0.93000000000000005" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="cloudPhotoShareAction:" destination="-1" eventType="touchUpInside" id="dLg-bJ-5pa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAU-qw-ZwO" customClass="SJToolButton">
+                    <rect key="frame" x="50" y="2" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="1oy-Vz-hRF"/>
+                        <constraint firstAttribute="height" constant="45" id="ERe-ww-Q2O"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="45" id="onA-kb-SGF"/>
+                        <constraint firstAttribute="width" constant="45" id="wQU-8X-dbU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="投屏" image="screen">
+                        <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="0.93000000000000005" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="cloudPhotoScreenAction:" destination="-1" eventType="touchUpInside" id="olD-tY-Ifz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pg5-L8-HCx" customClass="SJToolButton">
+                    <rect key="frame" x="280" y="3" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="45" id="CDW-Cn-Jt4"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="mye-t6-WuN"/>
+                        <constraint firstAttribute="height" constant="45" id="q0y-5s-eNf"/>
+                        <constraint firstAttribute="width" constant="45" id="vsn-vw-1gh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="下载" image="download">
+                        <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="0.93000000000000005" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="downloadAction:" destination="-1" eventType="touchUpInside" id="pa8-jJ-9s7"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDO-LC-zfN">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                    <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="zPg-rM-84D"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="BDO-LC-zfN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ajk-Rm-GXL"/>
+                <constraint firstItem="DAU-qw-ZwO" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="CrO-XD-uS5"/>
+                <constraint firstItem="BDO-LC-zfN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Htp-cO-WeH"/>
+                <constraint firstAttribute="trailing" secondItem="BDO-LC-zfN" secondAttribute="trailing" id="Met-bd-cdb"/>
+                <constraint firstItem="Pg5-L8-HCx" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="TyG-dH-Hv4"/>
+                <constraint firstItem="DAU-qw-ZwO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="oQW-Cv-1aU"/>
+                <constraint firstItem="cDT-jX-ZMs" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="sgZ-8h-pUJ"/>
+                <constraint firstItem="cDT-jX-ZMs" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="uNO-Ux-EJ7"/>
+                <constraint firstAttribute="trailing" secondItem="Pg5-L8-HCx" secondAttribute="trailing" constant="50" id="vJ8-wb-jKY"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-97" y="-36"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="albumshare" width="26" height="26"/>
+        <image name="download" width="26" height="26"/>
+        <image name="screen" width="26" height="26"/>
+    </resources>
+</document>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SJVideoPlayerSeriesViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5uu-hK-Bbf">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video_detail_play_icon" translatesAutoresizingMaskIntoConstraints="NO" id="T4T-BF-tbR">
+                        <rect key="frame" x="18" y="17" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="VOt-bj-foX"/>
+                            <constraint firstAttribute="height" constant="15" id="gqf-Qr-EdE"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="5uu-hK-Bbf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="BdG-4K-L2Y"/>
+                <constraint firstItem="5uu-hK-Bbf" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="G2p-cx-V1H"/>
+                <constraint firstItem="T4T-BF-tbR" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="JD6-P0-LzK"/>
+                <constraint firstAttribute="bottom" secondItem="5uu-hK-Bbf" secondAttribute="bottom" id="PS8-A4-2Ar"/>
+                <constraint firstItem="T4T-BF-tbR" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="UXV-AE-3Qf"/>
+                <constraint firstAttribute="trailing" secondItem="5uu-hK-Bbf" secondAttribute="trailing" id="aEZ-Bq-4BU"/>
+            </constraints>
+            <connections>
+                <outlet property="label" destination="5uu-hK-Bbf" id="chS-gm-3hv"/>
+                <outlet property="playImgView" destination="T4T-BF-tbR" id="z0q-c2-qN2"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="video_detail_play_icon" width="12" height="13"/>
+    </resources>
+</document>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="kJi-ep-YES" customClass="SJVideoPlayerSeriesViewTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kJi-ep-YES" id="oAc-6t-vhF">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EaJ-vb-hfu">
+                        <rect key="frame" x="8" y="11" width="304" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="53W-Ga-aHQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EeO-rO-pUk">
+                        <rect key="frame" x="0.0" y="42" width="320" height="1"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="EaJ-vb-hfu" firstAttribute="centerY" secondItem="oAc-6t-vhF" secondAttribute="centerY" id="5tT-rz-HLq"/>
+                    <constraint firstItem="EaJ-vb-hfu" firstAttribute="leading" secondItem="oAc-6t-vhF" secondAttribute="leading" constant="8" id="oU6-LX-mNq"/>
+                    <constraint firstAttribute="trailing" secondItem="EaJ-vb-hfu" secondAttribute="trailing" constant="8" id="pDJ-KH-Irq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="label" destination="EaJ-vb-hfu" id="4lj-AW-SM3"/>
+                <outlet property="lineImgView" destination="EeO-rO-pUk" id="dDu-Ga-oNk"/>
+            </connections>
+            <point key="canvasLocation" x="464" y="226"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,6 @@
+framework module UPYUN {
+  umbrella header "UPYUN-umbrella.h"
+
+  export *
+  module * { export * }
+}

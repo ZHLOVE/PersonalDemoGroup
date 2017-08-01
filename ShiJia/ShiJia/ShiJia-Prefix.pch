@@ -1,0 +1,89 @@
+//
+//  ShiJia-Prefix.pch
+//  ShiJia
+//
+//  Created by yy on 16/3/10.
+//  Copyright © 2016年 yy. All rights reserved.
+//
+
+#ifndef ShiJia_Prefix_pch
+#define ShiJia_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+//View
+#import "TRTopNavgationView.h"
+#import <MJRefresh/MJRefresh.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+
+//Utils
+#import "ShiJiaTheme.h"
+#import "ShiJiaDeviceCommon.h"
+#import "UIHelper.h"
+#import "HiTVGlobals.h"
+#import "BaseAFHTTPManager.h"
+#import "NSUserDefaultsManager.h"
+#import "DefNSUserDefaults.h"
+#import "HiTVConstants.h"
+#import "OMGToast.h"
+#import "Utils.h"
+
+//Controller
+#import "AppDelegate.h"
+#import "UIViewController+Autorotate.h"
+#import "BaseViewController.h"
+
+//Third Party
+#import <AFNetworking/AFNetworking.h>
+#import <YYKit/YYKit.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <AsyncDisplayKit/AsyncDisplayKit.h>
+#import <Masonry/Masonry.h>
+#import "AFNetworking.h"
+#import <MJExtension/MJExtension.h>
+#import <AFNetworking/UIImageView+AFNetworking.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import "UMMobClick/MobClick.h"
+#import "UMengManager.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#define ddLogLevel DDLogLevelVerbose
+
+// Model
+#import "UserEntity.h"
+
+
+// Add by Allen
+#import "ShiJiaDefine.h"
+#import "VersionMacrosDefine.h"
+
+#import "IPDetector.h"
+#import "MsProtocol.h"
+
+
+#import "TogetherManager.h"
+#import "UIDevice+SJDevice.h"
+
+#import "mgServer.h"
+
+#endif
+
+
+#ifdef __cplusplus
+//#include <boost/bind.hpp>
+#include <boost/asio.hpp>
+#endif
+#endif
+
+
+
+
+
+
+
+
+

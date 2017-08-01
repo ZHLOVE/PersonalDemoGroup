@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HotDetailView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="195"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OEM-9p-1nD">
+                    <rect key="frame" x="105" y="20" width="165" height="130"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mk-xj-V1g">
+                    <rect key="frame" x="105" y="115" width="165" height="35"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="xzw-Lo-v53"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="点击观看完整视频">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="playDetailVideo:" destination="iN0-l3-epB" eventType="touchUpInside" id="7YO-qE-TBY"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0SJ-XU-2SY">
+                    <rect key="frame" x="105" y="20" width="165" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="uvK-TP-xa3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bf5-5x-uSy">
+                    <rect key="frame" x="128" y="150" width="120" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="dIw-bh-Gfh"/>
+                        <constraint firstAttribute="height" constant="30" id="tLz-Rt-5A8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="  重新播放本片" image="replay">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="replayCurrentVideo:" destination="iN0-l3-epB" eventType="touchUpInside" id="uPi-hn-IpR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Xg-Ia-eqA">
+                    <rect key="frame" x="105" y="20" width="165" height="130"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <connections>
+                        <action selector="playDetailVideo:" destination="iN0-l3-epB" eventType="touchUpInside" id="ct9-45-EG4"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Bf5-5x-uSy" firstAttribute="top" secondItem="OEM-9p-1nD" secondAttribute="bottom" id="3lQ-Hj-hKd"/>
+                <constraint firstAttribute="trailing" secondItem="0SJ-XU-2SY" secondAttribute="trailing" constant="105" id="4Ul-dF-HNQ"/>
+                <constraint firstAttribute="bottom" secondItem="Bf5-5x-uSy" secondAttribute="bottom" constant="15" id="5Up-FP-awk"/>
+                <constraint firstItem="Bf5-5x-uSy" firstAttribute="top" secondItem="9mk-xj-V1g" secondAttribute="bottom" id="Aum-Fh-gtD"/>
+                <constraint firstItem="9mk-xj-V1g" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="105" id="GpM-nr-UaT"/>
+                <constraint firstAttribute="trailing" secondItem="OEM-9p-1nD" secondAttribute="trailing" constant="105" id="Mcb-Xk-6K8"/>
+                <constraint firstItem="Bf5-5x-uSy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="eE9-fP-EWi"/>
+                <constraint firstItem="OEM-9p-1nD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="fHU-jg-VcD"/>
+                <constraint firstItem="0SJ-XU-2SY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="105" id="i5K-kD-Ndh"/>
+                <constraint firstItem="Bf5-5x-uSy" firstAttribute="top" secondItem="8Xg-Ia-eqA" secondAttribute="bottom" id="iFg-on-F6k"/>
+                <constraint firstItem="8Xg-Ia-eqA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="105" id="mvA-ii-50d"/>
+                <constraint firstAttribute="trailing" secondItem="9mk-xj-V1g" secondAttribute="trailing" constant="105" id="nQv-HO-ZiJ"/>
+                <constraint firstItem="OEM-9p-1nD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="105" id="nVs-io-vye"/>
+                <constraint firstItem="0SJ-XU-2SY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="noC-bO-f55"/>
+                <constraint firstItem="8Xg-Ia-eqA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="wfQ-vT-cga"/>
+                <constraint firstAttribute="trailing" secondItem="8Xg-Ia-eqA" secondAttribute="trailing" constant="105" id="xwH-3S-2LT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="continuBtn" destination="Bf5-5x-uSy" id="ZYN-Ac-Y12"/>
+                <outlet property="playDetailBtn" destination="9mk-xj-V1g" id="Wcd-P0-YRU"/>
+                <outlet property="posterImg" destination="OEM-9p-1nD" id="MOf-IR-8Ts"/>
+                <outlet property="titleLab" destination="0SJ-XU-2SY" id="pxj-pF-MC8"/>
+            </connections>
+            <point key="canvasLocation" x="-386" y="63"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="replay" width="20" height="20"/>
+    </resources>
+</document>

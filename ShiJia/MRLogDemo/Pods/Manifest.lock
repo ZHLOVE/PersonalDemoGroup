@@ -1,0 +1,56 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.2.0):
+    - CocoaLumberjack/Default (= 3.2.0)
+    - CocoaLumberjack/Extensions (= 3.2.0)
+  - CocoaLumberjack/Default (3.2.0)
+  - CocoaLumberjack/Extensions (3.2.0):
+    - CocoaLumberjack/Default
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - JQFMDB (1.1.6):
+    - FMDB
+  - LumberjackConsole (3.0.1):
+    - CocoaLumberjack (>= 3.x)
+    - NBUCore (>= 2.0.5)
+  - MJExtension (3.0.13)
+  - NBUCore (2.0.5)
+  - NBULog (1.3.0):
+    - CocoaLumberjack (>= 2.3.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - CocoaLumberjack
+  - JQFMDB
+  - LumberjackConsole
+  - MJExtension
+  - NBULog
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  JQFMDB: 39ab0d6d7c26fd30e51c4dd92edcb27506a34c3a
+  LumberjackConsole: 8cfc0f8c1c3459b2b88f9abfa3dc68a6810a3708
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  NBUCore: bfdce78c97f2a9566c97082f44157547223b22a6
+  NBULog: 3450f827248abd4ca70dfc10b7e7deb355bf3b2f
+
+PODFILE CHECKSUM: d95d50fa1e0716a7f097172bbb57587c824b33a6
+
+COCOAPODS: 1.2.1

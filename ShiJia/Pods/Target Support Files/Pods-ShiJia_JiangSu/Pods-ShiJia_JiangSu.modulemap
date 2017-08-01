@@ -1,0 +1,6 @@
+framework module Pods_ShiJia_JiangSu {
+  umbrella header "Pods-ShiJia_JiangSu-umbrella.h"
+
+  export *
+  module * { export * }
+}

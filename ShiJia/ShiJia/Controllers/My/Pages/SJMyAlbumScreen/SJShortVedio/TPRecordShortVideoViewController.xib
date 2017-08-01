@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TPRecordShortVideoViewController">
+            <connections>
+                <outlet property="cameraButton" destination="jwj-I2-QD2" id="LTd-UX-8uO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JxL-o4-VSO">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NdJ-IV-o6H">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="YVt-kJ-MJz">
+                                    <variation key="heightClass=regular-widthClass=compact" constant="30"/>
+                                </constraint>
+                                <constraint firstAttribute="width" constant="50" id="m0W-Zm-PsF"/>
+                            </constraints>
+                            <state key="normal" image="white_back_btn"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="YVt-kJ-MJz"/>
+                                    <exclude reference="m0W-Zm-PsF"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="YVt-kJ-MJz"/>
+                                    <include reference="m0W-Zm-PsF"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="backButtonClicked:" destination="-1" eventType="touchUpInside" id="bmo-EG-qtg"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwj-I2-QD2">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="Sdb-T5-dgN"/>
+                                <constraint firstAttribute="height" constant="44" id="kt7-lZ-aT8"/>
+                            </constraints>
+                            <state key="normal" image="album_record_switch_normal"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="Sdb-T5-dgN"/>
+                                    <exclude reference="kt7-lZ-aT8"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="Sdb-T5-dgN"/>
+                                    <include reference="kt7-lZ-aT8"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="changeCameraButtonClicked:" destination="-1" eventType="touchUpInside" id="t8I-qp-lpS"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="jwj-I2-QD2" firstAttribute="top" secondItem="JxL-o4-VSO" secondAttribute="top" constant="20" id="0IO-yQ-UVN"/>
+                        <constraint firstItem="NdJ-IV-o6H" firstAttribute="top" secondItem="JxL-o4-VSO" secondAttribute="top" constant="20" id="Nj0-YS-2Oe">
+                            <variation key="heightClass=regular-widthClass=compact" constant="28"/>
+                        </constraint>
+                        <constraint firstAttribute="trailing" secondItem="jwj-I2-QD2" secondAttribute="trailing" id="SUJ-1I-110"/>
+                        <constraint firstItem="NdJ-IV-o6H" firstAttribute="leading" secondItem="JxL-o4-VSO" secondAttribute="leading" constant="10" id="Vzc-zz-27l"/>
+                        <constraint firstAttribute="height" constant="64" id="onB-vf-fRd"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="NdJ-IV-o6H"/>
+                            <exclude reference="jwj-I2-QD2"/>
+                        </mask>
+                        <mask key="constraints">
+                            <exclude reference="onB-vf-fRd"/>
+                            <exclude reference="Nj0-YS-2Oe"/>
+                            <exclude reference="Vzc-zz-27l"/>
+                            <exclude reference="0IO-yQ-UVN"/>
+                            <exclude reference="SUJ-1I-110"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="subviews">
+                            <include reference="NdJ-IV-o6H"/>
+                            <include reference="jwj-I2-QD2"/>
+                        </mask>
+                        <mask key="constraints">
+                            <include reference="onB-vf-fRd"/>
+                            <include reference="Nj0-YS-2Oe"/>
+                            <include reference="Vzc-zz-27l"/>
+                            <include reference="0IO-yQ-UVN"/>
+                            <include reference="SUJ-1I-110"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="JxL-o4-VSO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3lg-3F-jh5"/>
+                <constraint firstItem="JxL-o4-VSO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="QpG-MX-BPR"/>
+                <constraint firstAttribute="trailing" secondItem="JxL-o4-VSO" secondAttribute="trailing" id="YOZ-0o-xs7"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="JxL-o4-VSO"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="3lg-3F-jh5"/>
+                    <exclude reference="QpG-MX-BPR"/>
+                    <exclude reference="YOZ-0o-xs7"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="JxL-o4-VSO"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="3lg-3F-jh5"/>
+                    <include reference="QpG-MX-BPR"/>
+                    <include reference="YOZ-0o-xs7"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="241" y="371"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="album_record_switch_normal" width="37" height="37"/>
+        <image name="white_back_btn" width="26" height="26"/>
+    </resources>
+</document>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BaseVideoListViewController">
+            <connections>
+                <outlet property="deleteAllButton" destination="bDb-PY-96O" id="ufh-kw-iWR"/>
+                <outlet property="deleteBtn" destination="d2a-kg-ySJ" id="Wu7-J0-ALD"/>
+                <outlet property="deleteView" destination="Xcl-hD-XNY" id="0tU-aj-Qzm"/>
+                <outlet property="tableView" destination="YME-2n-2me" id="Cvs-CG-ldO"/>
+                <outlet property="tableViewLayoutConstraint" destination="l4V-or-6KI" id="JQ3-Xf-Ef2"/>
+                <outlet property="tipImg" destination="xIX-zx-jcV" id="Wiw-xm-Zlc"/>
+                <outlet property="tipLab" destination="aSG-qo-6ct" id="iYz-aB-7ve"/>
+                <outlet property="view" destination="dm1-cr-vRT" id="EWI-PI-c6k"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="dm1-cr-vRT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSG-qo-6ct">
+                    <rect key="frame" x="0.0" y="212" width="375" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="glv-jO-BB9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xIX-zx-jcV">
+                    <rect key="frame" x="143" y="120" width="90" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="S7P-62-boO"/>
+                        <constraint firstAttribute="height" constant="90" id="edU-GE-WjN"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xcl-hD-XNY">
+                    <rect key="frame" x="0.0" y="559" width="375" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2a-kg-ySJ">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="全部清空">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="deleteButtonTapped:" destination="-1" eventType="touchUpInside" id="yBb-LG-ZY7"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="d2a-kg-ySJ" secondAttribute="trailing" id="RG5-Fv-B94"/>
+                        <constraint firstAttribute="bottom" secondItem="d2a-kg-ySJ" secondAttribute="bottom" id="bVz-Oj-mzK"/>
+                        <constraint firstItem="d2a-kg-ySJ" firstAttribute="top" secondItem="Xcl-hD-XNY" secondAttribute="top" id="fXp-3b-ysb"/>
+                        <constraint firstItem="d2a-kg-ySJ" firstAttribute="leading" secondItem="Xcl-hD-XNY" secondAttribute="leading" id="tVw-Vt-qAP"/>
+                        <constraint firstAttribute="height" constant="44" id="vZN-8o-ZnC"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="YME-2n-2me">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                    <color key="backgroundColor" red="0.91764705882352937" green="0.9137254901960784" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="pYp-Rg-H2X"/>
+                        <outlet property="delegate" destination="-1" id="rCt-Ty-Yee"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="YME-2n-2me" firstAttribute="top" secondItem="dm1-cr-vRT" secondAttribute="top" id="AGa-JO-S6S"/>
+                <constraint firstAttribute="bottom" secondItem="Xcl-hD-XNY" secondAttribute="bottom" id="B3K-g8-mQL"/>
+                <constraint firstAttribute="trailing" secondItem="YME-2n-2me" secondAttribute="trailing" id="Hg5-4e-bq3"/>
+                <constraint firstItem="xIX-zx-jcV" firstAttribute="top" secondItem="dm1-cr-vRT" secondAttribute="top" constant="120" id="Itk-kt-ASL"/>
+                <constraint firstItem="xIX-zx-jcV" firstAttribute="centerX" secondItem="dm1-cr-vRT" secondAttribute="centerX" id="K2r-84-2ZJ"/>
+                <constraint firstItem="aSG-qo-6ct" firstAttribute="leading" secondItem="dm1-cr-vRT" secondAttribute="leading" id="LbX-hw-i3o"/>
+                <constraint firstAttribute="trailing" secondItem="Xcl-hD-XNY" secondAttribute="trailing" id="Soj-1A-brJ"/>
+                <constraint firstItem="aSG-qo-6ct" firstAttribute="top" secondItem="xIX-zx-jcV" secondAttribute="bottom" constant="2" id="Xy2-Dd-32L"/>
+                <constraint firstAttribute="bottom" secondItem="YME-2n-2me" secondAttribute="bottom" id="l4V-or-6KI"/>
+                <constraint firstItem="YME-2n-2me" firstAttribute="leading" secondItem="dm1-cr-vRT" secondAttribute="leading" id="oim-66-8v1"/>
+                <constraint firstAttribute="trailing" secondItem="aSG-qo-6ct" secondAttribute="trailing" id="t6f-ZX-pKH"/>
+                <constraint firstItem="Xcl-hD-XNY" firstAttribute="leading" secondItem="dm1-cr-vRT" secondAttribute="leading" id="vHY-LR-l7j"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <point key="canvasLocation" x="205" y="172"/>
+        </view>
+        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bDb-PY-96O">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+            <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <state key="normal" title="全部清空" backgroundImage="deleteAllBg">
+                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            </state>
+            <connections>
+                <action selector="deleteAllVideoButtonTapped:" destination="-1" eventType="touchUpInside" id="xKg-fB-YdF"/>
+            </connections>
+            <point key="canvasLocation" x="5" y="588"/>
+        </button>
+    </objects>
+    <resources>
+        <image name="deleteAllBg" width="320" height="44"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

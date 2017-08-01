@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PhotoOrientation">
+            <rect key="frame" x="0.0" y="0.0" width="46" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9o-Qf-Nb7">
+                    <rect key="frame" x="0.0" y="0.0" width="46" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="46" id="2Ca-9o-Qas"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="46" id="8dG-Lm-Id4"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="46" id="9Vr-9c-oR0"/>
+                        <constraint firstAttribute="height" constant="46" id="BIh-7M-9Mb"/>
+                        <constraint firstAttribute="width" constant="46" id="lgd-Zi-JiS"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="oa0-bS-TkH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" image="SJGroup2">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="changePhotoOrientation:" destination="iN0-l3-epB" eventType="touchUpInside" id="A7v-yS-vdc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Acp-PZ-Fzh">
+                    <rect key="frame" x="0.0" y="83" width="46" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="64F-AA-QZR"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="46" id="Eqk-4i-fWM"/>
+                        <constraint firstAttribute="height" constant="46" id="lhk-Z2-U7I"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" image="SJGroup">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="64F-AA-QZR"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="changePhotoOrientation:" destination="iN0-l3-epB" eventType="touchUpInside" id="OSS-la-k9J"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="向左转" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W0l-t1-yZR">
+                    <rect key="frame" x="0.0" y="129" width="46" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="3To-0T-JgA"/>
+                        <constraint firstAttribute="width" constant="51" id="Fwd-IL-29K"/>
+                        <constraint firstAttribute="height" constant="21" id="oTm-zV-RVi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Fwd-IL-29K"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="向右转" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Lc-YZ-SJu">
+                    <rect key="frame" x="0.0" y="46" width="46" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="05g-Io-OD4"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="4xo-dd-EV6"/>
+                        <constraint firstAttribute="width" constant="46" id="cxb-Pv-whI"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="oO8-Ja-n4L"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3Lc-YZ-SJu" firstAttribute="top" secondItem="c9o-Qf-Nb7" secondAttribute="bottom" id="AcE-CZ-JLZ"/>
+                <constraint firstAttribute="trailing" secondItem="Acp-PZ-Fzh" secondAttribute="trailing" id="DDO-2w-izY"/>
+                <constraint firstItem="Acp-PZ-Fzh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Fw4-GZ-p67"/>
+                <constraint firstAttribute="trailing" secondItem="c9o-Qf-Nb7" secondAttribute="trailing" id="Hma-od-fyg"/>
+                <constraint firstItem="W0l-t1-yZR" firstAttribute="top" secondItem="Acp-PZ-Fzh" secondAttribute="bottom" id="Mna-Rr-6uu"/>
+                <constraint firstItem="c9o-Qf-Nb7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="OFr-9g-ec3"/>
+                <constraint firstAttribute="trailing" secondItem="W0l-t1-yZR" secondAttribute="trailing" id="Ykm-mZ-wzr"/>
+                <constraint firstItem="Acp-PZ-Fzh" firstAttribute="top" secondItem="3Lc-YZ-SJu" secondAttribute="bottom" constant="16" id="bhm-nf-5rI"/>
+                <constraint firstItem="c9o-Qf-Nb7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="iXL-XA-Nda"/>
+                <constraint firstItem="3Lc-YZ-SJu" firstAttribute="leading" secondItem="c9o-Qf-Nb7" secondAttribute="leading" id="rXf-fG-wL2"/>
+                <constraint firstItem="W0l-t1-yZR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uFT-L8-xyh"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="turnLeftButton" destination="Acp-PZ-Fzh" id="A6q-R5-Kf9"/>
+                <outlet property="turnRightButton" destination="c9o-Qf-Nb7" id="Epn-rS-P1c"/>
+            </connections>
+            <point key="canvasLocation" x="449" y="166"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SJGroup" width="45" height="45"/>
+        <image name="SJGroup2" width="45" height="45"/>
+    </resources>
+</document>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchViewController">
+            <connections>
+                <outlet property="deleteAllButton" destination="GKj-UG-Nfo" id="c4C-JI-e83"/>
+                <outlet property="tableView" destination="ibo-rC-bpd" id="C4y-a8-nPa"/>
+                <outlet property="textField" destination="oOD-LH-rEw" id="Jm0-cd-LdD"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ADO-ba-4pV">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="3Pf-LI-jAx"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="搜索logo" translatesAutoresizingMaskIntoConstraints="NO" id="XVo-y7-1Qk">
+                    <rect key="frame" x="20" y="9" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="TqZ-GW-utl"/>
+                        <constraint firstAttribute="height" constant="20" id="URY-0I-OLV"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="输入节目/演员的首字母或中文" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="oOD-LH-rEw">
+                    <rect key="frame" x="50" y="7" width="270" height="30"/>
+                    <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="KLF-jV-ck0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="oiv-iV-t9K"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKj-UG-Nfo">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="全部清空">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="deleteHitsoryWords:" destination="-1" eventType="touchUpInside" id="aex-Qe-mQJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SyI-Xr-ycS">
+                    <rect key="frame" x="335" y="5" width="34" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="34" id="YZX-0L-V8T"/>
+                        <constraint firstAttribute="height" constant="30" id="n9Z-4l-3Mm"/>
+                    </constraints>
+                    <state key="normal" image="huatong"/>
+                    <connections>
+                        <action selector="voiceSearched:" destination="-1" eventType="touchUpInside" id="9be-fc-7px"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ibo-rC-bpd">
+                    <rect key="frame" x="0.0" y="37" width="375" height="630"/>
+                    <color key="backgroundColor" red="0.91764705882352937" green="0.9137254901960784" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="separatorColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="sectionIndexColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="KBL-qP-YUc"/>
+                        <outlet property="delegate" destination="-1" id="TW2-hZ-4fs"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="SyI-Xr-ycS" firstAttribute="leading" secondItem="oOD-LH-rEw" secondAttribute="trailing" constant="15" id="5T4-sb-R5M"/>
+                <constraint firstItem="oOD-LH-rEw" firstAttribute="leading" secondItem="XVo-y7-1Qk" secondAttribute="trailing" constant="10" id="5uH-aB-5aA"/>
+                <constraint firstItem="XVo-y7-1Qk" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" id="Gfa-qE-NQb"/>
+                <constraint firstItem="ADO-ba-4pV" firstAttribute="top" secondItem="1" secondAttribute="top" id="JUd-Oe-Ev3"/>
+                <constraint firstItem="ibo-rC-bpd" firstAttribute="top" secondItem="oOD-LH-rEw" secondAttribute="bottom" id="QER-BE-rE3"/>
+                <constraint firstAttribute="trailing" secondItem="SyI-Xr-ycS" secondAttribute="trailing" constant="6" id="SIN-dg-lao"/>
+                <constraint firstItem="ibo-rC-bpd" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="YLd-6v-tmK"/>
+                <constraint firstItem="oOD-LH-rEw" firstAttribute="top" secondItem="1" secondAttribute="top" constant="7" id="bpI-44-gyC"/>
+                <constraint firstItem="SyI-Xr-ycS" firstAttribute="top" secondItem="1" secondAttribute="top" constant="5" id="d3F-JK-JND"/>
+                <constraint firstAttribute="trailing" secondItem="ibo-rC-bpd" secondAttribute="trailing" id="gft-4n-N48"/>
+                <constraint firstAttribute="trailing" secondItem="ADO-ba-4pV" secondAttribute="trailing" id="k9x-8d-Coj"/>
+                <constraint firstItem="ADO-ba-4pV" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="mY2-cK-ILo"/>
+                <constraint firstAttribute="bottom" secondItem="ibo-rC-bpd" secondAttribute="bottom" id="tb1-GI-YqC"/>
+                <constraint firstItem="XVo-y7-1Qk" firstAttribute="top" secondItem="1" secondAttribute="top" constant="9" id="zj8-PT-aXn"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="-591" y="-202"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="huatong" width="30" height="30"/>
+        <image name="搜索logo" width="20" height="20"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wOB-iy-Cv6" customClass="TPMUCInputView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="49"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bz-Rm-MzR">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="Yxt-m9-ql8"/>
+                        <constraint firstAttribute="width" constant="35" id="fyx-ND-Bll"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="muc_input_record_btn"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Yxt-m9-ql8"/>
+                            <exclude reference="fyx-ND-Bll"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="Yxt-m9-ql8"/>
+                            <include reference="fyx-ND-Bll"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="iconButtonClicked:" destination="wOB-iy-Cv6" eventType="touchUpInside" id="CUY-DG-vge"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9E-ls-cM9">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" red="0.23747213149999999" green="0.33119531099999999" blue="0.41919191919999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="send"/>
+                    <connections>
+                        <outlet property="delegate" destination="wOB-iy-Cv6" id="SHD-l2-b5z"/>
+                    </connections>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTo-td-pwx">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <color key="backgroundColor" red="0.23529411764705882" green="0.63529411764705879" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="9Jn-sS-zXc"/>
+                        <constraint firstAttribute="height" constant="30" id="jdh-1a-hLJ"/>
+                    </constraints>
+                    <state key="normal" title="发表">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="9Jn-sS-zXc"/>
+                            <exclude reference="jdh-1a-hLJ"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="9Jn-sS-zXc"/>
+                            <include reference="jdh-1a-hLJ"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="sendButtonClicked:" destination="wOB-iy-Cv6" eventType="touchUpInside" id="bk5-TI-Buy"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1os-Qf-5fh">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <color key="backgroundColor" red="0.23529411759999999" green="0.63529411759999999" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="按住说话">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelRecord:" destination="wOB-iy-Cv6" eventType="touchCancel" id="Cyb-pK-pOP"/>
+                        <action selector="cancelRecord:" destination="wOB-iy-Cv6" eventType="touchUpOutside" id="XhQ-SJ-iHS"/>
+                        <action selector="recordButtonDragEnter:" destination="wOB-iy-Cv6" eventType="touchDragEnter" id="fJB-Gr-1Xm"/>
+                        <action selector="recordButtonDragExit:" destination="wOB-iy-Cv6" eventType="touchDragExit" id="6e9-xW-ahw"/>
+                        <action selector="recordButtonTouchDown:" destination="wOB-iy-Cv6" eventType="touchDown" id="JPI-NO-3YD"/>
+                        <action selector="recordButtonTouchUpInside:" destination="wOB-iy-Cv6" eventType="touchUpInside" id="qzc-hk-J05"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.2070707071" green="0.2070707071" blue="0.2070707071" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="MTo-td-pwx" firstAttribute="top" secondItem="wOB-iy-Cv6" secondAttribute="top" constant="10" id="0Ry-qt-9ou"/>
+                <constraint firstAttribute="trailing" secondItem="MTo-td-pwx" secondAttribute="trailing" constant="10" id="5PA-Q4-I6h"/>
+                <constraint firstItem="MTo-td-pwx" firstAttribute="leading" secondItem="J9E-ls-cM9" secondAttribute="trailing" constant="10" id="8Ly-Kc-cai"/>
+                <constraint firstItem="J9E-ls-cM9" firstAttribute="leading" secondItem="0bz-Rm-MzR" secondAttribute="trailing" constant="10" id="9De-9x-Shm"/>
+                <constraint firstAttribute="trailing" secondItem="1os-Qf-5fh" secondAttribute="trailing" constant="10" id="AXL-bF-31h"/>
+                <constraint firstAttribute="bottom" secondItem="J9E-ls-cM9" secondAttribute="bottom" constant="7" id="BJd-rS-HqD"/>
+                <constraint firstItem="J9E-ls-cM9" firstAttribute="top" secondItem="wOB-iy-Cv6" secondAttribute="top" constant="7" id="Jrs-lE-igW"/>
+                <constraint firstItem="0bz-Rm-MzR" firstAttribute="top" secondItem="wOB-iy-Cv6" secondAttribute="top" constant="7" id="Li0-Ag-4d2"/>
+                <constraint firstItem="1os-Qf-5fh" firstAttribute="leading" secondItem="0bz-Rm-MzR" secondAttribute="trailing" constant="10" id="bJ5-zm-t0D"/>
+                <constraint firstAttribute="bottom" secondItem="1os-Qf-5fh" secondAttribute="bottom" constant="7" id="rcc-4b-smB"/>
+                <constraint firstItem="1os-Qf-5fh" firstAttribute="top" secondItem="wOB-iy-Cv6" secondAttribute="top" constant="7" id="v58-fM-yWA"/>
+                <constraint firstItem="0bz-Rm-MzR" firstAttribute="leading" secondItem="wOB-iy-Cv6" secondAttribute="leading" constant="10" id="yNG-S3-BKq"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="0bz-Rm-MzR"/>
+                    <exclude reference="J9E-ls-cM9"/>
+                    <exclude reference="MTo-td-pwx"/>
+                    <exclude reference="1os-Qf-5fh"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="Li0-Ag-4d2"/>
+                    <exclude reference="yNG-S3-BKq"/>
+                    <exclude reference="AXL-bF-31h"/>
+                    <exclude reference="bJ5-zm-t0D"/>
+                    <exclude reference="rcc-4b-smB"/>
+                    <exclude reference="v58-fM-yWA"/>
+                    <exclude reference="9De-9x-Shm"/>
+                    <exclude reference="BJd-rS-HqD"/>
+                    <exclude reference="Jrs-lE-igW"/>
+                    <exclude reference="0Ry-qt-9ou"/>
+                    <exclude reference="5PA-Q4-I6h"/>
+                    <exclude reference="8Ly-Kc-cai"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="0bz-Rm-MzR"/>
+                    <include reference="J9E-ls-cM9"/>
+                    <include reference="MTo-td-pwx"/>
+                    <include reference="1os-Qf-5fh"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="Li0-Ag-4d2"/>
+                    <include reference="yNG-S3-BKq"/>
+                    <include reference="AXL-bF-31h"/>
+                    <include reference="bJ5-zm-t0D"/>
+                    <include reference="rcc-4b-smB"/>
+                    <include reference="v58-fM-yWA"/>
+                    <include reference="9De-9x-Shm"/>
+                    <include reference="BJd-rS-HqD"/>
+                    <include reference="Jrs-lE-igW"/>
+                    <include reference="0Ry-qt-9ou"/>
+                    <include reference="5PA-Q4-I6h"/>
+                    <include reference="8Ly-Kc-cai"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="iconButton" destination="0bz-Rm-MzR" id="ZfA-q9-9W2"/>
+                <outlet property="recorderButton" destination="1os-Qf-5fh" id="5TK-h7-PKo"/>
+                <outlet property="sendButton" destination="MTo-td-pwx" id="zpi-DN-8Ww"/>
+                <outlet property="textview" destination="J9E-ls-cM9" id="iaH-gb-1uz"/>
+            </connections>
+            <point key="canvasLocation" x="138" y="144.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="muc_input_record_btn" width="30" height="30"/>
+    </resources>
+</document>
