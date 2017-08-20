@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68AACCBF1F0DE6C0008E9F36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AACCBE1F0DE6C0008E9F36 /* main.m */; };
+		68AACCC21F0DE6C0008E9F36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AACCC11F0DE6C0008E9F36 /* AppDelegate.m */; };
+		68AACCC51F0DE6C0008E9F36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AACCC41F0DE6C0008E9F36 /* ViewController.m */; };
+		68AACCC81F0DE6C0008E9F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68AACCC61F0DE6C0008E9F36 /* Main.storyboard */; };
+		68AACCCA1F0DE6C0008E9F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68AACCC91F0DE6C0008E9F36 /* Assets.xcassets */; };
+		68AACCCD1F0DE6C0008E9F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68AACCCB1F0DE6C0008E9F36 /* LaunchScreen.storyboard */; };
+		68AACCDE1F0DE73A008E9F36 /* NSOperationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AACCDC1F0DE73A008E9F36 /* NSOperationVC.m */; };
+		68AACCDF1F0DE73A008E9F36 /* NSOperationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68AACCDD1F0DE73A008E9F36 /* NSOperationVC.xib */; };
+		68AACCE31F0DE74E008E9F36 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AACCE11F0DE74E008E9F36 /* GCDViewController.m */; };
+		68AACCE41F0DE74E008E9F36 /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68AACCE21F0DE74E008E9F36 /* GCDViewController.xib */; };
+		68AACCE81F0DE75F008E9F36 /* NSThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AACCE61F0DE75F008E9F36 /* NSThreadVC.m */; };
+		68AACCE91F0DE75F008E9F36 /* NSThreadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68AACCE71F0DE75F008E9F36 /* NSThreadVC.xib */; };
+		68AACCF51F0DFABA008E9F36 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AACCEC1F0DFABA008E9F36 /* SVIndefiniteAnimatedView.m */; };
+		68AACCF61F0DFABA008E9F36 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AACCEE1F0DFABA008E9F36 /* SVProgressAnimatedView.m */; };
+		68AACCF71F0DFABA008E9F36 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 68AACCF01F0DFABA008E9F36 /* SVProgressHUD.bundle */; };
+		68AACCF81F0DFABA008E9F36 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AACCF21F0DFABA008E9F36 /* SVProgressHUD.m */; };
+		68AACCF91F0DFABA008E9F36 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AACCF41F0DFABA008E9F36 /* SVRadialGradientLayer.m */; };
+		68AACCFC1F0DFB6B008E9F36 /* WHOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AACCFB1F0DFB6B008E9F36 /* WHOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68AACCBA1F0DE6C0008E9F36 /* WHMultiThreadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHMultiThreadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68AACCBE1F0DE6C0008E9F36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68AACCC01F0DE6C0008E9F36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68AACCC11F0DE6C0008E9F36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68AACCC31F0DE6C0008E9F36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68AACCC41F0DE6C0008E9F36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68AACCC71F0DE6C0008E9F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68AACCC91F0DE6C0008E9F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68AACCCC1F0DE6C0008E9F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68AACCCE1F0DE6C0008E9F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68AACCDB1F0DE73A008E9F36 /* NSOperationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationVC.h; sourceTree = "<group>"; };
+		68AACCDC1F0DE73A008E9F36 /* NSOperationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationVC.m; sourceTree = "<group>"; };
+		68AACCDD1F0DE73A008E9F36 /* NSOperationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSOperationVC.xib; sourceTree = "<group>"; };
+		68AACCE01F0DE74E008E9F36 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		68AACCE11F0DE74E008E9F36 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		68AACCE21F0DE74E008E9F36 /* GCDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCDViewController.xib; sourceTree = "<group>"; };
+		68AACCE51F0DE75F008E9F36 /* NSThreadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadVC.h; sourceTree = "<group>"; };
+		68AACCE61F0DE75F008E9F36 /* NSThreadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadVC.m; sourceTree = "<group>"; };
+		68AACCE71F0DE75F008E9F36 /* NSThreadVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSThreadVC.xib; sourceTree = "<group>"; };
+		68AACCEB1F0DFABA008E9F36 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		68AACCEC1F0DFABA008E9F36 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		68AACCED1F0DFABA008E9F36 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		68AACCEE1F0DFABA008E9F36 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		68AACCEF1F0DFABA008E9F36 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		68AACCF01F0DFABA008E9F36 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		68AACCF11F0DFABA008E9F36 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		68AACCF21F0DFABA008E9F36 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		68AACCF31F0DFABA008E9F36 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		68AACCF41F0DFABA008E9F36 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		68AACCFA1F0DFB6B008E9F36 /* WHOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHOperation.h; sourceTree = "<group>"; };
+		68AACCFB1F0DFB6B008E9F36 /* WHOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68AACCB71F0DE6C0008E9F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68AACCB11F0DE6C0008E9F36 = {
+			isa = PBXGroup;
+			children = (
+				68AACCBC1F0DE6C0008E9F36 /* WHMultiThreadDemo */,
+				68AACCBB1F0DE6C0008E9F36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68AACCBB1F0DE6C0008E9F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68AACCBA1F0DE6C0008E9F36 /* WHMultiThreadDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68AACCBC1F0DE6C0008E9F36 /* WHMultiThreadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				68AACCD51F0DE703008E9F36 /* GCD */,
+				68AACCD61F0DE703008E9F36 /* NSOperation */,
+				68AACCD71F0DE703008E9F36 /* NSThread */,
+				68AACCC31F0DE6C0008E9F36 /* ViewController.h */,
+				68AACCC41F0DE6C0008E9F36 /* ViewController.m */,
+				68AACCC61F0DE6C0008E9F36 /* Main.storyboard */,
+				68AACCD41F0DE6CA008E9F36 /* Others */,
+				68AACCBD1F0DE6C0008E9F36 /* Supporting Files */,
+			);
+			path = WHMultiThreadDemo;
+			sourceTree = "<group>";
+		};
+		68AACCBD1F0DE6C0008E9F36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68AACCBE1F0DE6C0008E9F36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68AACCD41F0DE6CA008E9F36 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				68AACCC01F0DE6C0008E9F36 /* AppDelegate.h */,
+				68AACCC11F0DE6C0008E9F36 /* AppDelegate.m */,
+				68AACCC91F0DE6C0008E9F36 /* Assets.xcassets */,
+				68AACCCB1F0DE6C0008E9F36 /* LaunchScreen.storyboard */,
+				68AACCCE1F0DE6C0008E9F36 /* Info.plist */,
+				68AACCEA1F0DFABA008E9F36 /* SVProgressHUD */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		68AACCD51F0DE703008E9F36 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				68AACCE01F0DE74E008E9F36 /* GCDViewController.h */,
+				68AACCE11F0DE74E008E9F36 /* GCDViewController.m */,
+				68AACCE21F0DE74E008E9F36 /* GCDViewController.xib */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		68AACCD61F0DE703008E9F36 /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				68AACCDB1F0DE73A008E9F36 /* NSOperationVC.h */,
+				68AACCDC1F0DE73A008E9F36 /* NSOperationVC.m */,
+				68AACCDD1F0DE73A008E9F36 /* NSOperationVC.xib */,
+				68AACCFA1F0DFB6B008E9F36 /* WHOperation.h */,
+				68AACCFB1F0DFB6B008E9F36 /* WHOperation.m */,
+			);
+			path = NSOperation;
+			sourceTree = "<group>";
+		};
+		68AACCD71F0DE703008E9F36 /* NSThread */ = {
+			isa = PBXGroup;
+			children = (
+				68AACCE51F0DE75F008E9F36 /* NSThreadVC.h */,
+				68AACCE61F0DE75F008E9F36 /* NSThreadVC.m */,
+				68AACCE71F0DE75F008E9F36 /* NSThreadVC.xib */,
+			);
+			path = NSThread;
+			sourceTree = "<group>";
+		};
+		68AACCEA1F0DFABA008E9F36 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				68AACCEB1F0DFABA008E9F36 /* SVIndefiniteAnimatedView.h */,
+				68AACCEC1F0DFABA008E9F36 /* SVIndefiniteAnimatedView.m */,
+				68AACCED1F0DFABA008E9F36 /* SVProgressAnimatedView.h */,
+				68AACCEE1F0DFABA008E9F36 /* SVProgressAnimatedView.m */,
+				68AACCEF1F0DFABA008E9F36 /* SVProgressHUD-Prefix.pch */,
+				68AACCF01F0DFABA008E9F36 /* SVProgressHUD.bundle */,
+				68AACCF11F0DFABA008E9F36 /* SVProgressHUD.h */,
+				68AACCF21F0DFABA008E9F36 /* SVProgressHUD.m */,
+				68AACCF31F0DFABA008E9F36 /* SVRadialGradientLayer.h */,
+				68AACCF41F0DFABA008E9F36 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68AACCB91F0DE6C0008E9F36 /* WHMultiThreadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68AACCD11F0DE6C0008E9F36 /* Build configuration list for PBXNativeTarget "WHMultiThreadDemo" */;
+			buildPhases = (
+				68AACCB61F0DE6C0008E9F36 /* Sources */,
+				68AACCB71F0DE6C0008E9F36 /* Frameworks */,
+				68AACCB81F0DE6C0008E9F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHMultiThreadDemo;
+			productName = WHMultiThreadDemo;
+			productReference = 68AACCBA1F0DE6C0008E9F36 /* WHMultiThreadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68AACCB21F0DE6C0008E9F36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wuhao;
+				TargetAttributes = {
+					68AACCB91F0DE6C0008E9F36 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 68AACCB51F0DE6C0008E9F36 /* Build configuration list for PBXProject "WHMultiThreadDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68AACCB11F0DE6C0008E9F36;
+			productRefGroup = 68AACCBB1F0DE6C0008E9F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68AACCB91F0DE6C0008E9F36 /* WHMultiThreadDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68AACCB81F0DE6C0008E9F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AACCF71F0DFABA008E9F36 /* SVProgressHUD.bundle in Resources */,
+				68AACCCD1F0DE6C0008E9F36 /* LaunchScreen.storyboard in Resources */,
+				68AACCDF1F0DE73A008E9F36 /* NSOperationVC.xib in Resources */,
+				68AACCCA1F0DE6C0008E9F36 /* Assets.xcassets in Resources */,
+				68AACCE91F0DE75F008E9F36 /* NSThreadVC.xib in Resources */,
+				68AACCC81F0DE6C0008E9F36 /* Main.storyboard in Resources */,
+				68AACCE41F0DE74E008E9F36 /* GCDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68AACCB61F0DE6C0008E9F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AACCC51F0DE6C0008E9F36 /* ViewController.m in Sources */,
+				68AACCE81F0DE75F008E9F36 /* NSThreadVC.m in Sources */,
+				68AACCDE1F0DE73A008E9F36 /* NSOperationVC.m in Sources */,
+				68AACCC21F0DE6C0008E9F36 /* AppDelegate.m in Sources */,
+				68AACCE31F0DE74E008E9F36 /* GCDViewController.m in Sources */,
+				68AACCF81F0DFABA008E9F36 /* SVProgressHUD.m in Sources */,
+				68AACCF51F0DFABA008E9F36 /* SVIndefiniteAnimatedView.m in Sources */,
+				68AACCBF1F0DE6C0008E9F36 /* main.m in Sources */,
+				68AACCF61F0DFABA008E9F36 /* SVProgressAnimatedView.m in Sources */,
+				68AACCF91F0DFABA008E9F36 /* SVRadialGradientLayer.m in Sources */,
+				68AACCFC1F0DFB6B008E9F36 /* WHOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68AACCC61F0DE6C0008E9F36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68AACCC71F0DE6C0008E9F36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68AACCCB1F0DE6C0008E9F36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68AACCCC1F0DE6C0008E9F36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68AACCCF1F0DE6C0008E9F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68AACCD01F0DE6C0008E9F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68AACCD21F0DE6C0008E9F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WHMultiThreadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.remember17.WHMultiThreadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68AACCD31F0DE6C0008E9F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WHMultiThreadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.remember17.WHMultiThreadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68AACCB51F0DE6C0008E9F36 /* Build configuration list for PBXProject "WHMultiThreadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68AACCCF1F0DE6C0008E9F36 /* Debug */,
+				68AACCD01F0DE6C0008E9F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68AACCD11F0DE6C0008E9F36 /* Build configuration list for PBXNativeTarget "WHMultiThreadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68AACCD21F0DE6C0008E9F36 /* Debug */,
+				68AACCD31F0DE6C0008E9F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68AACCB21F0DE6C0008E9F36 /* Project object */;
+}

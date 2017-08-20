@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, ‘9.0’
+
+use_frameworks!
+
+target 'Safelight' do
+    pod 'JGProgressHUD', '~> 1.2'
+    pod 'SnapKit', '~> 3.0'
+    pod 'Alamofire', '~> 4.0'
+    pod 'JPSVolumeButtonHandler', '~> 1.0.0'
+    pod 'CryptoSwift', '~> 0.6'
+end
